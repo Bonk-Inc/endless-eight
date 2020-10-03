@@ -13,12 +13,12 @@ public class DialogueVisualizer : MonoBehaviour
 
     private Coroutine dialogueLinePlayer;
 
-    public void PlayLines(DialogueLine[] lines, CharacterInfo[] characters)
+    public void PlayLines(DialogueTree tree)
     {
         if (dialogueLinePlayer != null)
             StopCoroutine(dialogueLinePlayer);
 
-        dialogueLinePlayer = StartCoroutine(PlayDialogueLines(lines, characters));
+        dialogueLinePlayer = StartCoroutine(PlayDialogueLines(tree.Lines, tree.Characters));
     }
 
     private void ShowLine(DialogueLine line, CharacterInfo[] characters)
