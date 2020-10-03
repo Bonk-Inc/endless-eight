@@ -219,14 +219,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94c09d3d8661b0149843a764056faee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  visualizer: {fileID: 708030714}
-  tree: {fileID: 11400000, guid: d6908404a13fd5943a7f5effc390a40a, type: 2}
-  char1:
-    name: Jan
-    portrait: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  char2:
-    name: Bert
-    portrait: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
 --- !u!1 &413550288
 GameObject:
   m_ObjectHideFlags: 0
@@ -308,7 +300,7 @@ MonoBehaviour:
   dialogueInfo:
     name: Bert
     portrait: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  dialogueTree: {fileID: 11400000, guid: d00a9c51129d9fb478343951a7134946, type: 2}
+  dialogueTree: {fileID: 11400000, guid: 4af768b60828dd84eaf583ed5112d42d, type: 2}
 --- !u!4 &528175089
 Transform:
   m_ObjectHideFlags: 0

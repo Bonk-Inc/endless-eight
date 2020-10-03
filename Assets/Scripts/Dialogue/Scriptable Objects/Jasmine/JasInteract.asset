@@ -12,6 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
   m_Name: JasInteract
   m_EditorClassIdentifier: 
-  lines: []
-  answers: []
+  lines:
+  - character: 0
+    line: Hey Jasmine, could I ask you something?
+  - character: 1
+    line: I would do anything for a friend of justin!
+  answers:
+  - answer: About Jasmine
+    nextTree: {fileID: 11400000, guid: 7e895d19f626870409d27f85b5a03810, type: 2}
+  - answer: About guests
+    nextTree: {fileID: 11400000, guid: 452fa910419378942b09abb758c47cad, type: 2}
   characters: []

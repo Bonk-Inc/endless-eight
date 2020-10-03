@@ -12,6 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
   m_Name: JasDoes
   m_EditorClassIdentifier: 
-  lines: []
+  lines:
+  - character: 1
+    line: Long ago, I started my own company with an old friend
+  - character: 1
+    line: After I got my son I didnt feel like I had to work anymore
+  - character: 1
+    line: I chose to take care of him before I had to share him with the world
   answers: []
   characters: []

@@ -12,6 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
   m_Name: JasParty
   m_EditorClassIdentifier: 
-  lines: []
+  lines:
+  - character: 1
+    line: This is my son his birthday, ofcourse I will be attending!
+  - character: 1
+    line: 'Everyone here is celebrating his existence! '
+  - character: 0
+    line: Right.. forget I asked
   answers: []
   characters: []

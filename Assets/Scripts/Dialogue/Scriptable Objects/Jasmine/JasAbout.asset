@@ -13,5 +13,17 @@ MonoBehaviour:
   m_Name: JasAbout
   m_EditorClassIdentifier: 
   lines: []
-  answers: []
-  characters: []
+  answers:
+  - answer: Why are you at this party?
+    nextTree: {fileID: 11400000, guid: b1b7b55e455d19541b7bd650c070567f, type: 2}
+  - answer: What do you do?
+    nextTree: {fileID: 11400000, guid: 2d793b61bde26d3418fa896b02723ceb, type: 2}
+  - answer: 
+    nextTree: {fileID: 0}
+  - answer: 
+    nextTree: {fileID: 0}
+  characters:
+  - name: Wilmp
+    portrait: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  - name: Bert
+    portrait: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
