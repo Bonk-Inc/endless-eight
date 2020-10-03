@@ -6,8 +6,6 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField] [Range(0, 500)] private float speedUpDown;
     [SerializeField] [Range(0, 500)] private float speedLeftRight;
-    [SerializeField] private LayerMask ground;
-    [SerializeField] private Transform lowestPointOfGameObject;
 
     private bool isGrounded;
 
@@ -17,22 +15,6 @@ public class PlayerController : MonoBehaviour
     {
 
     }
-
-    private void FixedUpdate()
-    {
-        isGrounded = false;
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(lowestPointOfGameObject.position, 0.3f, ground);
-
-        foreach (Collider2D coll in colliders)
-        {
-            if (coll.gameObject != gameObject)
-            {
-                isGrounded = true;
-            }
-            
-        }
-    }
-
     public void Move(bool left, bool right, bool up, bool down)
     {
         Vector3 velocity = new Vector2();
