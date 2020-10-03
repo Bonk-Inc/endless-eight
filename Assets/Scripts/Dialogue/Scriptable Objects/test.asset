@@ -18,5 +18,12 @@ MonoBehaviour:
   - character: 1
     line: Nee jij hallo, met je gezicht! ga toch is ergens anders hallo zeggen. #ikhallonietmeermee
   answers:
-  - answer: Je moeder
+  - answer: Kan je dat even niet zeggen?
+    nextTree: {fileID: 11400000}
+  - answer: k bye
     nextTree: {fileID: 0}
+  characters:
+  - name: Wilmp
+    portrait: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  - name: Bert
+    portrait: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}

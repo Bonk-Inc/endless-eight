@@ -6,7 +6,13 @@ public class DialogueTreePlayer : MonoBehaviour
 {
 
     [SerializeField]
-    private DialogueLinesVisualizer visualizer;
+    private DialogueLinesVisualizer lineVisualizer;
+
+    [SerializeField]
+    private DialogueAnswerDisplay answerDisplay;
+
+    [SerializeField]
+    private Canvas canvas;//TODO this shouldn't be here >:(
 
 
     public void PlayTree(DialogueTree tree)
@@ -14,13 +20,27 @@ public class DialogueTreePlayer : MonoBehaviour
         StartCoroutine(PlayDialogueTree(tree));
     }
 
-    private IEnumerator PlayDialogueTree(DialogueTree tree)
+    private IEnumerator PlayDialogueTree(DialogueTree tree, CharacterInfo answeringCharacter = null)
     {
-        while(tree != null)
+        canvas.enabled = true;
+        answeringCharacter = tree.Characters[0];
+        while (tree != null)
         {
-            yield return StartCoroutine(visualizer.PlayDialogueLines(tree.Lines, tree.Characters));
-            tree = null;
-        }
+            yield return StartCoroutine(lineVisualizer.PlayDialogueLines(tree.Lines, tree.Characters));
 
+            if(tree.Answers.Length > 0) {
+                bool answerChosen = false;
+                answerDisplay.ShowAnswers(tree.Answers, answeringCharacter, (nextTree) =>
+                {
+                    answerChosen = true;
+                    tree = nextTree;
+                });
+                while (!answerChosen) yield return null;
+            }
+            else {
+                tree = null;
+            }
+        }
+        canvas.enabled = false;
     }
 }
