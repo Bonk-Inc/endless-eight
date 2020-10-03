@@ -13,5 +13,5 @@ public class DialogueAnswer
     private DialogueTree nextTree;
 
     public string Answer => answer;
-    private DialogueTree NextTree => nextTree;
+    public DialogueTree NextTree => nextTree;
 }
