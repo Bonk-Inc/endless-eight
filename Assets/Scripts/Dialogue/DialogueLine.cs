@@ -1,14 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
-public abstract class DialogueLine : MonoBehaviour
+[Serializable]
+public class DialogueLine
 {
     [SerializeField]
-    private CharacterInfo character;
+    private int character;
     [SerializeField]
     private string line;
 
-    public CharacterInfo Character => character;
+    public int Character => character;
     public string Line => line;
 }
