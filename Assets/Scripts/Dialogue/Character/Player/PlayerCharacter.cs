@@ -10,7 +10,7 @@ public class PlayerCharacter : MonoBehaviour
 
 
     [SerializeField]
-    private DialogueVisualizer visualizer;
+    private DialogueTreePlayer player;
 
 
     private void Update()
@@ -36,7 +36,7 @@ public class PlayerCharacter : MonoBehaviour
     {
         DialogueTree tree = character.GetDialogue();
         tree.SetCharacters(new CharacterInfo[] { info, character.GetCharacter() });
-        visualizer.PlayLines(tree);
+        player.PlayTree(tree);
     }
 
 
