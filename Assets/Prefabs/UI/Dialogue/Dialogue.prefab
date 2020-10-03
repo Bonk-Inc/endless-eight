@@ -49,7 +49,7 @@ Canvas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2586163498701719712}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_RenderMode: 0
   m_Camera: {fileID: 0}
@@ -128,8 +128,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cbfe382e676c694c94239b2ba3ca837, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  answerContent: {fileID: 0}
-  buttonPrefab: {fileID: 0}
+  answerContent: {fileID: 2162661408876896099}
+  buttonPrefab: {fileID: 756990910400210344, guid: 4ab8e9068724d414cb532a779c817991, type: 3}
+  characterDisplay: {fileID: 8628095270018506530}
 --- !u!1 &2882529552819448055
 GameObject:
   m_ObjectHideFlags: 0
@@ -183,7 +184,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2162661408876896099
 RectTransform:
   m_ObjectHideFlags: 0
@@ -226,8 +227,8 @@ MonoBehaviour:
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
   m_ChildControlHeight: 1
-  m_ChildScaleWidth: 0
-  m_ChildScaleHeight: 0
+  m_ChildScaleWidth: 1
+  m_ChildScaleHeight: 1
   m_ReverseArrangement: 0
 --- !u!1 &5375895314714242678
 GameObject:
@@ -247,7 +248,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6905768241277940233
 RectTransform:
   m_ObjectHideFlags: 0
@@ -373,9 +374,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 5375895314714242678}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 553b7e0142cfde34a90c403c2543017b, type: 3}
+  m_Script: {fileID: 11500000, guid: bcf0f073b0c45884b9affc17d02bb8e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  distortionSigns: '@#&\'
+  maxDistortion: 0.2
+  distortionLevel: 0
   textDisplay: {fileID: 8425801440267770538}
 --- !u!1001 &3532143814120156443
 PrefabInstance:

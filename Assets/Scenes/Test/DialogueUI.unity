@@ -123,17 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!114 &316603193 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8628095270018506530, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}
-  m_PrefabInstance: {fileID: 1693398316}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73470fd906017234481e8bed73801379, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &322966521
 GameObject:
   m_ObjectHideFlags: 0
@@ -608,11 +597,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!224 &1379901397 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 2162661408876896099, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}
-  m_PrefabInstance: {fileID: 1693398316}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1693398316
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -704,118 +688,9 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1154535928034171259, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1154535928034171259, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1154535928034171259, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 811.07745
-      objectReference: {fileID: 0}
-    - target: {fileID: 1154535928034171259, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -181.59114
-      objectReference: {fileID: 0}
-    - target: {fileID: 1154535928034171259, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 363.18228
-      objectReference: {fileID: 0}
-    - target: {fileID: 1814359176269968389, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}
-      propertyPath: buttonPrefab
-      value: 
-      objectReference: {fileID: 756990910400210344, guid: 4ab8e9068724d414cb532a779c817991, type: 3}
-    - target: {fileID: 1814359176269968389, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}
-      propertyPath: answerContent
-      value: 
-      objectReference: {fileID: 1379901397}
-    - target: {fileID: 1814359176269968389, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}
-      propertyPath: characterDisplay
-      value: 
-      objectReference: {fileID: 316603193}
     - target: {fileID: 2586163498701719712, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}
       propertyPath: m_Name
       value: Dialogue UI
       objectReference: {fileID: 0}
-    - target: {fileID: 4828537119450179746, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5375895314714242678, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7549268982010712401, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}
-      propertyPath: m_ChildScaleWidth
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7549268982010712401, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}
-      propertyPath: m_ChildScaleHeight
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8870831739102079386, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8870831739102079386, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8870831739102079386, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8870831739102079386, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8870831739102079386, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8983617271195818226, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9191883803055199380, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}
-      propertyPath: lineTextDisply
-      value: 
-      objectReference: {fileID: 1693398319}
-    m_RemovedComponents:
-    - {fileID: 1693398319, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}
---- !u!1 &1693398317 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5375895314714242678, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}
-  m_PrefabInstance: {fileID: 1693398316}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1693398318 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8425801440267770538, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}
-  m_PrefabInstance: {fileID: 1693398316}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1693398317}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1693398319
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1693398317}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcf0f073b0c45884b9affc17d02bb8e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  distortionSigns: '@#&\'
-  maxDistortion: 0.2
-  distortionLevel: 0
-  textDisplay: {fileID: 1693398318}

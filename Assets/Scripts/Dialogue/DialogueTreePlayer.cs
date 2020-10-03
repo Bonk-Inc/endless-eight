@@ -14,14 +14,19 @@ public class DialogueTreePlayer : MonoBehaviour
     [SerializeField]
     private Canvas canvas;//TODO this shouldn't be here >:(
 
+    private bool isInDialogue = false;
 
     public void PlayTree(DialogueTree tree)
     {
+        if (isInDialogue)
+            return;
+
         StartCoroutine(PlayDialogueTree(tree));
     }
 
     private IEnumerator PlayDialogueTree(DialogueTree tree, CharacterInfo answeringCharacter = null)
     {
+        isInDialogue = true;
         canvas.enabled = true;
         answeringCharacter = tree.Characters[0];
         while (tree != null)
@@ -43,5 +48,6 @@ public class DialogueTreePlayer : MonoBehaviour
             }
         }
         canvas.enabled = false;
+        isInDialogue = false;
     }
 }
