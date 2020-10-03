@@ -5,6 +5,14 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Dialogue", menuName = "ScriptableObjects/DialogueTree", order = 1)]
 public class DialogueTree : ScriptableObject
 {
-    public string[] lines;
-    public string[] answers;
+    [SerializeField]
+    private DialogueLine[] lines;
+    [SerializeField]
+    private string[] answers;
+    [SerializeField]
+    private DialogueTree nextTree;
+
+    private DialogueLine[] Lines => lines;
+    private string[] Answers => answers;
+    private DialogueTree NextTree => nextTree;
 }
