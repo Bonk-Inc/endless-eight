@@ -688,9 +688,57 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2533088522085288979, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 148.92126
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533088522085288979, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -297.84253
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533088522085288979, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533088522085288979, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -358.46445
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533088522085288979, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -716.9289
+      objectReference: {fileID: 0}
     - target: {fileID: 2586163498701719712, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}
       propertyPath: m_Name
       value: Dialogue UI
+      objectReference: {fileID: 0}
+    - target: {fileID: 4828537119450179746, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7549268982010712401, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}
+      propertyPath: m_ChildControlWidth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7549268982010712401, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}
+      propertyPath: m_ChildForceExpandWidth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7549268982010712401, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}
+      propertyPath: m_ChildScaleHeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7549268982010712401, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}
+      propertyPath: m_ChildControlHeight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7549268982010712401, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}
+      propertyPath: m_ChildForceExpandHeight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7549268982010712401, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}
+      propertyPath: m_ChildScaleWidth
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: adeecdd72ca35e048bc10e86b4d361c9, type: 3}

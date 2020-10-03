@@ -36,6 +36,7 @@ public class DialogueAnswerDisplay : MonoBehaviour
             answerContent.gameObject.SetActive(false);
         };
         button.transform.SetParent(answerContent);
+        button.transform.localScale = Vector3.one;
     }
 
     private void RemoveAnswers()
