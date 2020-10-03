@@ -33,6 +33,7 @@ public class DialogueTreePlayer : MonoBehaviour
                 answerDisplay.ShowAnswers(tree.Answers, answeringCharacter, (nextTree) =>
                 {
                     answerChosen = true;
+                    nextTree.SetCharacters(tree.characters);
                     tree = nextTree;
                 });
                 while (!answerChosen) yield return null;
