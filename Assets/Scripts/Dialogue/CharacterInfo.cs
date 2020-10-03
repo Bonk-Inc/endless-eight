@@ -1,8 +1,10 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CharacterInfo : MonoBehaviour
+[Serializable]
+public class CharacterInfo
 {
     [SerializeField]
     private string name;

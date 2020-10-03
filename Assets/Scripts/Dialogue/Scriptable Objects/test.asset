@@ -12,6 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
   m_Name: test
   m_EditorClassIdentifier: 
-  lines: []
-  answers: []
-  nextTree: {fileID: 0}
+  lines:
+  - character: 0
+    line: Hallo
+  - character: 1
+    line: Nee jij hallo, met je gezicht! ga toch is ergens anders hallo zeggen. #ikhallonietmeermee
+  answers:
+  - answer: Je moeder
+    nextTree: {fileID: 0}

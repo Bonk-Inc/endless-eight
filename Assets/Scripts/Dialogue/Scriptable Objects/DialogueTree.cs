@@ -10,6 +10,15 @@ public class DialogueTree : ScriptableObject
     [SerializeField]
     private DialogueAnswer[] answers;
 
-    private DialogueLine[] Lines => lines;
-    private DialogueAnswer[] Answers => answers;
+    public CharacterInfo[] characters;
+
+    public DialogueLine[] Lines => lines;
+    public DialogueAnswer[] Answers => answers;
+
+    public CharacterInfo[] Characters => characters;
+
+    public void SetCharacters(CharacterInfo[] characters)
+    {
+        this.characters = characters;
+    }
 }
