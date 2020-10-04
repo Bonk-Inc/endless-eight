@@ -15,11 +15,11 @@ MonoBehaviour:
   lines: []
   answers:
   - answer: Why are you at this party?
-    nextTree: {fileID: 0}
+    nextTree: {fileID: 11400000, guid: 945d870e0b48f5349844ec3061580f00, type: 2}
   - answer: You work here now?
-    nextTree: {fileID: 0}
+    nextTree: {fileID: 11400000, guid: 2b150eafa4bc1534191fea91c9e2fe20, type: 2}
   - answer: Why hotdogs?
-    nextTree: {fileID: 0}
+    nextTree: {fileID: 11400000, guid: 7f06e35eabf437146af958f413c92caa, type: 2}
   - answer: Do you have a plan for after this job?
-    nextTree: {fileID: 0}
+    nextTree: {fileID: 11400000, guid: c025fc1fa8366b5428b22d2e82d69587, type: 2}
   characters: []
