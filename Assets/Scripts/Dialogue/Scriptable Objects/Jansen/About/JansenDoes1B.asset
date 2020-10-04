@@ -12,6 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
   m_Name: JansenDoes1B
   m_EditorClassIdentifier: 
-  lines: []
+  lines:
+  - character: 1
+    line: That's not a word we use here
+  - character: 1
+    line: We make sure they dont run into any issues
+  - character: 1
+    line: By helping them in any way possible
+  - character: 0
+    line: I see..
   answers: []
   characters: []

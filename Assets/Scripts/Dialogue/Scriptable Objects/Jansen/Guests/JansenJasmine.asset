@@ -12,6 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
   m_Name: JansenJasmine
   m_EditorClassIdentifier: 
-  lines: []
-  answers: []
+  lines:
+  - character: 1
+    line: Jasmine, huh?
+  - character: 1
+    line: Well, she's my partner and helps me with my bussiness from time to time
+  - character: 1
+    line: She takes care of our.. "son", her words
+  - character: 1
+    line: Whenever she has the chance to talk about him she gets..
+  - character: 1
+    line: She gets so energetic, like she cant stop talking about him!
+  answers:
+  - answer: Like an addiction?
+    nextTree: {fileID: 11400000, guid: fdc5c8d87debbde41b9f0ff70facafe7, type: 2}
+  - answer: Pool Time
+    nextTree: {fileID: 11400000, guid: 1260982c1db866542874ea279453b508, type: 2}
   characters: []

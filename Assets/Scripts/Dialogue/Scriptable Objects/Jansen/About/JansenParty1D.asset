@@ -12,6 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
   m_Name: JansenParty1D
   m_EditorClassIdentifier: 
-  lines: []
-  answers: []
+  lines:
+  - character: 1
+    line: She is convince he is our son
+  - character: 1
+    line: But to me, he is just someone Jasmine found a couple years ago.
+  - character: 0
+    line: She found him?
+  - character: 1
+    line: I apologize, I feel like I already said too much.
+  answers:
+  - answer: 
+    nextTree: {fileID: 11400000, guid: 98f141cfd8c7f94448ef5d5a75708a2b, type: 2}
   characters: []
