@@ -32,8 +32,8 @@ public class DialogueTreePlayer : MonoBehaviour
         while (tree != null)
         {
             yield return StartCoroutine(lineVisualizer.PlayDialogueLines(tree.Lines, tree.Characters));
-            print(tree.characters);
-            if(tree.Answers.Length > 0) {
+            if(tree.Answers.Length > 1) {
+
                 bool answerChosen = false;
                 answerDisplay.ShowAnswers(tree.Answers, answeringCharacter, (nextTree) =>
                 {
@@ -43,6 +43,9 @@ public class DialogueTreePlayer : MonoBehaviour
                     tree = nextTree;
                 });
                 while (!answerChosen) yield return null;
+            } 
+            else if (tree.Answers.Length == 1) {
+                tree = tree.Answers[0].NextTree;
             }
             else {
                 tree = null;
