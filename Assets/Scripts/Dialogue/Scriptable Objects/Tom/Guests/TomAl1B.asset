@@ -10,22 +10,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
-  m_Name: TomAl
+  m_Name: TomAl1B
   m_EditorClassIdentifier: 
   lines:
   - character: 0
-    line: Do you know Al?
+    line: What happened in his past?
   - character: 1
-    line: I do! I introduced him to Jansen
+    line: He hasn't told me the details
   - character: 1
-    line: He needed a job and I knew he would be a good fit
+    line: But from what I have heard he had problems with the police
+  - character: 0
+    line: Oh, that's it?
   - character: 1
-    line: Even with his past he seems to be doing good
+    line: Jasmine was really worried at first
+  - character: 1
+    line: Apparently he could have been a danger to Justin
+  - character: 1
+    line: But Jansen hired him right after
+  - character: 1
+    line: I'm sorry, I should not even talk about this.
+  - character: 0
+    line: That's alright, thanks Tom!
   answers:
-  - answer: Thank you for telling me!
+  - answer: 
     nextTree: {fileID: 11400000, guid: c167854a178c17240a8c1d86b9c18617, type: 2}
-  - answer: His past?
-    nextTree: {fileID: 11400000, guid: 55e3aeeb7ce36d3439f5c7eb4b0361c7, type: 2}
-  - answer: Why did you decide to help him?
-    nextTree: {fileID: 11400000, guid: 70d460f356b3af44d8b1b6fc5d6d2157, type: 2}
   characters: []
