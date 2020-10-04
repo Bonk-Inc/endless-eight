@@ -400,8 +400,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueInfo:
     name: Al
-    portrait: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
-  dialogueTree: {fileID: 11400000, guid: d00a9c51129d9fb478343951a7134946, type: 2}
+    portrait: {fileID: 21300000, guid: e560bfd3d5f78354ca04cab0f51ffdd2, type: 3}
+  dialogueTree: {fileID: 11400000, guid: 6b11c5532c1fdf94980edbaf1620bf99, type: 2}
 --- !u!114 &165266552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -430,7 +430,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f59c24e9dd4665b4c8f09a637dcd3b6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  sprite: {fileID: 21300000, guid: e560bfd3d5f78354ca04cab0f51ffdd2, type: 3}
 --- !u!65 &165266554
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -909,7 +909,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueInfo:
     name: Bardy
-    portrait: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+    portrait: {fileID: 21300000, guid: 21c506d64aac2214589974be31666b11, type: 3}
   dialogueTree: {fileID: 11400000, guid: d00a9c51129d9fb478343951a7134946, type: 2}
 --- !u!114 &426309991
 MonoBehaviour:
@@ -939,7 +939,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f59c24e9dd4665b4c8f09a637dcd3b6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  sprite: {fileID: 21300000, guid: 21c506d64aac2214589974be31666b11, type: 3}
 --- !u!65 &426309993
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1052,7 +1052,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueInfo:
     name: Mink
-    portrait: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+    portrait: {fileID: 21300000, guid: c6bf4aef34402b2488abef66454809b7, type: 3}
   dialogueTree: {fileID: 11400000, guid: 50f79b1e2cc66e84383be8bc62bf13d6, type: 2}
 --- !u!114 &428839554
 MonoBehaviour:
@@ -1082,7 +1082,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f59c24e9dd4665b4c8f09a637dcd3b6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  sprite: {fileID: 21300000, guid: c6bf4aef34402b2488abef66454809b7, type: 3}
 --- !u!65 &428839556
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1750,7 +1750,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &685377517
 Transform:
@@ -1780,7 +1780,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueInfo:
     name: Jasmine
-    portrait: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+    portrait: {fileID: 21300000, guid: 11c763a4f6d104a4bbb4f54a23ae9ffa, type: 3}
   dialogueTree: {fileID: 11400000, guid: d00a9c51129d9fb478343951a7134946, type: 2}
 --- !u!1 &703541367 stripped
 GameObject:
@@ -3332,7 +3332,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueInfo:
     name: Justin
-    portrait: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+    portrait: {fileID: 21300000, guid: 1b153bef62937b4408d5f742d945859d, type: 3}
   dialogueTree: {fileID: 11400000, guid: d00a9c51129d9fb478343951a7134946, type: 2}
 --- !u!114 &1577478494
 MonoBehaviour:
@@ -3362,7 +3362,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f59c24e9dd4665b4c8f09a637dcd3b6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  sprite: {fileID: 21300000, guid: 1b153bef62937b4408d5f742d945859d, type: 3}
 --- !u!65 &1577478496
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3445,7 +3445,7 @@ GameObject:
   m_TagString: InteractablePerson
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1629999077
 Transform:
@@ -3475,7 +3475,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueInfo:
     name: Jasmine
-    portrait: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+    portrait: {fileID: 21300000, guid: 11c763a4f6d104a4bbb4f54a23ae9ffa, type: 3}
   dialogueTree: {fileID: 11400000, guid: 4af768b60828dd84eaf583ed5112d42d, type: 2}
 --- !u!114 &1629999079
 MonoBehaviour:
@@ -3505,7 +3505,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f59c24e9dd4665b4c8f09a637dcd3b6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  sprite: {fileID: 21300000, guid: 11c763a4f6d104a4bbb4f54a23ae9ffa, type: 3}
 --- !u!65 &1629999081
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4692,7 +4692,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueInfo:
     name: Jansen
-    portrait: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+    portrait: {fileID: 21300000, guid: aead44a113c35bb4b8325695cbcf829e, type: 3}
   dialogueTree: {fileID: 11400000, guid: 7578a0eabaf7717448722658ebceae55, type: 2}
 --- !u!114 &2082901521
 MonoBehaviour:
@@ -4722,7 +4722,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f59c24e9dd4665b4c8f09a637dcd3b6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  sprite: {fileID: 21300000, guid: aead44a113c35bb4b8325695cbcf829e, type: 3}
 --- !u!65 &2082901523
 BoxCollider:
   m_ObjectHideFlags: 0
