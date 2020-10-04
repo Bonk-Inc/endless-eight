@@ -14,6 +14,9 @@ public class LoopManagement : MonoBehaviour
     [SerializeField]
     private DialogueCharacter startingDiaCharacter;
 
+    [SerializeField]
+    private DistortedDialogueTextDisplay dialogueText;
+
     private void Start()
     {
         GoToNextLoop();
@@ -28,6 +31,7 @@ public class LoopManagement : MonoBehaviour
     {
         loopNumber += amount;
         ChangePositionsPeople();
+        dialogueText.SetDistortionLevel(loopNumber-1);
         if (loopNumber >= 10)
         {
             EndGame();
