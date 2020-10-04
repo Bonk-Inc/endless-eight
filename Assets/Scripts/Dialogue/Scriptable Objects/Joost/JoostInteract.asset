@@ -14,14 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - character: 0
-    line: Hey Joost, I was wondering if you might know this
+    line: Hello sir, I was wondering if you might know this
   - character: 1
     line: Joost knows everything!
   - character: 0
-    line: 
+    line: Ah, so you are Joost?
+  - character: 1
+    line: Did I say that?
   - character: 0
-    line: 
+    line: No, but I assumed you were talking about yourself..
   - character: 0
-    line: 
-  answers: []
+    line: Either way, can I ask you some questions?
+  - character: 1
+    line: Joost has the answers
+  answers:
+  - answer: About afro guy
+    nextTree: {fileID: 0}
+  - answer: About guests
+    nextTree: {fileID: 0}
   characters: []

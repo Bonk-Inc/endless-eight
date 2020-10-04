@@ -18,7 +18,7 @@ MonoBehaviour:
   - character: 1
     line: I would do anything for a friend of Justin!
   answers:
-  - answer: About person
+  - answer: About lady
     nextTree: {fileID: 11400000, guid: 7e895d19f626870409d27f85b5a03810, type: 2}
   - answer: About other guests
     nextTree: {fileID: 11400000, guid: 452fa910419378942b09abb758c47cad, type: 2}

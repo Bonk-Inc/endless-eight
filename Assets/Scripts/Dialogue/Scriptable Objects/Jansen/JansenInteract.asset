@@ -10,20 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
-  m_Name: TomInteract
+  m_Name: JansenInteract
   m_EditorClassIdentifier: 
   lines:
   - character: 1
-    line: Hey Karel, want a dog?
+    line: You Karel?
   - character: 0
-    line: No, I'm good..
-  - character: 0
-    line: Could I ask you some questions?
+    line: Yes, that's me!
   - character: 1
-    line: Go right ahead my dude!
+    line: You are late
+  - character: 0
+    line: 'I''m sorry? '
+  - character: 1
+    line: Nevermind, nevermind. Who do you want to know about?
+  - character: 0
+    line: R-Right..
   answers:
-  - answer: About chef
-    nextTree: {fileID: 11400000, guid: e1a31d97005e83249b4868ec03e0bb14, type: 2}
+  - answer: About you
+    nextTree: {fileID: 11400000, guid: 40787314552cbee4d893d5636991e81a, type: 2}
   - answer: About guests
-    nextTree: {fileID: 11400000, guid: e47e674ab5917b34ea89245f5d64fef2, type: 2}
+    nextTree: {fileID: 11400000, guid: 0eaf230d7b856184e893388a7d6c29a8, type: 2}
   characters: []
