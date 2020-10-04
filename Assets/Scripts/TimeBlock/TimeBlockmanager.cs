@@ -55,7 +55,6 @@ public class TimeBlockmanager : MonoBehaviour
             timeBlock = newCurrentBlock.Type
         }); ;
         currentTimeBlock = newCurrentBlock;
-        timer.UnPause();
     }
 
     private TimeBlock GetTimeblockForTime(float time)
