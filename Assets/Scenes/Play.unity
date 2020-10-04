@@ -4363,7 +4363,7 @@ MonoBehaviour:
   player: {fileID: 628924587}
   spawnposition: {fileID: 672236645}
   playerDialogue: {fileID: 628924580}
-  startingDiaCharacter: {fileID: 1629999078}
+  startingDiaCharacter: {fileID: 685377518}
 --- !u!4 &1636848711
 Transform:
   m_ObjectHideFlags: 0
