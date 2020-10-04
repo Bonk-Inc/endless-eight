@@ -32,13 +32,14 @@ public class DialogueTreePlayer : MonoBehaviour
         while (tree != null)
         {
             yield return StartCoroutine(lineVisualizer.PlayDialogueLines(tree.Lines, tree.Characters));
-
+            print(tree.characters);
             if(tree.Answers.Length > 0) {
                 bool answerChosen = false;
                 answerDisplay.ShowAnswers(tree.Answers, answeringCharacter, (nextTree) =>
                 {
                     answerChosen = true;
-                    nextTree.SetCharacters(tree.characters);
+                    if (nextTree != null)
+                        nextTree.SetCharacters(tree.characters);
                     tree = nextTree;
                 });
                 while (!answerChosen) yield return null;
