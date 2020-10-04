@@ -10,20 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
-  m_Name: TomMink
+  m_Name: TomAl1C
   m_EditorClassIdentifier: 
   lines:
   - character: 0
-    line: Who is this Mink?
+    line: Why did you help Al get a job here?
   - character: 1
-    line: He's the drunk guy in this house, I don't like him very much..
+    line: He liked my dogs!
   - character: 0
-    line: Why is that Tom?
-  - character: 1
-    line: he doesn't seem to like my dogs :(
-  - character: 0
-    line: I'm sorry to hear that Tom!
-  - character: 1
-    line: It- It's fine..
+    line: Fair enough Tom, fair enough
   answers: []
   characters: []

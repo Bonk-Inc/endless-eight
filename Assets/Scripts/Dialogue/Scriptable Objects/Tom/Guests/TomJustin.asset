@@ -12,6 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
   m_Name: TomJustin
   m_EditorClassIdentifier: 
-  lines: []
+  lines:
+  - character: 0
+    line: Have you seen Justin today?
+  - character: 1
+    line: I brought some dog's to his room in the morning!
+  - character: 0
+    line: That's cool Tom, what do you think of him?
+  - character: 1
+    line: I try not thinking about him much
+  - character: 1
+    line: But being Jansen's son already makes him a great man!
   answers: []
   characters: []
