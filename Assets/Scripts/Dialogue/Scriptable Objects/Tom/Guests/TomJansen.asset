@@ -12,6 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
   m_Name: TomJansen
   m_EditorClassIdentifier: 
-  lines: []
+  lines:
+  - character: 0
+    line: What do you know about Jansen?
+  - character: 1
+    line: 'He offered my this job..! '
+  - character: 1
+    line: 'I was allowed to decline if I wanted to.. ha '
+  - character: 1
+    line: but I guess.. the opportunity was just too good..
+  - character: 0
+    line: Are you alright, Tom?
+  - character: 1
+    line: Ofcourse, Karel
+  - character: 1
+    line: I should get back to making my dogs!
+  - character: 1
+    line: Oh.. alright Tom
   answers: []
   characters: []

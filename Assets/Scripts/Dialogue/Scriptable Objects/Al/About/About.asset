@@ -10,16 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
-  m_Name: TomParty
+  m_Name: About
   m_EditorClassIdentifier: 
   lines:
-  - character: 0
-    line: Why are you attending this party?
   - character: 1
-    line: The kid does seem pretty groovy
-  - character: 1
-    line: And I work here, thats a big part of it!
-  - character: 0
-    line: Right
-  answers: []
+    line: If you must
+  answers:
+  - answer: Why are you at this party?
+    nextTree: {fileID: 0}
+  - answer: What do you do?
+    nextTree: {fileID: 0}
+  - answer: Tell me something about your past
+    nextTree: {fileID: 0}
+  - answer: Why are you being so rude?
+    nextTree: {fileID: 0}
   characters: []
