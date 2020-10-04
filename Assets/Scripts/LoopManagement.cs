@@ -7,7 +7,12 @@ public class LoopManagement : MonoBehaviour
     private int loopNumber;
     public void GoToNextLoop()
     {
-        loopNumber++;
+        AddLoopIteration(1);
+    }
+
+    public void AddLoopIteration(int amount)
+    {
+        loopNumber += amount;
         ChangePositionsPeople();
         if (loopNumber >= 10)
         {

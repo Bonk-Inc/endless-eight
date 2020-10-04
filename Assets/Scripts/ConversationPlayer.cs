@@ -27,6 +27,7 @@ public class ConversationPlayer : MonoBehaviour
     private void TalkTopeople(GameObject personToInteractWith)
     {
         // TODO talk to the person to interact with.
+        personToInteractWith.GetComponent<KillablePerson>().Kill();//TODO choose interaction
     }
 
     private void OnTriggerEnter(Collider other)
