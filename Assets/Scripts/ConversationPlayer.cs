@@ -8,12 +8,13 @@ public class ConversationPlayer : MonoBehaviour
 {
     private List<GameObject> personToTalkTo;
 
+    [SerializeField] PopUpBehaviour popUpBehaviour;
+
     [SerializeField]
     private CharacterInfo playerInfo;
 
     [SerializeField]
     private DialogueTreePlayer player;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -26,13 +27,14 @@ public class ConversationPlayer : MonoBehaviour
         if ((Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Space)) && personToTalkTo.Count != 0)
         {
 
-            if (personToTalkTo.Count > 1) TalkTopeople(findOutWhichPersonToTalkTo());
+            if (personToTalkTo.Count > 1) findOutWhichPersonToTalkTo();
             else TalkTopeople(personToTalkTo[0]);
         }
     }
 
-    private void TalkTopeople(GameObject personToInteractWith)
+    public void TalkTopeople(GameObject personToInteractWith)
     {
+        Debug.Log("interaction wtih " + personToInteractWith.name);
         // TODO talk to the person to interact with.
         DialogueCharacter character = personToInteractWith.GetComponent<DialogueCharacter>();//TODO choose interaction
         StartDialogue(character);
@@ -49,19 +51,35 @@ public class ConversationPlayer : MonoBehaviour
     {
         if (other.gameObject.tag.Equals("InteractablePerson"))
             personToTalkTo.Add(other.gameObject);
-       
+
     }
     private void OnTriggerExit(Collider other)
     {
 
         if (other.gameObject.tag.Equals("InteractablePerson"))
+        {
             personToTalkTo.Remove(other.gameObject);
-      
+            if (personToTalkTo.Count < 2)
+            {
+                popUpBehaviour.DisablePopUp();
+            }
+        }
+
     }
 
-    private GameObject findOutWhichPersonToTalkTo()
-    { //TODO UI met plaatjes van alle mensen en vervolgens dan op kunnen laten drukken.
-        return personToTalkTo[0];
+    private void findOutWhichPersonToTalkTo()
+    {
+        KillablePerson[] killablePpl = new KillablePerson[10];
+        for (int i = 0; i < personToTalkTo.Count; i++)
+        {
+            killablePpl[i] = personToTalkTo[i].GetComponent<KillablePerson>();
+        }
+        //TODO UI met plaatjes van alle mensen en vervolgens dan op kunnen laten drukken.
+
+        popUpBehaviour.ShowPopUp(killablePpl);
+
+
+        Debug.Log("Test");
     }
 
 
