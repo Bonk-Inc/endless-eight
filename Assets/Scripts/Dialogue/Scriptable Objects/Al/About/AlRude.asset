@@ -23,7 +23,9 @@ MonoBehaviour:
     line: Yeah, a poor person like you
   - character: 0
     line: I.. I see
-  - character: 0
-    line: 
-  answers: []
+  - character: 1
+    line: But It's fine! You just.. wanted to ask this question!
+  answers:
+  - answer: 
+    nextTree: {fileID: 11400000, guid: 20a0288640263f5408c66bcdb345f4af, type: 2}
   characters: []
