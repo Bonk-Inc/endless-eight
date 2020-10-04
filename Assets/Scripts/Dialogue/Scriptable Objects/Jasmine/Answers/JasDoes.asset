@@ -16,8 +16,20 @@ MonoBehaviour:
   - character: 1
     line: Long ago, I started my own company with an old friend
   - character: 1
-    line: After I got my son I didnt feel like I had to work anymore
+    line: After I found my son I didnt feel like I had to work anymore
   - character: 1
     line: I chose to take care of him before I had to share him with the world
-  answers: []
-  characters: []
+  answers:
+  - answer: Is your friend attending today?
+    nextTree: {fileID: 11400000, guid: c0e6d2af9220b0e458c5997caa1db54c, type: 2}
+  - answer: Why didn't you try doing both?
+    nextTree: {fileID: 11400000, guid: 6ceb5be92b30b7745963ae013b0e1842, type: 2}
+  - answer: How do you mean you found your son?
+    nextTree: {fileID: 11400000, guid: b4d1fd5b884b1cf4eb5297a1d2ad3cc8, type: 2}
+  - answer: I think I've heard enough
+    nextTree: {fileID: 0}
+  characters:
+  - name: Wilmp
+    portrait: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  - name: Bert
+    portrait: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}

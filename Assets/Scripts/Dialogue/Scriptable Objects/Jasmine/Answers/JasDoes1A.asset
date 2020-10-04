@@ -10,18 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
-  m_Name: JasInteract
+  m_Name: JasDoes1A
   m_EditorClassIdentifier: 
   lines:
   - character: 0
-    line: Hey Jasmine, could I ask you something?
+    line: So where is your old bussines partner?
+  - character: 0
+    line: Are they here today?
   - character: 1
-    line: I would do anything for a friend of Justin!
+    line: They should have arrived already!
+  - character: 0
+    line: What is their name?
+  - character: 1
+    line: They are called Mink!
   answers:
-  - answer: About Jasmine
-    nextTree: {fileID: 11400000, guid: 7e895d19f626870409d27f85b5a03810, type: 2}
-  - answer: About guests
-    nextTree: {fileID: 11400000, guid: 452fa910419378942b09abb758c47cad, type: 2}
+  - answer: 
+    nextTree: {fileID: 11400000, guid: 75fa57b8de2019846a5d00a4238008bf, type: 2}
   characters:
   - name: Wilmp
     portrait: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
