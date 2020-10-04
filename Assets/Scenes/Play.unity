@@ -3581,6 +3581,7 @@ GameObject:
   - component: {fileID: 1636848709}
   - component: {fileID: 1636848708}
   - component: {fileID: 1636848712}
+  - component: {fileID: 1636848713}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -3604,16 +3605,16 @@ MonoBehaviour:
   OnTargetKilled:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1636848710}
-        m_TargetAssemblyTypeName: LoopManagement, Assembly-CSharp
-        m_MethodName: GoToNextLoop
-        m_Mode: 1
+      - m_Target: {fileID: 1636848713}
+        m_TargetAssemblyTypeName: SceneSwitcher, Assembly-CSharp
+        m_MethodName: SwitchScenes
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: WinScene
           m_BoolArgument: 0
         m_CallState: 2
   OnNonTargetKilled:
@@ -3671,6 +3672,21 @@ MonoBehaviour:
   startingDiaCharacter: {fileID: 685377518}
   dialogueText: {fileID: 1198017306}
   loopUIDisplay: {fileID: 1122596741}
+  GameOver:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1636848713}
+        m_TargetAssemblyTypeName: SceneSwitcher, Assembly-CSharp
+        m_MethodName: SwitchScenes
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: LoseScene
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &1636848711
 Transform:
   m_ObjectHideFlags: 0
@@ -3704,6 +3720,18 @@ MonoBehaviour:
   - {fileID: 370833940}
   - {fileID: 344270462}
   dialoguePlayer: {fileID: 444462403}
+--- !u!114 &1636848713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1636848707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef086ba295bce4e489872f283fb2d61a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1645176892
 GameObject:
   m_ObjectHideFlags: 0

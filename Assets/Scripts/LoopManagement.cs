@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class LoopManagement : MonoBehaviour
 {
@@ -22,6 +23,8 @@ public class LoopManagement : MonoBehaviour
     [SerializeField]
     private TMPro.TextMeshProUGUI loopUIDisplay;
 
+    public UnityEvent GameOver;
+
     private void Start()
     {
         GoToNextLoop();
@@ -40,7 +43,7 @@ public class LoopManagement : MonoBehaviour
         loopUIDisplay.SetText( Mathf.Max(lastLoop - loopNumber, 0).ToString());
         if (loopNumber > lastLoop)
         {
-            EndGame();
+            GameOver.Invoke();
         }
     }
 
@@ -48,11 +51,6 @@ public class LoopManagement : MonoBehaviour
     {
         player.position = spawnposition.position;
         playerDialogue.StartDialogue(startingDiaCharacter);
-    }
-
-    private void EndGame()
-    {
-        //TODO end game
     }
 
 }
