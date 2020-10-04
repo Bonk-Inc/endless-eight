@@ -1152,6 +1152,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1018415330}
     m_Modifications:
+    - target: {fileID: 9060697992368031042, guid: 85f6d4931ba42e3449102dcc8eb1ed93, type: 3}
+      propertyPath: maxDistortion
+      value: 0.33333334
+      objectReference: {fileID: 0}
     - target: {fileID: 9060697992777384849, guid: 85f6d4931ba42e3449102dcc8eb1ed93, type: 3}
       propertyPath: m_Name
       value: DialoguePlayer
@@ -2458,6 +2462,17 @@ Transform:
   m_Father: {fileID: 666526984}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1198017306 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9060697992368031042, guid: 85f6d4931ba42e3449102dcc8eb1ed93, type: 3}
+  m_PrefabInstance: {fileID: 444462401}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcf0f073b0c45884b9affc17d02bb8e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1204892723
 GameObject:
   m_ObjectHideFlags: 0
@@ -3602,6 +3617,7 @@ MonoBehaviour:
   spawnposition: {fileID: 672236645}
   playerDialogue: {fileID: 628924580}
   startingDiaCharacter: {fileID: 685377518}
+  dialogueText: {fileID: 1198017306}
 --- !u!4 &1636848711
 Transform:
   m_ObjectHideFlags: 0
