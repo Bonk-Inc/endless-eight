@@ -26,7 +26,11 @@ public class PlayerController : MonoBehaviour
     public void Move(bool left, bool right, bool up, bool down)
     {
         if (!CanMove)
+        {
+            gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
             return;
+        }
+            
 
         Vector3 velocity = new Vector2();
 
