@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -16,6 +17,10 @@ public class DialogueTreePlayer : MonoBehaviour
 
     private bool isInDialogue = false;
 
+    public bool IsInDialogue => isInDialogue;
+
+    public event Action OnDialogueEnded;
+
     public void PlayTree(DialogueTree tree)
     {
         if (isInDialogue)
@@ -32,16 +37,20 @@ public class DialogueTreePlayer : MonoBehaviour
         while (tree != null)
         {
             yield return StartCoroutine(lineVisualizer.PlayDialogueLines(tree.Lines, tree.Characters));
+            if(tree.Answers.Length > 1) {
 
-            if(tree.Answers.Length > 0) {
                 bool answerChosen = false;
                 answerDisplay.ShowAnswers(tree.Answers, answeringCharacter, (nextTree) =>
                 {
                     answerChosen = true;
-                    nextTree.SetCharacters(tree.characters);
+                    if (nextTree != null)
+                        nextTree.SetCharacters(tree.characters);
                     tree = nextTree;
                 });
                 while (!answerChosen) yield return null;
+            } 
+            else if (tree.Answers.Length == 1) {
+                tree = tree.Answers[0].NextTree;
             }
             else {
                 tree = null;
@@ -49,5 +58,6 @@ public class DialogueTreePlayer : MonoBehaviour
         }
         canvas.enabled = false;
         isInDialogue = false;
+        OnDialogueEnded?.Invoke();
     }
 }
