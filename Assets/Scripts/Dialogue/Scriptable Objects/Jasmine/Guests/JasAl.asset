@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
+  m_Name: JasAl
+  m_EditorClassIdentifier: 
+  lines:
+  - character: 0
+    line: So who is Al?
+  - character: 1
+    line: Al is the person next to me during greetings
+  - character: 1
+    line: He LOVES taking care of my sweet son
+  - character: 1
+    line: So happy he is a part of our lives
+  - character: 0
+    line: I'm sure they feel the same way
+  answers: []
+  characters: []

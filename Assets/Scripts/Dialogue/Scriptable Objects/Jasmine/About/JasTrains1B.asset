@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
+  m_Name: JasTrains1B
+  m_EditorClassIdentifier: 
+  lines:
+  - character: 1
+    line: I have been told not to talk about this..
+  - character: 0
+    line: You said you would do anything for a friend of Justin..
+  - character: 1
+    line: Yes, so I have to tell you!
+  - character: 1
+    line: He seemed to have imagined these trains
+  - character: 0
+    line: He imagined these trains?
+  - character: 1
+    line: Oh yes, he is so talented!
+  - character: 1
+    line: After a while they started showing up in different cities
+  - character: 1
+    line: Many people are afraid to use them
+  - character: 1
+    line: But I am sure they just need some convincing!
+  answers: []
+  characters: []

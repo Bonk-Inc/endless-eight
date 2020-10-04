@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
+  m_Name: JasJoost
+  m_EditorClassIdentifier: 
+  lines:
+  - character: 0
+    line: So who is this Joost person?
+  - character: 1
+    line: 'Oh Joost is just wonderful! '
+  - character: 1
+    line: They will be making a song about my son!
+  - character: 0
+    line: A song about your son?
+  - character: 1
+    line: Oh yes, I am so excited!
+  - character: 0
+    line: I might want an update about this later
+  - character: 0
+    line: Where could I find them?
+  answers:
+  - answer: 
+    nextTree: {fileID: 11400000, guid: 9e974a84b83d77942a575475d0d6706b, type: 2}
+  characters: []
