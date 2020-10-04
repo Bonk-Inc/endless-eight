@@ -9,14 +9,25 @@ public class PlayerController : MonoBehaviour
 
     private bool isGrounded;
 
+    [SerializeField]
+    private DialogueTreePlayer dialogue;
+    [SerializeField]
+    private GameObject timeblockPupup;
 
-    // Start is called before the first frame update
-    void Start()
-    {
 
+    public bool CanMove {
+        get
+        {
+            return !dialogue.IsInDialogue && !timeblockPupup.activeSelf;
+        }
     }
+
+
     public void Move(bool left, bool right, bool up, bool down)
     {
+        if (!CanMove)
+            return;
+
         Vector3 velocity = new Vector2();
 
         if (left) velocity = new Vector3(speedLeftRight,0,0);

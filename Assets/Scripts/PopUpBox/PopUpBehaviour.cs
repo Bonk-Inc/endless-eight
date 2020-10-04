@@ -54,7 +54,6 @@ public class PopUpBehaviour : MonoBehaviour
         }
         foreach (KillablePerson killablePerson in objectArray)
         {
-            Debug.Log(buttonClicked.image.sprite.name);
             if (killablePerson != null)
             {
                 if (buttonClicked.image.sprite == killablePerson.sprite)

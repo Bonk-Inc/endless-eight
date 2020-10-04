@@ -1774,6 +1774,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speedUpDown: 100
   speedLeftRight: 100
+  dialogue: {fileID: 444462403}
+  timeblockPupup: {fileID: 1278320865}
 --- !u!114 &628924584
 MonoBehaviour:
   m_ObjectHideFlags: 0
