@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
+  m_Name: AlDoes
+  m_EditorClassIdentifier: 
+  lines:
+  - character: 0
+    line: So, what is your job?
+  - character: 1
+    line: What a good question sir, I don't think you could have guessed this yourself!
+  - character: 1
+    line: I work here as a servant, a hint might be my uniform, huh~
+  - character: 0
+    line: Got it.. It is a very nice uniform
+  - character: 1
+    line: '*sigh* That is nice, sir!'
+  - character: 1
+    line: You are very good at asking questions sir!
+  - character: 1
+    line: Would you like to ask another one?
+  answers:
+  - answer: No, no I do not
+    nextTree: {fileID: 11400000, guid: 20a0288640263f5408c66bcdb345f4af, type: 2}
+  - answer: I guess so..
+    nextTree: {fileID: 11400000, guid: 84279c1c0fc8abb46850aa1e3e82c5dd, type: 2}
+  characters: []

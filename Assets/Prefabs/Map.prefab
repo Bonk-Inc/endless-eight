@@ -2993,6 +2993,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Layout Test
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 48b52a7b5262c4142b5eb3722cb7caf7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48b52a7b5262c4142b5eb3722cb7caf7, type: 3}
 --- !u!4 &7173311321255858480 stripped
