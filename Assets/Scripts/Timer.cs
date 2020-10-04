@@ -12,29 +12,32 @@ public class Timer : MonoBehaviour
     [SerializeField]private TextMeshProUGUI pro;
     private float timeRemaining;
     [SerializeField] private UnityEvent outOfTime;
-    // Start is called before the first frame update
-    void Start()
-    {
 
-       
-    }
+    private bool pause = false;
 
-    // Update is called once per frame
-    void Update()
-    {
-       
-    }
+    public event Action<float> OnTimeChanged;
+
     private void FixedUpdate()
     {
+        if (pause) return;
         timeRemaining = (maxTime - time);
-        
+        OnTimeChanged?.Invoke(timeRemaining);
         pro.SetText(Math.Floor(timeRemaining).ToString());
         time += Time.deltaTime;
         if (timeRemaining <= 0)
         {
             time = 0;
             outOfTime?.Invoke();
-            
         }
+    }
+
+    public void Pause()
+    {
+        pause = true;
+    }
+
+    public void UnPause()
+    {
+        pause = false;
     }
 }

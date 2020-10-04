@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -15,6 +16,10 @@ public class DialogueTreePlayer : MonoBehaviour
     private Canvas canvas;//TODO this shouldn't be here >:(
 
     private bool isInDialogue = false;
+
+    public bool IsInDialogue => isInDialogue;
+
+    public event Action OnDialogueEnded;
 
     public void PlayTree(DialogueTree tree)
     {
@@ -53,5 +58,6 @@ public class DialogueTreePlayer : MonoBehaviour
         }
         canvas.enabled = false;
         isInDialogue = false;
+        OnDialogueEnded?.Invoke();
     }
 }

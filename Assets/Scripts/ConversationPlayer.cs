@@ -7,6 +7,13 @@ using UnityEngine.Events;
 public class ConversationPlayer : MonoBehaviour
 {
     private List<GameObject> personToTalkTo;
+
+    [SerializeField]
+    private CharacterInfo playerInfo;
+
+    [SerializeField]
+    private DialogueTreePlayer player;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,7 +34,10 @@ public class ConversationPlayer : MonoBehaviour
     private void TalkTopeople(GameObject personToInteractWith)
     {
         // TODO talk to the person to interact with.
-        personToInteractWith.GetComponent<KillablePerson>().Kill();//TODO choose interaction
+        DialogueCharacter character = personToInteractWith.GetComponent<DialogueCharacter>();//TODO choose interaction
+        DialogueTree tree = character.GetDialogue();
+        tree.SetCharacters(new CharacterInfo[] { playerInfo, character.GetCharacter() });
+        player.PlayTree(tree);
     }
 
     private void OnTriggerEnter(Collider other)
