@@ -5,6 +5,20 @@ using UnityEngine;
 public class LoopManagement : MonoBehaviour
 {
     private int loopNumber;
+
+    [SerializeField]
+    private Transform player, spawnposition;
+
+    [SerializeField]
+    private ConversationPlayer playerDialogue;
+    [SerializeField]
+    private DialogueCharacter startingDiaCharacter;
+
+    private void Start()
+    {
+        GoToNextLoop();
+    }
+
     public void GoToNextLoop()
     {
         AddLoopIteration(1);
@@ -22,7 +36,8 @@ public class LoopManagement : MonoBehaviour
 
     private void ChangePositionsPeople()
     {
-        //TODO change positions
+        player.position = spawnposition.position;
+        playerDialogue.StartDialogue(startingDiaCharacter);
     }
 
     private void EndGame()

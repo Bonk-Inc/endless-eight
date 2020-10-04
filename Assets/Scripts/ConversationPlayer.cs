@@ -35,6 +35,11 @@ public class ConversationPlayer : MonoBehaviour
     {
         // TODO talk to the person to interact with.
         DialogueCharacter character = personToInteractWith.GetComponent<DialogueCharacter>();//TODO choose interaction
+        StartDialogue(character);
+    }
+
+    public void StartDialogue(DialogueCharacter character)
+    {
         DialogueTree tree = character.GetDialogue();
         tree.SetCharacters(new CharacterInfo[] { playerInfo, character.GetCharacter() });
         player.PlayTree(tree);
