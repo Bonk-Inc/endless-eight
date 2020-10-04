@@ -1,10 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class LoopManagement : MonoBehaviour
 {
     private int loopNumber;
+
+    [SerializeField]
+    private int lastLoop = 8;
 
     [SerializeField]
     private Transform player, spawnposition;
@@ -16,6 +20,10 @@ public class LoopManagement : MonoBehaviour
 
     [SerializeField]
     private DistortedDialogueTextDisplay dialogueText;
+    [SerializeField]
+    private TMPro.TextMeshProUGUI loopUIDisplay;
+
+    public UnityEvent GameOver;
 
     private void Start()
     {
@@ -32,9 +40,10 @@ public class LoopManagement : MonoBehaviour
         loopNumber += amount;
         ChangePositionsPeople();
         dialogueText.SetDistortionLevel(loopNumber-1);
-        if (loopNumber >= 10)
+        loopUIDisplay.SetText( Mathf.Max(lastLoop - loopNumber, 0).ToString());
+        if (loopNumber > lastLoop)
         {
-            EndGame();
+            GameOver.Invoke();
         }
     }
 
@@ -42,11 +51,6 @@ public class LoopManagement : MonoBehaviour
     {
         player.position = spawnposition.position;
         playerDialogue.StartDialogue(startingDiaCharacter);
-    }
-
-    private void EndGame()
-    {
-        //TODO end game
     }
 
 }
