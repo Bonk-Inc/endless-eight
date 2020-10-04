@@ -27,7 +27,7 @@ MonoBehaviour:
   - answer: How do you mean you found your son?
     nextTree: {fileID: 11400000, guid: b4d1fd5b884b1cf4eb5297a1d2ad3cc8, type: 2}
   - answer: I think I've heard enough
-    nextTree: {fileID: 0}
+    nextTree: {fileID: 11400000, guid: 75fa57b8de2019846a5d00a4238008bf, type: 2}
   characters:
   - name: Wilmp
     portrait: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
