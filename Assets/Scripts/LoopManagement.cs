@@ -7,6 +7,9 @@ public class LoopManagement : MonoBehaviour
     private int loopNumber;
 
     [SerializeField]
+    private int lastLoop = 8;
+
+    [SerializeField]
     private Transform player, spawnposition;
 
     [SerializeField]
@@ -16,6 +19,8 @@ public class LoopManagement : MonoBehaviour
 
     [SerializeField]
     private DistortedDialogueTextDisplay dialogueText;
+    [SerializeField]
+    private TMPro.TextMeshProUGUI loopUIDisplay;
 
     private void Start()
     {
@@ -32,7 +37,8 @@ public class LoopManagement : MonoBehaviour
         loopNumber += amount;
         ChangePositionsPeople();
         dialogueText.SetDistortionLevel(loopNumber-1);
-        if (loopNumber >= 10)
+        loopUIDisplay.SetText( Mathf.Max(lastLoop - loopNumber, 0).ToString());
+        if (loopNumber > lastLoop)
         {
             EndGame();
         }
