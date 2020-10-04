@@ -16,8 +16,8 @@ MonoBehaviour:
   - character: 1
     line: I'm sorry, I think I mispoke
   - character: 0
-    line: 
+    line: You mispoke?
   - character: 1
-    line: Just forget What I just said
+    line: Just forget what I just said hun ^^
   answers: []
   characters: []

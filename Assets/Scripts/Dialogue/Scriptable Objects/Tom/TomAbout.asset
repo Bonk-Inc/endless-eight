@@ -10,18 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
-  m_Name: JasAl
+  m_Name: TomAbout
   m_EditorClassIdentifier: 
-  lines:
-  - character: 0
-    line: So who is Al?
-  - character: 1
-    line: Al is the person next to me during greetings
-  - character: 1
-    line: He LOVES taking care of my sweet son
-  - character: 1
-    line: So happy he is a part of our lives
-  - character: 0
-    line: I'm sure they feel the same way
-  answers: []
+  lines: []
+  answers:
+  - answer: Why are you at this party?
+    nextTree: {fileID: 0}
+  - answer: You work here now?
+    nextTree: {fileID: 0}
+  - answer: Why hotdogs?
+    nextTree: {fileID: 0}
+  - answer: Do you have a plan for after this job?
+    nextTree: {fileID: 0}
   characters: []

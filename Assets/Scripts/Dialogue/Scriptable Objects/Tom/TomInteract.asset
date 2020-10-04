@@ -14,12 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - character: 1
-    line: What's groovin bro?
+    line: Hey Karel, want a dog?
   - character: 0
-    line: Hey bro, can I ask you some questions?
+    line: No, I'm good..
   - character: 0
-    line: 
-  - character: 0
-    line: 
-  answers: []
+    line: Could I ask you some questions?
+  - character: 1
+    line: Go right ahead my dude!
+  answers:
+  - answer: About person
+    nextTree: {fileID: 11400000, guid: e1a31d97005e83249b4868ec03e0bb14, type: 2}
+  - answer: About guests
+    nextTree: {fileID: 11400000}
   characters: []

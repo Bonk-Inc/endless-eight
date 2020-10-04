@@ -22,8 +22,4 @@ MonoBehaviour:
     nextTree: {fileID: 11400000, guid: f8d88aea36e084d4da73a178d2468319, type: 2}
   - answer: Joost
     nextTree: {fileID: 11400000, guid: 3ae6008b39308914e90aa033e3e6498d, type: 2}
-  characters:
-  - name: Wilmp
-    portrait: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
-  - name: Bert
-    portrait: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  characters: []
