@@ -45,4 +45,9 @@ public class DistortedDialogueTextDisplay : DialogueLineTextDisplay
         int charIndex = UnityEngine.Random.Range(0, distortionSigns.Length - 1);
         return distortionSigns[charIndex];
     }
+
+    public void SetDistortionLevel(int level)
+    {
+        distortionLevel = level;
+    }
 }

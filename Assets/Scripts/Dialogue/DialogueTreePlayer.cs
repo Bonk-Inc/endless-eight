@@ -50,7 +50,9 @@ public class DialogueTreePlayer : MonoBehaviour
                 while (!answerChosen) yield return null;
             } 
             else if (tree.Answers.Length == 1) {
-                tree = tree.Answers[0].NextTree;
+                DialogueTree nextTree = tree.Answers[0].NextTree;
+                nextTree.SetCharacters(tree.characters);
+                tree = nextTree;
             }
             else {
                 tree = null;

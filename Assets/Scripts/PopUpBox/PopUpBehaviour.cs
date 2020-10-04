@@ -7,16 +7,14 @@ using UnityEngine.UI;
 
 public class PopUpBehaviour : MonoBehaviour
 {
-    [SerializeField] List<Button> buttons;
+    [SerializeField] List<Button> killButtons;
+    [SerializeField] List<Button> talkButtons;
     private KillablePerson[] objectArray;
     [SerializeField] ConversationPlayer conversationPlayer;
 
     private void Start()
     {
-        foreach (Button b in buttons)
-        {
-            b.gameObject.SetActive(false);
-        }
+        DisablePopUp();
 
 
     }
@@ -28,39 +26,22 @@ public class PopUpBehaviour : MonoBehaviour
         {
             if (person != null)
             {
-                buttons[counterButtons].image.sprite = person.sprite;
-                buttons[counterButtons].gameObject.SetActive(true);
+                killButtons[counterButtons].image.sprite = person.sprite;
+                killButtons[counterButtons].gameObject.SetActive(true);
+                killButtons[counterButtons].onClick.RemoveAllListeners();
+                killButtons[counterButtons].onClick.AddListener(() => {
+                    DisablePopUp();
+                    person.Kill();
+                });
+
+                talkButtons[counterButtons].image.sprite = person.sprite;
+                talkButtons[counterButtons].gameObject.SetActive(true);
+                talkButtons[counterButtons].onClick.RemoveAllListeners();
+                talkButtons[counterButtons].onClick.AddListener(() => {
+                    DisablePopUp();
+                    conversationPlayer.TalkTopeople(person.gameObject);
+                });
                 counterButtons++;
-            }
-        }
-    }
-
-    public void OnClick(GameObject buttonGameObject)
-    {
-        Button buttonClicked = null;
-        foreach (Button button in buttons)
-        {
-            if (button.gameObject == buttonGameObject)
-            {
-                buttonClicked = button;
-                break;
-            }
-
-        }
-        if (buttonClicked == null)
-        {
-            Debug.Log("buttonClicked is null. Er gaa tyiets heeeelemaal mis");
-            return;
-        }
-        foreach (KillablePerson killablePerson in objectArray)
-        {
-            Debug.Log(buttonClicked.image.sprite.name);
-            if (killablePerson != null)
-            {
-                if (buttonClicked.image.sprite == killablePerson.sprite)
-                {
-                    conversationPlayer.TalkTopeople(killablePerson.gameObject);
-                }
             }
         }
     }
@@ -68,7 +49,12 @@ public class PopUpBehaviour : MonoBehaviour
 
     public void DisablePopUp()
     {
-        foreach (Button b in buttons)
+        foreach (Button b in killButtons)
+        {
+            b.gameObject.SetActive(false);
+        }
+
+        foreach (Button b in talkButtons)
         {
             b.gameObject.SetActive(false);
         }

@@ -27,8 +27,7 @@ public class ConversationPlayer : MonoBehaviour
         if ((Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Space)) && personToTalkTo.Count != 0)
         {
 
-            if (personToTalkTo.Count > 1) findOutWhichPersonToTalkTo();
-            else TalkTopeople(personToTalkTo[0]);
+            findOutWhichPersonToTalkTo();
         }
     }
 
