@@ -19,6 +19,8 @@ public class LoopManagement : MonoBehaviour
     private DialogueCharacter startingDiaCharacter;
     [SerializeField]
     private SingleTreeDialogueCharacter hintDiaCharacter;
+    [SerializeField]
+    private Timer timer;
 
     [SerializeField]
     private DistortedDialogueTextDisplay dialogueText;
@@ -45,8 +47,11 @@ public class LoopManagement : MonoBehaviour
     public void AddLoopIteration(int amount)
     {
         loopNumber += amount;
+        timer.ResetTime();
+        timer.Pause();
         ChangePositionsPeople();
         dialogueText.SetDistortionLevel(loopNumber-1);
+        
         loopUIDisplay.SetText( Mathf.Max(lastLoop - loopNumber, 0).ToString());
         if (loopNumber > lastLoop)
         {
@@ -60,6 +65,7 @@ public class LoopManagement : MonoBehaviour
 
         playerDialogue.StartDialogue(hintDiaCharacter, () =>
         {
+            timer.Pause();
             playerDialogue.StartDialogue(startingDiaCharacter);
         }); 
     }

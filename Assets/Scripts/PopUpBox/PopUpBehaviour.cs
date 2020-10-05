@@ -7,9 +7,6 @@ using UnityEngine.UI;
 
 public class PopUpBehaviour : MonoBehaviour
 {
-    [SerializeField] List<Button> killButtons;
-    [SerializeField] List<Button> talkButtons;
-
     [SerializeField] List<KillTalkUI> interactionUI;
     private KillablePerson[] objectArray;
     [SerializeField] ConversationPlayer conversationPlayer;
@@ -17,8 +14,6 @@ public class PopUpBehaviour : MonoBehaviour
     private void Start()
     {
         DisablePopUp();
-
-
     }
     public void ShowPopUp(KillablePerson[] objectArray)
     {
@@ -38,22 +33,6 @@ public class PopUpBehaviour : MonoBehaviour
                     DisablePopUp();
                     conversationPlayer.TalkTopeople(person.gameObject);
                 });
-
-/*                killButtons[counterButtons].image.sprite = person.sprite;
-                killButtons[counterButtons].gameObject.SetActive(true);
-                killButtons[counterButtons].onClick.RemoveAllListeners();
-                killButtons[counterButtons].onClick.AddListener(() => {
-                    DisablePopUp();
-                    person.Kill();
-                });
-
-                talkButtons[counterButtons].image.sprite = person.sprite;
-                talkButtons[counterButtons].gameObject.SetActive(true);
-                talkButtons[counterButtons].onClick.RemoveAllListeners();
-                talkButtons[counterButtons].onClick.AddListener(() => {
-                    DisablePopUp();
-                    conversationPlayer.TalkTopeople(person.gameObject);
-                });*/
                 counterButtons++;
             }
         }
