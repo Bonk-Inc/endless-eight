@@ -12,6 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
   m_Name: AlJasmine
   m_EditorClassIdentifier: 
-  lines: []
-  answers: []
+  lines:
+  - character: 0
+    line: What can you tell me about Jasmine?
+  - character: 1
+    line: '*sigh* She''s my boss.'
+  - character: 1
+    line: Takes very good care of her brat.
+  - character: 1
+    line: She's good at hiring her staff!
+  answers:
+  - answer: 
+    nextTree: {fileID: 11400000, guid: 20a0288640263f5408c66bcdb345f4af, type: 2}
   characters: []
