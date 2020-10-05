@@ -15,6 +15,11 @@ public class Timer : MonoBehaviour
 
     private bool pause = false;
 
+    public float MaxTime => maxTime;
+    public float CurrentTime => time;
+    public float TimeRemaining => timeRemaining;
+
+
     public event Action<float> OnTimeChanged;
 
     private void FixedUpdate()
