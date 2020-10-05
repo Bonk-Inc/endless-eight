@@ -12,6 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
   m_Name: MinkAbout
   m_EditorClassIdentifier: 
-  lines: []
-  answers: []
+  lines:
+  - character: 1
+    line: Me???
+  - character: 1
+    line: 'How.. '
+  - character: 1
+    line: ........
+  - character: 1
+    line: How do you mean talk about me?
+  - character: 0
+    line: I'd like to get some answers about you.
+  - character: 1
+    line: Ohhhhhhhhh!
+  answers:
+  - answer: What do you think about trains?
+    nextTree: {fileID: 11400000, guid: f55bd474baa7fe547b582b9ca341f697, type: 2}
+  - answer: You seem to be drinking a lot there..
+    nextTree: {fileID: 11400000, guid: be6832aee940e5c4a94685e6658d3c55, type: 2}
+  - answer: Could you tell me about your family?
+    nextTree: {fileID: 11400000, guid: 188115615f5edcc42b5e138a688a4fcb, type: 2}
+  - answer: Why are you at this party?
+    nextTree: {fileID: 11400000, guid: 0980e4c51090fb547b2e14da7b54b8a2, type: 2}
   characters: []

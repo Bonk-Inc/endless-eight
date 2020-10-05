@@ -20,7 +20,7 @@ MonoBehaviour:
     nextTree: {fileID: 11400000, guid: 2d793b61bde26d3418fa896b02723ceb, type: 2}
   - answer: What do you know about trains?
     nextTree: {fileID: 11400000, guid: 3789007b4e695f44a9bc8d654f61fb64, type: 2}
-  - answer: Do you know a Martha?
+  - answer: Do you know someone called Trin?
     nextTree: {fileID: 11400000, guid: 9ddcac017403ba044be4e7e69958c1f1, type: 2}
   characters:
   - name: Karel
