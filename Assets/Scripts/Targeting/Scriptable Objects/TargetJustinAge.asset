@@ -16,10 +16,11 @@ MonoBehaviour:
   - character: 1
     line: 'Karel, your hint today will be:'
   - character: 1
-    line: This person doesn't age!
+    line: This person has stopped aging!
   - character: 1
     line: I wonder who that could be..
   - character: 1
     line: Make sure you find and kill them, good luck!
   answers: []
   characters: []
+  keepDefaultCharacters: 0

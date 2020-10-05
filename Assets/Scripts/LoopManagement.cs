@@ -86,7 +86,6 @@ public class LoopManagement : MonoBehaviour
 
     private void ChangePositionsPeople()
     {
-        print("loop");
         player.position = spawnposition.position;
 
         playerDialogue.StartDialogue(hintDiaCharacter, () =>

@@ -12,6 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
   m_Name: MinkParty
   m_EditorClassIdentifier: 
-  lines: []
-  answers: []
+  lines:
+  - character: 0
+    line: So, why are you at this party?
+  - character: 1
+    line: ........
+  - character: 1
+    line: You say something?
+  - character: 0
+    line: Why are you attending this party?
+  - character: 1
+    line: 'I was invited!!!! '
+  - character: 1
+    line: Free drinks and train child!
+  - character: 0
+    line: Train child?
+  - character: 1
+    line: Ehmmm..
+  - character: 1
+    line: He's called Just!
+  - character: 0
+    line: Do you mean Justin?
+  answers:
+  - answer: 
+    nextTree: {fileID: 11400000, guid: 891ad2cbcaebac94eae8b0e2b5396cb3, type: 2}
   characters: []

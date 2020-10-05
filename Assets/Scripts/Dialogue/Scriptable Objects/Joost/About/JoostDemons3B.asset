@@ -20,14 +20,28 @@ MonoBehaviour:
   - character: 1
     line: ...
   - character: 1
-    line: I was devistated
+    line: I was devistated..
   - character: 1
-    line: Five years ago, I was fired from my job.
+    line: I looked into ways to..
   - character: 1
-    line: Five years ago, I was fired from my job.
+    line: Know everything!
   - character: 1
-    line: Five years ago, I was fired from my job.
+    line: I met this demon, who knew of an object.
   - character: 1
-    line: Five years ago, I was fired from my job.
+    line: An object to make me all knowing!
+  - character: 1
+    line: I made a deal with him, and after he gave me these glasses.
+  - character: 1
+    line: Some things are still a bit vague..
+  - character: 1
+    line: But I know about everything that could be happening in the near future.
+  - character: 0
+    line: Those are some handy glasses..
+  - character: 1
+    line: They are.. And now you know, about my deal with a demon..
+  - character: 1
+    line: I do hope, you won't remember me talking about this..
+  - character: 1
+    line: But.. I know you will.
   answers: []
   characters: []
