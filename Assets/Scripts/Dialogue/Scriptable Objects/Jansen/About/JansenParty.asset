@@ -20,9 +20,9 @@ MonoBehaviour:
   - character: 0
     line: You are not attending the party of your own son?
   - character: 1
-    line: Jasmine can say whatever she wants
+    line: Jasmine can say whatever she wants.
   - character: 1
-    line: But I do NOT have a son
+    line: But I do NOT have a son!
   answers:
   - answer: You don't have a son?
     nextTree: {fileID: 11400000, guid: 1f897c83d04db594f9ad183964b20fef, type: 2}
@@ -33,3 +33,4 @@ MonoBehaviour:
   - answer: Jasmine can say whatever she wants?
     nextTree: {fileID: 11400000, guid: 0445dc2108df9574a8281e84a3aacb2a, type: 2}
   characters: []
+  keepDefaultCharacters: 0

@@ -16,19 +16,19 @@ MonoBehaviour:
   - character: 1
     line: Really, this conversation?
   - character: 1
-    line: Well, fine.. Here we go I guess
+    line: Well, fine.. Here we go I guess.
   - character: 1
-    line: My contract states I have to tell everyone about this when asked about
+    line: My contract states I have to tell everyone about this when asked about.
   - character: 1
-    line: Long ago, I was in an ongoing investigation
+    line: Long ago, I was in an ongoing investigation.
   - character: 0
     line: What happened in this investigation?
   - character: 1
-    line: The police thought I was guilty of something
+    line: The police thought I was guilty of something.
   - character: 1
-    line: They could only proof that I used a stolen car
+    line: They could only proof that I used a stolen car.
   - character: 1
-    line: Which got me a BIG fine
+    line: Which got me a BIG fine!
   - character: 1
     line: From there on out they had to stop their investigation
   - character: 0
@@ -43,3 +43,4 @@ MonoBehaviour:
   - answer: 
     nextTree: {fileID: 11400000, guid: 20a0288640263f5408c66bcdb345f4af, type: 2}
   characters: []
+  keepDefaultCharacters: 0

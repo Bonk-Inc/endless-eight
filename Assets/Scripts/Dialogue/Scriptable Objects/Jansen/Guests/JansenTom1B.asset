@@ -22,14 +22,15 @@ MonoBehaviour:
   - character: 0
     line: Tom just agreed to leaving his hotdog stand?
   - character: 1
-    line: He told me his stand was almost out of money
+    line: He told me his stand was almost out of money.
   - character: 1
-    line: If it wasn't for him getting a job here he would've had to go back home
+    line: If it wasn't for him getting a job here he would've had to go back home.
   - character: 1
-    line: He is one of our most important and loyal workers
+    line: He is one of our most important and loyal workers.
   - character: 1
     line: What would we do without our dogs?
   - character: 0
     line: Thanks for the info!
   answers: []
   characters: []
+  keepDefaultCharacters: 0

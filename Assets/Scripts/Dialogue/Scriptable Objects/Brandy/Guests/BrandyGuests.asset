@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
+  m_Name: BrandyGuests
+  m_EditorClassIdentifier: 
+  lines:
+  - character: 1
+    line: Kind of.
+  - character: 0
+    line: What do you mean?
+  - character: 1
+    line: I don't really know much about these people. I've heard about them through
+      my son.
+  - character: 1
+    line: I mean, you could try asking me. I cannot assure you that I'll know anything
+      though.
+  answers:
+  - answer: Al
+    nextTree: {fileID: 11400000, guid: 503f2c3635720ec478c4373efaa1dee9, type: 2}
+  - answer: Joost
+    nextTree: {fileID: 11400000, guid: 5d16ce64a2a282845a4941cd708ab96b, type: 2}
+  - answer: Justin
+    nextTree: {fileID: 11400000, guid: 4e35dae38eb7bfd4db683aa05d4f6f24, type: 2}
+  - answer: Tom
+    nextTree: {fileID: 11400000, guid: 6d4ba2b07261c42429bb3150ff675d38, type: 2}
+  characters:
+  - name: Karel
+    portrait: {fileID: 21300000, guid: 59b83352393e56047a882504f7030798, type: 3}
+  - name: Bardy
+    portrait: {fileID: 21300000, guid: 21c506d64aac2214589974be31666b11, type: 3}
+  keepDefaultCharacters: 0

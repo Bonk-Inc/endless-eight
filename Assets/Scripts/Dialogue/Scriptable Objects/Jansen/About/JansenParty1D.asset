@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - character: 1
-    line: She is convince he is our son
+    line: She is convince he is our son.
   - character: 1
     line: But to me, he is just someone Jasmine found a couple years ago.
   - character: 0
@@ -25,3 +25,4 @@ MonoBehaviour:
   - answer: 
     nextTree: {fileID: 11400000, guid: 98f141cfd8c7f94448ef5d5a75708a2b, type: 2}
   characters: []
+  keepDefaultCharacters: 0

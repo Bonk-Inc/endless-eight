@@ -18,8 +18,9 @@ MonoBehaviour:
   - character: 0
     line: I wanted to know about your past..
   - character: 1
-    line: Then you should've asked about something else, sir
+    line: Then you should've asked about something else, sir.
   answers:
   - answer: 
     nextTree: {fileID: 11400000, guid: 20a0288640263f5408c66bcdb345f4af, type: 2}
   characters: []
+  keepDefaultCharacters: 0

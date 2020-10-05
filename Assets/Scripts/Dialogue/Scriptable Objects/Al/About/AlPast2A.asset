@@ -14,18 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - character: 1
-    line: Every week, they gave the same task
+    line: Every week, they gave the same task.
   - character: 1
     line: I was so afraid, that one time I'd be the one to go..
   - character: 1
-    line: After weeks, I was the only one left with.. him
+    line: After weeks, I was the only one left with.. him.
   - character: 1
     line: That week, instead of giving that same damn task..
   - character: 1
-    line: They opened the door, and I could walk away
+    line: They opened the door, and I could walk away.
   answers:
   - answer: What happened to that guy?
     nextTree: {fileID: 11400000, guid: 9fa1ee4075d58064f89e364d811e234c, type: 2}
   - answer: So.. nothing really happened
     nextTree: {fileID: 11400000, guid: 0e2315bd2aa0fac4f8a47c2bb2374fd3, type: 2}
   characters: []
+  keepDefaultCharacters: 0

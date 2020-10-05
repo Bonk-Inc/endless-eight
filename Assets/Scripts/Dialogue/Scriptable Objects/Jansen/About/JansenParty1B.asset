@@ -14,17 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - character: 1
-    line: You can see him as an asset
+    line: You can see him as an asset.
   - character: 1
-    line: He will help our bussiness grow stronger
+    line: He will help our bussiness grow stronger.
   - character: 1
     line: Sometimes he even scares me a bit..
   - character: 0
     line: He scares you?
   - character: 1
-    line: It's nothing much, I just haven't seen anything like what he does
+    line: It's nothing much, I just haven't seen anything like what he does.
   - character: 1
-    line: But I don't want to talk about him anymore
+    line: But I don't want to talk about him anymore.
   answers:
   - answer: Why does he scare you?
     nextTree: {fileID: 11400000, guid: fdc5c8d87debbde41b9f0ff70facafe7, type: 2}
@@ -33,3 +33,4 @@ MonoBehaviour:
   - answer: He is an asset?
     nextTree: {fileID: 11400000, guid: fdc5c8d87debbde41b9f0ff70facafe7, type: 2}
   characters: []
+  keepDefaultCharacters: 0
