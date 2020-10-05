@@ -2228,17 +2228,6 @@ Transform:
   m_Father: {fileID: 751388433}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &879840906 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4352572102708857799, guid: 6580163c64dd44d4dbc85f6bfb7c116f, type: 3}
-  m_PrefabInstance: {fileID: 4352572101971789133}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &917656344
 GameObject:
   m_ObjectHideFlags: 0
@@ -2436,6 +2425,17 @@ Transform:
   m_Father: {fileID: 378104717}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1091454677 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5514004907127455261, guid: 6580163c64dd44d4dbc85f6bfb7c116f, type: 3}
+  m_PrefabInstance: {fileID: 4352572101971789133}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77fa5b8322f6ca54bb44c60f791d2e5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1101931284 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8123141183613351547, guid: 143bf8591860a0a488eeebfcb102ad24, type: 3}
@@ -2987,17 +2987,6 @@ Transform:
   m_Father: {fileID: 864793706}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1483809937 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4352572103178641884, guid: 6580163c64dd44d4dbc85f6bfb7c116f, type: 3}
-  m_PrefabInstance: {fileID: 4352572101971789133}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1497459050
 GameObject:
   m_ObjectHideFlags: 0
@@ -3142,17 +3131,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1497459050}
   m_CullTransparentMesh: 0
---- !u!114 &1498762744 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4352572103159482549, guid: 6580163c64dd44d4dbc85f6bfb7c116f, type: 3}
-  m_PrefabInstance: {fileID: 4352572101971789133}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1517182731
 GameObject:
   m_ObjectHideFlags: 0
@@ -3697,13 +3675,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   killButtons:
-  - {fileID: 879840906}
-  - {fileID: 1892308408}
-  - {fileID: 1730170343}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   talkButtons:
-  - {fileID: 1483809937}
-  - {fileID: 1843962510}
-  - {fileID: 1498762744}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  interactionUI:
+  - {fileID: 1091454677}
+  - {fileID: 4352572101971789135}
+  - {fileID: 4352572101971789134}
   conversationPlayer: {fileID: 628924580}
 --- !u!114 &1636848710
 MonoBehaviour:
@@ -4189,17 +4171,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1730170343 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4352572103534151850, guid: 6580163c64dd44d4dbc85f6bfb7c116f, type: 3}
-  m_PrefabInstance: {fileID: 4352572101971789133}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1738173366
 GameObject:
   m_ObjectHideFlags: 0
@@ -4374,17 +4345,6 @@ Transform:
   m_Father: {fileID: 666526984}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1843962510 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4352572103370041283, guid: 6580163c64dd44d4dbc85f6bfb7c116f, type: 3}
-  m_PrefabInstance: {fileID: 4352572101971789133}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1890263804
 GameObject:
   m_ObjectHideFlags: 0
@@ -4415,17 +4375,6 @@ Transform:
   m_Father: {fileID: 1832339996}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1892308408 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4352572103854625013, guid: 6580163c64dd44d4dbc85f6bfb7c116f, type: 3}
-  m_PrefabInstance: {fileID: 4352572101971789133}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1897737260
 GameObject:
   m_ObjectHideFlags: 0
@@ -4960,6 +4909,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6580163c64dd44d4dbc85f6bfb7c116f, type: 3}
+--- !u!114 &4352572101971789134 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4797331271284457498, guid: 6580163c64dd44d4dbc85f6bfb7c116f, type: 3}
+  m_PrefabInstance: {fileID: 4352572101971789133}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77fa5b8322f6ca54bb44c60f791d2e5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4352572101971789135 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5472440275827797873, guid: 6580163c64dd44d4dbc85f6bfb7c116f, type: 3}
+  m_PrefabInstance: {fileID: 4352572101971789133}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77fa5b8322f6ca54bb44c60f791d2e5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8123141182515615087
 PrefabInstance:
   m_ObjectHideFlags: 0

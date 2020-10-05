@@ -9,6 +9,8 @@ public class PopUpBehaviour : MonoBehaviour
 {
     [SerializeField] List<Button> killButtons;
     [SerializeField] List<Button> talkButtons;
+
+    [SerializeField] List<KillTalkUI> interactionUI;
     private KillablePerson[] objectArray;
     [SerializeField] ConversationPlayer conversationPlayer;
 
@@ -26,7 +28,18 @@ public class PopUpBehaviour : MonoBehaviour
         {
             if (person != null)
             {
-                killButtons[counterButtons].image.sprite = person.sprite;
+
+                interactionUI[counterButtons].Activate(person.sprite, () =>
+                {
+                    DisablePopUp();
+                    person.Kill();
+                },
+                () => {
+                    DisablePopUp();
+                    conversationPlayer.TalkTopeople(person.gameObject);
+                });
+
+/*                killButtons[counterButtons].image.sprite = person.sprite;
                 killButtons[counterButtons].gameObject.SetActive(true);
                 killButtons[counterButtons].onClick.RemoveAllListeners();
                 killButtons[counterButtons].onClick.AddListener(() => {
@@ -40,7 +53,7 @@ public class PopUpBehaviour : MonoBehaviour
                 talkButtons[counterButtons].onClick.AddListener(() => {
                     DisablePopUp();
                     conversationPlayer.TalkTopeople(person.gameObject);
-                });
+                });*/
                 counterButtons++;
             }
         }
@@ -49,14 +62,9 @@ public class PopUpBehaviour : MonoBehaviour
 
     public void DisablePopUp()
     {
-        foreach (Button b in killButtons)
+        foreach (KillTalkUI interactionButtons in interactionUI)
         {
-            b.gameObject.SetActive(false);
-        }
-
-        foreach (Button b in talkButtons)
-        {
-            b.gameObject.SetActive(false);
+            interactionButtons.Deactivate();
         }
     }
 
