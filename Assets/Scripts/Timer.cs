@@ -40,4 +40,12 @@ public class Timer : MonoBehaviour
     {
         pause = false;
     }
+
+    public void ResetTime()
+    {
+        timeRemaining = maxTime;
+        time = 0;
+        OnTimeChanged?.Invoke(maxTime);
+        pro.SetText(Math.Floor(timeRemaining).ToString());
+    }
 }
