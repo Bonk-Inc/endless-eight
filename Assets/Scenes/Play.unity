@@ -2587,6 +2587,7 @@ GameObject:
   - component: {fileID: 761692896}
   - component: {fileID: 761692895}
   - component: {fileID: 761692894}
+  - component: {fileID: 761692898}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2627,7 +2628,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -2675,6 +2676,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 70, y: 0, z: 0}
+--- !u!114 &761692898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 761692893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a833d5d1b6b656e469bb0d294d042c06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 761692896}
+  startColor: {r: 0, g: 0, b: 0, a: 1}
+  targetColor: {r: 0.3584906, g: 0, b: 0, a: 1}
 --- !u!1 &763288387
 GameObject:
   m_ObjectHideFlags: 0
@@ -4593,6 +4609,7 @@ MonoBehaviour:
   hintDiaCharacter: {fileID: 1527462468}
   cameraMovement: {fileID: 761692894}
   timer: {fileID: 1517182732}
+  camera: {fileID: 761692898}
   dialogueText: {fileID: 1198017306}
   dialoguePlayer: {fileID: 444462403}
   loopUIDisplay: {fileID: 1122596741}

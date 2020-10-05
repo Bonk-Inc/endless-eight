@@ -27,6 +27,8 @@ public class LoopManagement : MonoBehaviour
 
     [SerializeField]
     private Timer timer;
+    [SerializeField]
+    private CameraLoopColor camera;
 
     [SerializeField]
     private DistortedDialogueTextDisplay dialogueText;
@@ -79,6 +81,7 @@ public class LoopManagement : MonoBehaviour
 
             loopUIDisplay.SetText(Mathf.Max(lastLoop - loopNumber, 0).ToString());
             cameraMovement.SetPositionToTarget();
+            camera.SetLoop(loopNumber, lastLoop);
         }));
         
         
