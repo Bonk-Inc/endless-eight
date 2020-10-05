@@ -10,23 +10,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
-  m_Name: MinkBrandy
+  m_Name: JustinJoost
   m_EditorClassIdentifier: 
   lines:
   - character: 0
-    line: What do you know about Brandy?
+    line: What do you think of Joost?
   - character: 1
-    line: 'She''s sad.. '
+    line: Don't trust him!
   - character: 1
-    line: Very very sad.
+    line: He seems like the kind of person that could just betray me when needed.
   - character: 0
-    line: Why is she sad?
+    line: How would he betray me?
   - character: 1
-    line: I think about her son, Tobias..
+    line: By telling others about my secrets!
+  - character: 0
+    line: Ha! What kind of secrets would a kid like you have?
   - character: 1
-    line: But she needs to go to trains too!
+    line: ....
   - character: 1
-    line: That w-will cheer anyone up!
+    line: Exactly!
   answers: []
   characters: []
   keepDefaultCharacters: 0

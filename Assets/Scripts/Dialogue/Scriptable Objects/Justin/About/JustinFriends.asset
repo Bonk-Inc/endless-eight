@@ -10,23 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
-  m_Name: MinkBrandy
+  m_Name: JustinFriends
   m_EditorClassIdentifier: 
   lines:
+  - character: 1
+    line: My.. friends?
   - character: 0
-    line: What do you know about Brandy?
+    line: Yes, kids your age!
   - character: 1
-    line: 'She''s sad.. '
+    line: ......
   - character: 1
-    line: Very very sad.
-  - character: 0
-    line: Why is she sad?
+    line: 'Oh! '
   - character: 1
-    line: I think about her son, Tobias..
+    line: I was friends with Tobias at one point, but he seemed to have gone missing..
   - character: 1
-    line: But she needs to go to trains too!
-  - character: 1
-    line: That w-will cheer anyone up!
+    line: His mother, Brandy, has been making a funny face because of that!
   answers: []
   characters: []
   keepDefaultCharacters: 0

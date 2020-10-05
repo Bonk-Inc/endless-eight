@@ -10,23 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
-  m_Name: MinkBrandy
+  m_Name: JustinAl
   m_EditorClassIdentifier: 
   lines:
   - character: 0
-    line: What do you know about Brandy?
+    line: I've heard Al takes care of you?
   - character: 1
-    line: 'She''s sad.. '
+    line: Yeah! Al is one of our servant and works as my bodyguard!
   - character: 1
-    line: Very very sad.
+    line: Whenever I don't like someone, I just send him to them.
   - character: 0
-    line: Why is she sad?
+    line: You end him to do what?
   - character: 1
-    line: I think about her son, Tobias..
-  - character: 1
-    line: But she needs to go to trains too!
-  - character: 1
-    line: That w-will cheer anyone up!
+    line: That's up to him, he seems to enjoy my tasks.
+  - character: 0
+    line: Interesting..
   answers: []
   characters: []
   keepDefaultCharacters: 0
