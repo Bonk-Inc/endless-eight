@@ -1358,6 +1358,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1018415330}
     m_Modifications:
+    - target: {fileID: 7186972899907186446, guid: 85f6d4931ba42e3449102dcc8eb1ed93, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 12.300049
+      objectReference: {fileID: 0}
     - target: {fileID: 9060697992368031042, guid: 85f6d4931ba42e3449102dcc8eb1ed93, type: 3}
       propertyPath: maxDistortion
       value: 0.33333334
@@ -2992,39 +2996,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77fa5b8322f6ca54bb44c60f791d2e5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1101931284 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8123141183613351547, guid: 143bf8591860a0a488eeebfcb102ad24, type: 3}
-  m_PrefabInstance: {fileID: 8123141182515615087}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1101931286 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8123141183613351545, guid: 143bf8591860a0a488eeebfcb102ad24, type: 3}
-  m_PrefabInstance: {fileID: 8123141182515615087}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1101931284}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1101931288
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1101931284}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b09005e5be21af5488cae84c3783f3f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeBlockmanager: {fileID: 1636848712}
-  morning: {fileID: 21300000, guid: e106692c2a5def34abd86d8cf59ccabb, type: 3}
-  afternoon: {fileID: 21300000, guid: 3024d90d61d0554468e5af3663baa66a, type: 3}
-  evening: {fileID: 21300000, guid: 2b646851b412cb54692f04a5d23a4f6e, type: 3}
-  timeblockUI: {fileID: 1101931286}
 --- !u!1 &1103637923
 GameObject:
   m_ObjectHideFlags: 0
@@ -5580,6 +5551,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1018415330}
     m_Modifications:
+    - target: {fileID: 7855535495774909669, guid: 143bf8591860a0a488eeebfcb102ad24, type: 3}
+      propertyPath: timer
+      value: 
+      objectReference: {fileID: 1517182732}
     - target: {fileID: 8123141184384583208, guid: 143bf8591860a0a488eeebfcb102ad24, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
