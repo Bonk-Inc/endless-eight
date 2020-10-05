@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
+  m_Name: MinkTrains1B
+  m_EditorClassIdentifier: 
+  lines:
+  - character: 1
+    line: ...
+  - character: 1
+    line: .......
+  - character: 1
+    line: ....... The smell, it is sooo goooood!
+  - character: 0
+    line: The smell..?
+  - character: 1
+    line: It smells like something...
+  - character: 1
+    line: Something you won't be able to smell anywhere else.
+  - character: 1
+    line: It is what makes me and so many others keep going back and longing for
+      more.
+  - character: 1
+    line: ........
+  - character: 1
+    line: God.. I want to smell a train..
+  answers: []
+  characters: []

@@ -12,6 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
   m_Name: TargetJoostDemons
   m_EditorClassIdentifier: 
-  lines: []
+  lines:
+  - character: 1
+    line: 'Karel, your hint today will be:'
+  - character: 1
+    line: This person made a deal with a demon!
+  - character: 0
+    line: Another demon..?
+  - character: 1
+    line: Yeah, so you might know them hihi!
+  - character: 1
+    line: Make sure you find and kill them, good luck!
   answers: []
   characters: []

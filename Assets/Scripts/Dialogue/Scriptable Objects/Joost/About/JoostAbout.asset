@@ -28,4 +28,8 @@ MonoBehaviour:
     nextTree: {fileID: 0}
   - answer: 
     nextTree: {fileID: 0}
-  characters: []
+  characters:
+  - name: Karel
+    portrait: {fileID: 21300000, guid: 59b83352393e56047a882504f7030798, type: 3}
+  - name: Joost
+    portrait: {fileID: 21300000, guid: 897d100c3dc381146b4c0a14ccf35d15, type: 3}

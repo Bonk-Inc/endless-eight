@@ -26,7 +26,7 @@ MonoBehaviour:
   - character: 1
     line: Ohhhhhhhhh!
   answers:
-  - answer: What do you think about trains?
+  - answer: What do you know about trains?
     nextTree: {fileID: 11400000, guid: f55bd474baa7fe547b582b9ca341f697, type: 2}
   - answer: You seem to be drinking a lot there..
     nextTree: {fileID: 11400000, guid: be6832aee940e5c4a94685e6658d3c55, type: 2}

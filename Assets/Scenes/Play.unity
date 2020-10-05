@@ -3804,6 +3804,8 @@ MonoBehaviour:
     target: {fileID: 165266553}
   - targetHint: {fileID: 11400000, guid: b08fdf01079818249b2db896dbe74ed5, type: 2}
     target: {fileID: 426309992}
+  - targetHint: {fileID: 11400000, guid: 370399d8f3e1c3646b332612c23cc285, type: 2}
+    target: {fileID: 1693410649}
   - targetHint: {fileID: 11400000, guid: c1a9fdf69464d9d4c875c189bef7ed73, type: 2}
     target: {fileID: 1577478495}
   OnTargetKilled:
