@@ -22,10 +22,14 @@ MonoBehaviour:
   - character: 1
     line: Ofcourse, Jansen told me Justin's friend was coming over.
   answers:
-  - answer: I.. have no clue who those people are
+  - answer: I.. have no clue who those people are.
     nextTree: {fileID: 11400000, guid: 6d5142cab06adb14fb1356f964b421ba, type: 2}
-  - answer: that's right, We've been friends for a long time now
+  - answer: That's right, We've been friends for a long time now.
     nextTree: {fileID: 11400000, guid: 2ffaec70478cc164aa41a9aaf5ead203, type: 2}
-  - answer: I think that might be someone else
+  - answer: I think that might be someone else.
     nextTree: {fileID: 11400000, guid: 9f2b1378ff78ceb458ab4c558cbf54a2, type: 2}
-  characters: []
+  characters:
+  - name: Karel
+    portrait: {fileID: 21300000, guid: 59b83352393e56047a882504f7030798, type: 3}
+  - name: Jasmine
+    portrait: {fileID: 21300000, guid: 11c763a4f6d104a4bbb4f54a23ae9ffa, type: 3}

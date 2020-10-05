@@ -16,12 +16,12 @@ MonoBehaviour:
   - character: 0
     line: So who is Al?
   - character: 1
-    line: Al is the person next to me during greetings
+    line: Al is the person next to me during greetings.
   - character: 1
-    line: He LOVES taking care of my sweet son
+    line: He LOVES taking care of my sweet son!
   - character: 1
-    line: So happy he is a part of our lives
+    line: So happy he is a part of our lives.
   - character: 0
-    line: I'm sure they feel the same way
+    line: I'm sure they feel the same way.
   answers: []
   characters: []

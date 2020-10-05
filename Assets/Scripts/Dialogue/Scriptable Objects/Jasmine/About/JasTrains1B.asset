@@ -20,15 +20,15 @@ MonoBehaviour:
   - character: 1
     line: Yes, so I have to tell you!
   - character: 1
-    line: He seemed to have imagined these trains
+    line: He seemed to have imagined these trains.
   - character: 0
     line: He imagined these trains?
   - character: 1
     line: Oh yes, he is so talented!
   - character: 1
-    line: After a while they started showing up in different cities
+    line: After a while they started showing up in different cities.
   - character: 1
-    line: Many people are afraid to use them
+    line: Many people are afraid to use them.
   - character: 1
     line: But I am sure they just need some convincing!
   answers: []

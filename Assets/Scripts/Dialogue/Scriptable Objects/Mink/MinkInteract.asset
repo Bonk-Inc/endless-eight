@@ -23,7 +23,7 @@ MonoBehaviour:
     line: O-Ofcourse you drink~
   answers:
   - answer: 'About drunkard '
-    nextTree: {fileID: 0}
+    nextTree: {fileID: 11400000, guid: 0a2e18c0331740149a4384a1f4034b8b, type: 2}
   - answer: About guests
-    nextTree: {fileID: 0}
+    nextTree: {fileID: 11400000, guid: 9e65ea132e3ddda4cb972eeaef7756be, type: 2}
   characters: []

@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - character: 1
-    line: Long ago, I started my own company with an old friend
+    line: Long ago, I started my own company with an old friend.
   - character: 1
-    line: After I found my son I didnt feel like I had to work anymore
+    line: After I found my son I didn't feel like I had to work anymore.
   - character: 1
-    line: I chose to take care of him before I had to share him with the world
+    line: I chose to take care of him before I had to share him with the world!
   answers:
   - answer: Is your friend attending today?
     nextTree: {fileID: 11400000, guid: c0e6d2af9220b0e458c5997caa1db54c, type: 2}

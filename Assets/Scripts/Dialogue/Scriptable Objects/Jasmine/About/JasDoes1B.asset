@@ -14,13 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - character: 1
-    line: There seemed to be more possibilities with my son's gift
+    line: There seemed to be more possibilities with my son's gift.
   - character: 0
     line: What did your friend think of this decision?
   - character: 1
-    line: The decision wasnt for him to make
+    line: The decision wasn't for them to make.
   - character: 1
     line: Is there anything else?
+  - character: 0
+    line: What do you mean with the gifts of your son?
   answers:
   - answer: The gifts of your son?
     nextTree: {fileID: 11400000, guid: 9e974a84b83d77942a575475d0d6706b, type: 2}

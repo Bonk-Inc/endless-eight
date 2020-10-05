@@ -16,19 +16,19 @@ MonoBehaviour:
   - character: 0
     line: You will be advertising these trains?
   - character: 1
-    line: Oh yes, our goal is to get the entire country using them
+    line: Oh yes, our goal is to get the entire country using them.
   - character: 0
     line: What is your strategy to doing so?
   - character: 1
     line: Money ofcourse!
   - character: 1
-    line: We will pay anyone that uses these trains
+    line: We will pay anyone that uses these trains.
   - character: 1
     line: Until they want to use them ofcourse!
   - character: 0
-    line: That sounds like a bad bussiness strategy
+    line: That sounds like a bad bussiness strategy..
   - character: 1
-    line: Don't you worry about that
+    line: Don't you worry about that.
   answers:
   - answer: 
     nextTree: {fileID: 11400000, guid: 75fa57b8de2019846a5d00a4238008bf, type: 2}

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - character: 1
-    line: I'm sorry, I think I mispoke
+    line: I'm sorry, I think I mispoke.
   - character: 0
     line: You mispoke?
   - character: 1

@@ -30,7 +30,6 @@ public class TargetManagement : MonoBehaviour
         if(currentTarget.Target == null)
         {
             int targetNumber = Random.Range(0, possibleTargets.Length);
-            Debug.Log(targetNumber);
             currentTarget = possibleTargets[targetNumber];
         }
 

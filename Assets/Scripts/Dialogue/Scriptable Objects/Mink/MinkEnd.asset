@@ -10,12 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
-  m_Name: JasmineEnd
+  m_Name: MinkEnd
   m_EditorClassIdentifier: 
   lines:
   - character: 1
-    line: I think my son needs me, I'll talk to you later!
+    line: Ifff you need me, I drinks here *burp*
   - character: 0
-    line: Oh.. no problem!
+    line: I'll keep that in mind
+  - character: 1
+    line: byeee
   answers: []
   characters: []
