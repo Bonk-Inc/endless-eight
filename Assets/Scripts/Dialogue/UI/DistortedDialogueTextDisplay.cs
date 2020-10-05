@@ -11,6 +11,9 @@ public class DistortedDialogueTextDisplay : DialogueLineTextDisplay
     private string distortionSigns = "@#&\\";
 
     [SerializeField]
+    private string exclude = " .,!-?";
+
+    [SerializeField]
     private float maxDistortion = 0.1f;
 
     [SerializeField]
@@ -32,7 +35,7 @@ public class DistortedDialogueTextDisplay : DialogueLineTextDisplay
         StringBuilder lineBuider = new StringBuilder(line);
         for (int i = 0; i < line.Length; i++)
         {
-            if (UnityEngine.Random.Range(0f, 1f) > distortionRatio)
+            if (exclude.Contains(line[i].ToString()) || UnityEngine.Random.Range(0f, 1f) > distortionRatio)
                 continue;
 
             lineBuider[i] = GetRandomDistortedChar();
