@@ -703,7 +703,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeRange:
     min: 0
-    max: 120
+    max: 60
   type: 3
 --- !u!4 &344270463
 Transform:
@@ -763,8 +763,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeRange:
-    min: 120
-    max: 240
+    min: 61
+    max: 120
   type: 2
 --- !u!1 &378104716
 GameObject:
@@ -3185,7 +3185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa56df8e14eeca243892762eb9607af4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxTime: 360
+  maxTime: 180
   pro: {fileID: 111474882}
   outOfTime:
     m_PersistentCalls:
@@ -4244,8 +4244,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeRange:
-    min: 240
-    max: 361
+    min: 121
+    max: 180
   type: 1
 --- !u!1001 &1798904905
 PrefabInstance:

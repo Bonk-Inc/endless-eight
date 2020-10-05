@@ -22,6 +22,4 @@ MonoBehaviour:
     nextTree: {fileID: 11400000, guid: c2ac9fdbcd128b24ca6318b41d5d078f, type: 2}
   - answer: Why are you at this party?
     nextTree: {fileID: 11400000, guid: c9a591d8a87cdad47aa708f016179f68, type: 2}
-  - answer: Hap?
-    nextTree: {fileID: 0}
   characters: []
