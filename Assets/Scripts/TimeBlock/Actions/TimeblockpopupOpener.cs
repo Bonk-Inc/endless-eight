@@ -11,6 +11,9 @@ public class TimeblockpopupOpener : TimeblockActionManager
     private string afternoonText, eveningText;
 
     [SerializeField]
+    private Sprite afternoonSprite, eveningsprite;
+
+    [SerializeField]
     private Timer timer;
 
 
@@ -18,12 +21,12 @@ public class TimeblockpopupOpener : TimeblockActionManager
     {
         if (newTimeblock == TimeBlockType.AFTERNOON)
         {
-            popup.OpenPopup(afternoonText);
+            popup.OpenPopup(afternoonText, afternoonSprite);
             timer.Pause();
         }
         else if (newTimeblock == TimeBlockType.EVENING)
         {
-            popup.OpenPopup(eveningText);
+            popup.OpenPopup(eveningText, eveningsprite);
             timer.Pause();
         }
 
