@@ -22,10 +22,15 @@ MonoBehaviour:
   answers:
   - answer: Have you been in contact with demons?
     nextTree: {fileID: 11400000, guid: 877da0ee12cd4f644a9c1e752008d583, type: 2}
-  - answer: 
-    nextTree: {fileID: 0}
-  - answer: 
-    nextTree: {fileID: 0}
-  - answer: 
-    nextTree: {fileID: 0}
-  characters: []
+  - answer: What's up with that afro?
+    nextTree: {fileID: 11400000, guid: 17ca89d73b39ceb4d9a24e4336380a2e, type: 2}
+  - answer: What do you do for a living?
+    nextTree: {fileID: 11400000, guid: b1a2bd66509595448b1c870fe7ff73fc, type: 2}
+  - answer: Why are you at the party?
+    nextTree: {fileID: 11400000, guid: 241ac4dd716a1b94d8aa3ddaa143450e, type: 2}
+  characters:
+  - name: Karel
+    portrait: {fileID: 21300000, guid: 59b83352393e56047a882504f7030798, type: 3}
+  - name: Joost
+    portrait: {fileID: 21300000, guid: 897d100c3dc381146b4c0a14ccf35d15, type: 3}
+  keepDefaultCharacters: 0

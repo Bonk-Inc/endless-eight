@@ -17,8 +17,11 @@ public class DialogueTree : ScriptableObject
 
     public CharacterInfo[] Characters => characters;
 
+    [SerializeField] private bool keepDefaultCharacters;
+
     public void SetCharacters(CharacterInfo[] characters)
     {
+        if (keepDefaultCharacters) return;
         this.characters = characters;
     }
 }

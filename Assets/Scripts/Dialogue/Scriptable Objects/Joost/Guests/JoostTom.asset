@@ -10,22 +10,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
-  m_Name: JoostGuests
+  m_Name: JoostTom
   m_EditorClassIdentifier: 
   lines:
   - character: 1
-    line: Joost is curious. Whomst are you talking about?
-  answers:
-  - answer: Brandy
-    nextTree: {fileID: 11400000, guid: 270531aa2edd3234a9219ed42383bfa9, type: 2}
-  - answer: Tom
-    nextTree: {fileID: 11400000, guid: e2b48da568230a2459153632c2ea2216, type: 2}
-  - answer: Justin
-    nextTree: {fileID: 11400000, guid: 69baaa3e1106754479cce46ce5d887ac, type: 2}
-  - answer: Mink
-    nextTree: {fileID: 11400000, guid: 640359760852d4342bcf0d899fbbf2fd, type: 2}
+    line: Tom sells Joost hotdogs.
+  - character: 0
+    line: Hotdogs?
+  - character: 2
+    line: '*BZZZZT*   *BZZZZZT*'
+  - character: 3
+    line: Hey Joost, whaddup?
+  - character: 1
+    line: One hotdog please.
+  - character: 3
+    line: Gotchu.
+  - character: 2
+    line: '*click*'
+  answers: []
   characters:
   - name: Karel
     portrait: {fileID: 21300000, guid: 59b83352393e56047a882504f7030798, type: 3}
   - name: Joost
     portrait: {fileID: 21300000, guid: 897d100c3dc381146b4c0a14ccf35d15, type: 3}
+  - name: Mobile Phone
+    portrait: {fileID: 21300000, guid: 79724791c8edfff4c802f3a3644dd589, type: 3}
+  - name: Tom
+    portrait: {fileID: 21300000, guid: f8b7661dc869b194988a4921a4af4fb7, type: 3}
+  keepDefaultCharacters: 1
