@@ -12,6 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
   m_Name: MinkFamily
   m_EditorClassIdentifier: 
-  lines: []
-  answers: []
+  lines:
+  - character: 0
+    line: Do you have a family?
+  - character: 1
+    line: Theyyy.. They left m-me after I lost my company.
+  - character: 0
+    line: I'm sorry to hear that..
+  - character: 1
+    line: Is 'right..
+  - character: 1
+    line: I got my trains.
+  answers:
+  - answer: 
+    nextTree: {fileID: 11400000, guid: 20a0288640263f5408c66bcdb345f4af, type: 2}
   characters: []

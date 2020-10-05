@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
+  m_Name: MinkTrains3A
+  m_EditorClassIdentifier: 
+  lines:
+  - character: 1
+    line: Theseee vehicles.. They were-
+  - character: 0
+    line: You were talking about how your old bussiness partner helped you!
+  - character: 1
+    line: O-OH!
+  - character: 1
+    line: Two guys I have neverr m-met before stood beside my bed.
+  - character: 1
+    line: They pulled me out of my bed and took me to one of those..
+  - character: 1
+    line: 'Station Trains.. '
+  - character: 1
+    line: Before running back, they told me I'd be getting my money in the morning.
+  - character: 1
+    line: Moments after more and more people walked toward the train..
+  - character: 1
+    line: There were so, so many of them.
+  - character: 1
+    line: I tried going back, I really did try..
+  answers:
+  - answer: What happened on the train?
+    nextTree: {fileID: 11400000, guid: f5d40b53d8b25a347a09bb82a8618fb8, type: 2}
+  - answer: It's alright, Mink. You don't have to tell me more..
+    nextTree: {fileID: 11400000, guid: f078cd323b432b547a8bef6207e59280, type: 2}
+  characters: []
