@@ -3699,6 +3699,7 @@ MonoBehaviour:
   hintDiaCharacter: {fileID: 1527462468}
   timer: {fileID: 1517182732}
   dialogueText: {fileID: 1198017306}
+  dialoguePlayer: {fileID: 444462403}
   loopUIDisplay: {fileID: 1122596741}
   GameOver:
     m_PersistentCalls:
