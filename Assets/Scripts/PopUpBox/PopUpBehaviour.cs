@@ -10,6 +10,8 @@ public class PopUpBehaviour : MonoBehaviour
     [SerializeField] List<KillTalkUI> interactionUI;
     private KillablePerson[] objectArray;
     [SerializeField] ConversationPlayer conversationPlayer;
+    [SerializeField] private AudioSource killAudio;
+    [SerializeField] private AudioSource conversationPersonAudio;
 
     private void Start()
     {
@@ -26,10 +28,12 @@ public class PopUpBehaviour : MonoBehaviour
 
                 interactionUI[counterButtons].Activate(person.sprite, () =>
                 {
+                    killAudio.Play();
                     DisablePopUp();
                     person.Kill();
                 },
                 () => {
+                    conversationPersonAudio.Play();
                     DisablePopUp();
                     conversationPlayer.TalkTopeople(person.gameObject);
                 });
