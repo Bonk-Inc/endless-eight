@@ -4379,6 +4379,14 @@ MonoBehaviour:
     target: {fileID: 1693410649}
   - targetHint: {fileID: 11400000, guid: c1a9fdf69464d9d4c875c189bef7ed73, type: 2}
     target: {fileID: 1577478495}
+  - targetHint: {fileID: 11400000, guid: cc636f0f4fae9454ea9df2596af6005c, type: 2}
+    target: {fileID: 2082901522}
+  - targetHint: {fileID: 11400000, guid: 1d3558f58dfb4cc42a839e9f7309b6fe, type: 2}
+    target: {fileID: 1629999080}
+  - targetHint: {fileID: 11400000, guid: e0f3156e3cca72446a5a786e5a02602c, type: 2}
+    target: {fileID: 428839555}
+  - targetHint: {fileID: 11400000, guid: 2975702294c68484d801cea9f5321e4d, type: 2}
+    target: {fileID: 469005596}
   OnTargetKilled:
     m_PersistentCalls:
       m_Calls:
