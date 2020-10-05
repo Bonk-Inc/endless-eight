@@ -3235,14 +3235,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0abb2567c15488a4e8725b03991eb60a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  killButtons:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  talkButtons:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   interactionUI:
   - {fileID: 1091454677}
   - {fileID: 4352572101971789135}
@@ -3266,6 +3258,7 @@ MonoBehaviour:
   playerDialogue: {fileID: 628924580}
   startingDiaCharacter: {fileID: 685377518}
   hintDiaCharacter: {fileID: 1527462468}
+  timer: {fileID: 1517182732}
   dialogueText: {fileID: 1198017306}
   loopUIDisplay: {fileID: 1122596741}
   GameOver:
