@@ -58,7 +58,15 @@ public class PlayerController : MonoBehaviour
         if (up) velocity += new Vector3(0, 0, speedUpDown);
         if (down) velocity += new Vector3(0, 0, -speedUpDown);
 
-        gameObject.GetComponent<Rigidbody>().velocity = velocity;
+        Rigidbody rb = gameObject.GetComponent<Rigidbody>();
+        rb.velocity = velocity;
+
+        if (rb.velocity != Vector3.zero)
+        {
+            Vector3 angle = Vector3.up * Vector3.SignedAngle(Vector3.back, rb.velocity, Vector3.up);
+            transform.rotation = Quaternion.Euler(angle);
+        }
+        
 
     }
 }
