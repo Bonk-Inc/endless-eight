@@ -18,7 +18,7 @@ MonoBehaviour:
   - character: 0
     line: Yes, that's me!
   - character: 1
-    line: You are late
+    line: You are late.
   - character: 0
     line: 'I''m sorry? '
   - character: 1
@@ -31,3 +31,4 @@ MonoBehaviour:
   - answer: About guests
     nextTree: {fileID: 11400000, guid: 0eaf230d7b856184e893388a7d6c29a8, type: 2}
   characters: []
+  keepDefaultCharacters: 0

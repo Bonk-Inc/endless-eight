@@ -18,6 +18,7 @@ MonoBehaviour:
   - character: 1
     line: Please, come again?
   - character: 0
-    line: Alright, I'll be going now
+    line: Alright, I'll be going now.
   answers: []
   characters: []
+  keepDefaultCharacters: 0

@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - character: 1
-    line: Oh no no no
+    line: Oh no no no.
   - character: 1
     line: Im way too busy for this.
   answers: []
   characters: []
+  keepDefaultCharacters: 0

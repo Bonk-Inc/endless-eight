@@ -18,7 +18,7 @@ MonoBehaviour:
   - character: 1
     line: '*sigh* That is my job, sir :)'
   - character: 0
-    line: R-Right
+    line: R-Right..
   - character: 1
     line: So, what do you want?
   answers:
@@ -26,4 +26,9 @@ MonoBehaviour:
     nextTree: {fileID: 11400000, guid: 84279c1c0fc8abb46850aa1e3e82c5dd, type: 2}
   - answer: About guests
     nextTree: {fileID: 11400000, guid: f5d7358591112de4d963885758f5e5d6, type: 2}
-  characters: []
+  characters:
+  - name: Karel
+    portrait: {fileID: 21300000, guid: 59b83352393e56047a882504f7030798, type: 3}
+  - name: Al
+    portrait: {fileID: 21300000, guid: e560bfd3d5f78354ca04cab0f51ffdd2, type: 3}
+  keepDefaultCharacters: 0

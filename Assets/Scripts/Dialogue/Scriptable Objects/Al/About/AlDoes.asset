@@ -20,7 +20,7 @@ MonoBehaviour:
   - character: 1
     line: I work here as a servant, a hint might be my uniform, huh~
   - character: 0
-    line: Got it.. It is a very nice uniform
+    line: Got it.. It is a very nice uniform.
   - character: 1
     line: '*sigh* That is nice, sir!'
   - character: 1
@@ -33,3 +33,4 @@ MonoBehaviour:
   - answer: I guess so..
     nextTree: {fileID: 11400000, guid: 84279c1c0fc8abb46850aa1e3e82c5dd, type: 2}
   characters: []
+  keepDefaultCharacters: 0

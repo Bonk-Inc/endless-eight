@@ -16,10 +16,11 @@ MonoBehaviour:
   - character: 0
     line: Who is Al?
   - character: 1
-    line: Al is our loyal servant
+    line: Al is our loyal servant.
   - character: 1
-    line: I don't really see him myself, but I know he helps m'lady a lot
+    line: I don't really see him myself, but I know he helps m'lady a lot.
   - character: 1
-    line: I know Tom knows more about him if you really want to know
+    line: I know Tom knows more about him if you really want to know.
   answers: []
   characters: []
+  keepDefaultCharacters: 0

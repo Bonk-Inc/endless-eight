@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - character: 1
-    line: I have my own bussiness in surveilance
+    line: I have my own bussiness in surveilance.
   - character: 1
-    line: You can see me as the guardian of this town
+    line: You can see me as the guardian of this town.
   - character: 1
-    line: I know what's going on at all times
+    line: I know what's going on at all times.
   answers:
   - answer: The guardian of this town?
     nextTree: {fileID: 11400000, guid: 1e0a1b9aa3c35d64b84662597793dd66, type: 2}
@@ -27,3 +27,4 @@ MonoBehaviour:
   - answer: Do you know why I am here too?
     nextTree: {fileID: 11400000, guid: 98f141cfd8c7f94448ef5d5a75708a2b, type: 2}
   characters: []
+  keepDefaultCharacters: 0

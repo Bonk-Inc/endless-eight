@@ -14,12 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - character: 1
-    line: You might've met him in the meeting hall
+    line: You might've met him in the meeting hall.
   - character: 1
-    line: Later on in the day he can be found making hotdogs in the kitchen
+    line: Later on in the day he can be found making hotdogs in the kitchen.
   - character: 0
     line: Ah alright, I will go look in the kitchen!
   - character: 1
     line: Tell Tom I want more dogs!
   answers: []
   characters: []
+  keepDefaultCharacters: 0
