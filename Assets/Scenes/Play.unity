@@ -402,7 +402,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 111474881}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
@@ -1552,6 +1552,10 @@ PrefabInstance:
       propertyPath: maxDistortion
       value: 0.33333334
       objectReference: {fileID: 0}
+    - target: {fileID: 9060697992777384848, guid: 85f6d4931ba42e3449102dcc8eb1ed93, type: 3}
+      propertyPath: timer
+      value: 
+      objectReference: {fileID: 1517182732}
     - target: {fileID: 9060697992777384849, guid: 85f6d4931ba42e3449102dcc8eb1ed93, type: 3}
       propertyPath: m_Name
       value: DialoguePlayer

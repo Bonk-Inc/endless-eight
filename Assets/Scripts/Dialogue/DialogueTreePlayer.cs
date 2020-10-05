@@ -15,6 +15,9 @@ public class DialogueTreePlayer : MonoBehaviour
     [SerializeField]
     private Canvas canvas;//TODO this shouldn't be here >:(
 
+    [SerializeField]
+    private Timer timer;
+
     private bool isInDialogue = false;
 
     public bool IsInDialogue => isInDialogue;
@@ -34,6 +37,7 @@ public class DialogueTreePlayer : MonoBehaviour
     {
         isInDialogue = true;
         canvas.enabled = true;
+        timer.Pause();
         CharacterInfo answeringCharacter = tree.Characters[0];
         while (tree != null)
         {
@@ -61,6 +65,7 @@ public class DialogueTreePlayer : MonoBehaviour
         }
         canvas.enabled = false;
         isInDialogue = false;
+        timer.UnPause();
         OnDialogueEnded?.Invoke();
         OnCurrentDialogueEnded?.Invoke();
         OnCurrentDialogueEnded = null;
