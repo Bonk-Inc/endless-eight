@@ -37,7 +37,7 @@ public class DialogueTreePlayer : MonoBehaviour
     {
         isInDialogue = true;
         canvas.enabled = true;
-        timer.Pause();
+        timer?.Pause();
         CharacterInfo answeringCharacter = tree.Characters[0];
         while (tree != null)
         {
@@ -65,7 +65,7 @@ public class DialogueTreePlayer : MonoBehaviour
         }
         canvas.enabled = false;
         isInDialogue = false;
-        timer.UnPause();
+        timer?.UnPause();
         OnDialogueEnded?.Invoke();
         OnCurrentDialogueEnded?.Invoke();
         OnCurrentDialogueEnded = null;

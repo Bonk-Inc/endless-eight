@@ -14,20 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - character: 1
-    line: After that day he met Honey
+    line: After that day he met Honey.
   - character: 1
-    line: Honey's family took care of him
+    line: Honey's family took care of him.
   - character: 1
-    line: When he was bored Honey went into town with him
+    line: When he was bored Honey went into town with him.
   - character: 1
-    line: I- he was always afraid he'd see Bill again
+    line: I- he was always afraid he'd see Bill again.
   - character: 1
-    line: Whenever we went into town we got some hotdogs
+    line: Whenever we went into town we got some hotdogs.
   - character: 1
-    line: These hotdogs gave joy back to my life
+    line: These hotdogs gave joy back to my life.
   answers:
   - answer: Let him talk
     nextTree: {fileID: 11400000, guid: 43bdb2ec6198c4240916dfb23a4f2cad, type: 2}
   - answer: Interrupt him
     nextTree: {fileID: 11400000, guid: f5c214be3f8d7d941b87339533faa03d, type: 2}
   characters: []
+  keepDefaultCharacters: 0

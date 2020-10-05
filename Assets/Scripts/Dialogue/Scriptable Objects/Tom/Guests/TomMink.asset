@@ -16,14 +16,15 @@ MonoBehaviour:
   - character: 0
     line: Who is this Mink?
   - character: 1
-    line: He's the drunk guy in this house, I don't like him very much..
+    line: He's the drunk guy in this house, I don't like him very much.
   - character: 0
     line: Why is that Tom?
   - character: 1
-    line: he doesn't seem to like my dogs :(
+    line: He doesn't seem to like my dogs. :(
   - character: 0
     line: I'm sorry to hear that Tom!
   - character: 1
-    line: It- It's fine..
+    line: It- It's fine...
   answers: []
   characters: []
+  keepDefaultCharacters: 0

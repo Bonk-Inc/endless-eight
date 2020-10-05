@@ -14,12 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - character: 1
-    line: I wouldn't know anything about that
+    line: I wouldn't know anything about that.
   - character: 1
-    line: I've been too busy making dogs
+    line: I've been too busy making dogs.
   - character: 1
     line: You want a dog, Karel?
   - character: 0
     line: I do not want a dog!
   answers: []
   characters: []
+  keepDefaultCharacters: 0

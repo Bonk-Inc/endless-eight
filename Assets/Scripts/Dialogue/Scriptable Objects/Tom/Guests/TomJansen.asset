@@ -16,18 +16,21 @@ MonoBehaviour:
   - character: 0
     line: What do you know about Jansen?
   - character: 1
-    line: 'He offered my this job..! '
+    line: 'He offered me this job..! '
   - character: 1
-    line: 'I was allowed to decline if I wanted to.. ha '
+    line: I was allowed to decline if I wanted to...
   - character: 1
-    line: but I guess.. the opportunity was just too good..
+    line: Ha ha
+  - character: 1
+    line: But I guess.. The opportunity was just too good...
   - character: 0
     line: Are you alright, Tom?
   - character: 1
-    line: Ofcourse, Karel
+    line: Of course, Karel.
   - character: 1
     line: I should get back to making my dogs!
   - character: 1
-    line: Oh.. alright Tom
+    line: Oh.. Alright Tom.
   answers: []
   characters: []
+  keepDefaultCharacters: 0

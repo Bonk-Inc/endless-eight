@@ -14,20 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - character: 1
-    line: Even though those hotdogs gave him so much joy
+    line: Even though those hotdogs gave him so much joy.
   - character: 1
-    line: He was reminded of Bill and his son every day
+    line: He was reminded of Bill and his son every day.
   - character: 1
-    line: Even now, his son looks exactly like Justin
+    line: Even now, his son looks exactly like Justin.
   - character: 1
-    line: If they are the same boy, he does wonder what happened to Bill
+    line: If they are the same boy, he does wonder what happened to Bill.
   - character: 1
-    line: He feels like Bill and Jansen are connected somehow
+    line: He feels like Bill and Jansen are connected somehow.
   - character: 0
-    line: Thank you for sharing this Tom
+    line: Thank you for sharing this Tom.
   - character: 1
-    line: Ofcourse Karel, you want a dog?
+    line: Of course Karel, you want a dog?
   - character: 0
     line: Yeah, that sounds pretty good!
   answers: []
   characters: []
+  keepDefaultCharacters: 0

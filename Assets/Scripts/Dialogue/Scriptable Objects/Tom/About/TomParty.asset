@@ -16,10 +16,11 @@ MonoBehaviour:
   - character: 0
     line: Why are you attending this party?
   - character: 1
-    line: The kid does seem pretty groovy
+    line: The kid does seem pretty groovy.
   - character: 1
     line: And I work here, thats a big part of it!
   - character: 0
     line: Right
   answers: []
   characters: []
+  keepDefaultCharacters: 0

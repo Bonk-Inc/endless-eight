@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - character: 1
-    line: I'd like to stay and chat but this whole space just ain't my bag
+    line: I'd like to stay and chat but this whole space just ain't my bag.
   answers: []
   characters: []
+  keepDefaultCharacters: 0
