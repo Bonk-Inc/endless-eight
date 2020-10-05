@@ -24,6 +24,9 @@ public class LoopManagement : MonoBehaviour
 
     [SerializeField]
     private DistortedDialogueTextDisplay dialogueText;
+
+    [SerializeField]
+    private DialogueTreePlayer dialoguePlayer;
     [SerializeField]
     private TMPro.TextMeshProUGUI loopUIDisplay;
 
@@ -46,6 +49,12 @@ public class LoopManagement : MonoBehaviour
 
     public void AddLoopIteration(int amount)
     {
+        if (dialoguePlayer.IsInDialogue)
+        {
+            dialoguePlayer.OnCurrentDialogueEnded += () => AddLoopIteration(amount);
+            return;
+        }
+
         loopNumber += amount;
         timer.ResetTime();
         timer.Pause();
@@ -61,6 +70,7 @@ public class LoopManagement : MonoBehaviour
 
     private void ChangePositionsPeople()
     {
+        print("loop");
         player.position = spawnposition.position;
 
         playerDialogue.StartDialogue(hintDiaCharacter, () =>

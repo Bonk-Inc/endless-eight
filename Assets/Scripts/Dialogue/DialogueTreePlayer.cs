@@ -19,7 +19,7 @@ public class DialogueTreePlayer : MonoBehaviour
 
     public bool IsInDialogue => isInDialogue;
 
-    public event Action OnDialogueEnded;
+    public event Action OnDialogueEnded, OnCurrentDialogueEnded;
 
 
     public void PlayTree(DialogueTree tree, Action OnSpecificDialogueEnded = null)
@@ -62,6 +62,8 @@ public class DialogueTreePlayer : MonoBehaviour
         canvas.enabled = false;
         isInDialogue = false;
         OnDialogueEnded?.Invoke();
+        OnCurrentDialogueEnded?.Invoke();
+        OnCurrentDialogueEnded = null;
         OnSpecificDialogueEnded?.Invoke();
     }
 }
