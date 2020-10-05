@@ -18,7 +18,7 @@ MonoBehaviour:
   - character: 1
     line: How do you mean, "What am I doing"?
   - character: 1
-    line: I work here, that is what I am doing, sir
+    line: I work here, that is what I am doing, sir.
   - character: 0
     line: I guess forget I asked, alright?
   - character: 1
@@ -27,3 +27,4 @@ MonoBehaviour:
   - answer: 
     nextTree: {fileID: 11400000, guid: 20a0288640263f5408c66bcdb345f4af, type: 2}
   characters: []
+  keepDefaultCharacters: 0

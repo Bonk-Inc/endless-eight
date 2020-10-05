@@ -16,7 +16,7 @@ MonoBehaviour:
   - character: 1
     line: Hey Karel, want a dog?
   - character: 0
-    line: No, I'm good..
+    line: No, I'm good...
   - character: 0
     line: Could I ask you some questions?
   - character: 1
@@ -27,3 +27,4 @@ MonoBehaviour:
   - answer: About guests
     nextTree: {fileID: 11400000, guid: e47e674ab5917b34ea89245f5d64fef2, type: 2}
   characters: []
+  keepDefaultCharacters: 0

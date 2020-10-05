@@ -14,22 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - character: 1
-    line: Some say, he began to like the art of killing
+    line: Some say, he began to like the art of killing.
   - character: 1
-    line: 'He got good at covering up his murders aswell '
+    line: He got good at covering up his murders aswell.
   - character: 1
     line: Whenever someone would try and find proof about him
   - character: 1
     line: They wouldn't find anything..
   - character: 1
-    line: Or they would just dissapear, some would question if they were ever there
+    line: Or they would just dissapear, some would question if they were ever there.
   - character: 1
-    line: I am just glad to be where I am now
+    line: I am just glad to be where I am now.
   - character: 0
-    line: That.. That's a lot to take in, thank you for telling me this Al
+    line: That.. That's a lot to take in, thank you for telling me this Al.
   - character: 1
-    line: My pleasure, I really miss telling my stories
+    line: My pleasure, I really miss telling my stories.
   answers:
   - answer: 
     nextTree: {fileID: 11400000, guid: 20a0288640263f5408c66bcdb345f4af, type: 2}
   characters: []
+  keepDefaultCharacters: 0

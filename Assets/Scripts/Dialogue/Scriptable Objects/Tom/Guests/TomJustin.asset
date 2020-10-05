@@ -20,8 +20,9 @@ MonoBehaviour:
   - character: 0
     line: That's cool Tom, what do you think of him?
   - character: 1
-    line: I try not thinking about him much
+    line: I try to not think about him much.
   - character: 1
     line: But being Jansen's son already makes him a great man!
   answers: []
   characters: []
+  keepDefaultCharacters: 0

@@ -16,11 +16,11 @@ MonoBehaviour:
   - character: 0
     line: Do you know Al?
   - character: 1
-    line: I do! I introduced him to Jansen
+    line: I do! I introduced him to Jansen.
   - character: 1
-    line: He needed a job and I knew he would be a good fit
+    line: He needed a job and I knew he would be a good fit.
   - character: 1
-    line: Even with his past he seems to be doing good
+    line: Even with his past he seems to be doing good.
   answers:
   - answer: Thank you for telling me!
     nextTree: {fileID: 11400000, guid: c167854a178c17240a8c1d86b9c18617, type: 2}
@@ -29,3 +29,4 @@ MonoBehaviour:
   - answer: Why did you decide to help him?
     nextTree: {fileID: 11400000, guid: 70d460f356b3af44d8b1b6fc5d6d2157, type: 2}
   characters: []
+  keepDefaultCharacters: 0

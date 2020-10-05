@@ -14,12 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - character: 0
-    line: I am sorry, Tom..
+    line: I am sorry, Tom...
   - character: 0
-    line: But I am not here for your life story
+    line: But I am not here for your life story.
   - character: 1
-    line: O-oh.. I see
+    line: O-oh.. I see.
   answers:
   - answer: 
     nextTree: {fileID: 11400000, guid: c167854a178c17240a8c1d86b9c18617, type: 2}
   characters: []
+  keepDefaultCharacters: 0

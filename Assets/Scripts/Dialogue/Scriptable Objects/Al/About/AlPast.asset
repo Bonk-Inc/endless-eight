@@ -18,11 +18,11 @@ MonoBehaviour:
   - character: 0
     line: Yes, very much so!
   - character: 1
-    line: Fine, I guess.. sounds kind of weird
+    line: Fine, I guess.. sounds kind of weird.
   - character: 1
     line: Well, long ago, when I was but a kid-
   - character: 0
-    line: A bit more recent, please
+    line: A bit more recent, please.
   - character: 1
     line: Long ago, as a teen!
   answers:
@@ -35,3 +35,4 @@ MonoBehaviour:
   - answer: Previous Job
     nextTree: {fileID: 11400000, guid: 3913480fcfc38a64bbc370c50baf4a59, type: 2}
   characters: []
+  keepDefaultCharacters: 0

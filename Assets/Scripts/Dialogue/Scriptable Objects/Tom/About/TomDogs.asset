@@ -16,22 +16,23 @@ MonoBehaviour:
   - character: 0
     line: I am curious, why hotdogs?
   - character: 1
-    line: Well, to answer this question we have to go back to my childhood
+    line: Well, to answer this question we have to go back to my childhood.
   - character: 1
-    line: Twenty years ago, a 10 year old me was walking into town
+    line: Twenty years ago, 10 year old me was walking into town.
   - character: 1
     line: Little Tom had a normal life, his parents were nice and he had some friends
-      in school
+      in school.
   - character: 1
     line: In this town, he met a pretty old guy called Bill with what seemed to be
-      his son
+      his son.
   - character: 1
-    line: He bumped into him and he threatened he would make my life hell
+    line: He bumped into him and he threatened he would make my life hell.
   - character: 1
-    line: That next day my parents were gone
+    line: That next day my parents were gone.
   answers:
   - answer: Let him talk
     nextTree: {fileID: 11400000, guid: c1deb7a2d438bbd4da20c8bd832dfe83, type: 2}
   - answer: Interrupt him
     nextTree: {fileID: 11400000, guid: f5c214be3f8d7d941b87339533faa03d, type: 2}
   characters: []
+  keepDefaultCharacters: 0

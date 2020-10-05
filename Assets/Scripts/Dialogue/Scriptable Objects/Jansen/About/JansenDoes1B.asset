@@ -14,12 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - character: 1
-    line: That's not a word we use here
+    line: That's not a word we use here.
   - character: 1
-    line: We make sure they dont run into any issues
+    line: We make sure they dont run into any issues.
   - character: 1
-    line: By helping them in any way possible
+    line: By helping them in any way possible.
   - character: 0
     line: I see..
   answers: []
   characters: []
+  keepDefaultCharacters: 0

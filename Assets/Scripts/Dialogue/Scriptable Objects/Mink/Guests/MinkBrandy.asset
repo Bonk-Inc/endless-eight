@@ -22,8 +22,11 @@ MonoBehaviour:
   - character: 0
     line: Why is she sad?
   - character: 1
-    line: She needs to go to trains too!
+    line: I think about her son, Tobias..
+  - character: 1
+    line: But she needs to go to trains too!
   - character: 1
     line: That w-will cheer anyone up!
   answers: []
   characters: []
+  keepDefaultCharacters: 0

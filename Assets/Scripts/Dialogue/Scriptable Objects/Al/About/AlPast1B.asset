@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - character: 1
-    line: So I had the oppertunity to help with some sort of project
+    line: So I had the oppertunity to help with some sort of project.
   - character: 1
-    line: They placed me in a room with 5 other people for two entire weeks
+    line: They placed me in a room with 5 other people for two entire weeks.
   - character: 1
-    line: After those two weeks.. They let one person out
+    line: After those two weeks.. They let one person out.
   - character: 1
-    line: They told us, the next person that killed someone would be let go aswell
+    line: They told us, the next person that killed someone would be let go aswell.
   - character: 1
     line: I.. saw someone get killed right there and then.
   - character: 1
@@ -31,3 +31,4 @@ MonoBehaviour:
   - answer: Do you really think I'll believe this?
     nextTree: {fileID: 11400000, guid: 0e2315bd2aa0fac4f8a47c2bb2374fd3, type: 2}
   characters: []
+  keepDefaultCharacters: 0

@@ -20,6 +20,8 @@ MonoBehaviour:
   - character: 1
     line: Have fun with this one!
   - character: 1
+    line: Remember to talk to people to get more information!
+  - character: 1
     line: Make sure you find and kill them, good luck!
   answers: []
   characters: []

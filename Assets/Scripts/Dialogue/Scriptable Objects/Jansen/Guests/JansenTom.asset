@@ -20,7 +20,7 @@ MonoBehaviour:
   - character: 1
     line: He is one of my favorite people in this house!
   - character: 1
-    line: He was a hotdog salesman in a town I visited
+    line: He was a hotdog salesman in a town I visited.
   - character: 1
     line: Every day he brings me one of his amazing hot dogs!
   - character: 0
@@ -31,3 +31,4 @@ MonoBehaviour:
   - answer: Was it difficult to hire him?
     nextTree: {fileID: 11400000, guid: 79e64d5c963fbc44fb888bf15bcac43d, type: 2}
   characters: []
+  keepDefaultCharacters: 0

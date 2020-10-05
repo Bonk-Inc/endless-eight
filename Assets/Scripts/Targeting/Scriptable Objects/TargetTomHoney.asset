@@ -22,6 +22,8 @@ MonoBehaviour:
   - character: 1
     line: Anyway, good luck!
   - character: 1
+    line: Remember to talk to people to get more information!
+  - character: 1
     line: Don't forgot to kill them!
   answers: []
   characters: []

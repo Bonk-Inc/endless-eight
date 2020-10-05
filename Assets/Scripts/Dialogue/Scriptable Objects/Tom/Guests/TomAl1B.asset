@@ -16,17 +16,17 @@ MonoBehaviour:
   - character: 0
     line: What happened in his past?
   - character: 1
-    line: He hasn't told me the details
+    line: He hasn't told me the details.
   - character: 1
-    line: But from what I have heard he had problems with the police
+    line: But from what I have heard he had problems with the police.
   - character: 0
     line: Oh, that's it?
   - character: 1
-    line: Jasmine was really worried at first
+    line: Jasmine was really worried at first.
   - character: 1
-    line: Apparently he could have been a danger to Justin
+    line: Apparently he could have been a danger to Justin.
   - character: 1
-    line: But Jansen hired him right after
+    line: But Jansen hired him right after.
   - character: 1
     line: I'm sorry, I should not even talk about this.
   - character: 0
@@ -35,3 +35,4 @@ MonoBehaviour:
   - answer: 
     nextTree: {fileID: 11400000, guid: c167854a178c17240a8c1d86b9c18617, type: 2}
   characters: []
+  keepDefaultCharacters: 0

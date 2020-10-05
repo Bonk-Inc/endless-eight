@@ -16,17 +16,17 @@ MonoBehaviour:
   - character: 0
     line: You.. are the guardian of this town?
   - character: 1
-    line: Yes, I protect everyone from themselves and from strangers
+    line: Yes, I protect everyone from themselves and from strangers.
   - character: 1
     line: If we see something we don't like we clean it up.
   - character: 0
     line: You clean it up?
   - character: 1
-    line: Yes, we remove the problem from the city
+    line: Yes, we remove the problem from the city.
   - character: 1
     line: Animal problems, money problems and troublemakers.
   - character: 1
-    line: We clean them up
+    line: We clean them up.
   - character: 1
     line: Because of this we have been the safest city in the country
   - character: 0
@@ -37,3 +37,4 @@ MonoBehaviour:
     line: Now if you excuse me, I have to take a call
   answers: []
   characters: []
+  keepDefaultCharacters: 0
