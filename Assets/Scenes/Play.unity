@@ -1339,7 +1339,7 @@ MonoBehaviour:
   dialogueInfo:
     name: Bardy
     portrait: {fileID: 21300000, guid: 21c506d64aac2214589974be31666b11, type: 3}
-  dialogueTree: {fileID: 11400000, guid: d00a9c51129d9fb478343951a7134946, type: 2}
+  dialogueTree: {fileID: 11400000, guid: 2c99ff1282b42474d8e0d2deb317a493, type: 2}
 --- !u!114 &426309991
 MonoBehaviour:
   m_ObjectHideFlags: 0
