@@ -14,12 +14,15 @@ public class TimeblockChangeMovementAction : TimeblockActionManager
         {
             case TimeBlockType.MORNING:
                 transform.position = morningPosition.transform.position;
+                transform.rotation = morningPosition.transform.rotation;
                 break;
             case TimeBlockType.AFTERNOON:
                 transform.position = afternoonPosition.transform.position;
+                transform.rotation = afternoonPosition.transform.rotation;
                 break;
             case TimeBlockType.EVENING:
                 transform.position = eveningPosition.transform.position;
+                transform.rotation = eveningPosition.transform.rotation;
                 break;
             default:
                 break;
