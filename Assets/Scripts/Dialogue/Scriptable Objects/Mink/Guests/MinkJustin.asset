@@ -12,6 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
   m_Name: MinkJustin
   m_EditorClassIdentifier: 
-  lines: []
+  lines:
+  - character: 0
+    line: Do you know anything about the birthday kid?
+  - character: 1
+    line: He's the train kid..
+  - character: 1
+    line: ......
+  - character: 1
+    line: They smell the same.
+  - character: 0
+    line: I see..?
   answers: []
   characters: []

@@ -12,6 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
   m_Name: MinkJasmine
   m_EditorClassIdentifier: 
-  lines: []
-  answers: []
+  lines:
+  - character: 0
+    line: Do you and Jasmine know each other?
+  - character: 1
+    line: We used to work together..
+  - character: 1
+    line: I don't want to talk about her.
+  - character: 0
+    line: Alright.
+  answers:
+  - answer: 
+    nextTree: {fileID: 11400000, guid: 14abf4ee2b5cc4042a54d628e56d5c2c, type: 2}
   characters: []

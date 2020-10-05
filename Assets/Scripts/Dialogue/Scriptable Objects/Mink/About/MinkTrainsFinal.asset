@@ -22,12 +22,26 @@ MonoBehaviour:
   - character: 1
     line: I wanted to get on that train.
   - character: 1
-    line: I- I.. I wasn't myself after that.
+    line: I- I.. I wasn't myself after that anymore.
+  - character: 0
+    line: 'I am so sorry Mink, that sounds.. '
+  - character: 0
+    line: Horrible
   - character: 1
-    line: 
+    line: No.. I don't think you understand.
   - character: 1
-    line: 
+    line: Trains, they give me so much joy when I use them.
   - character: 1
-    line: 
+    line: They bring joy, they bring so much life.
+  - character: 1
+    line: I'm in so much.. pain when I am not using those trains..
+  - character: 1
+    line: Please, I need to find another station.. It's been too long.
+  - character: 0
+    line: When was the last time you went to a train?
+  - character: 1
+    line: ...
+  - character: 1
+    line: A w-week?
   answers: []
   characters: []

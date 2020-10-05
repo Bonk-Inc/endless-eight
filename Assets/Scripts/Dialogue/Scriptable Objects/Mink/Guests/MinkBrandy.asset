@@ -12,6 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
   m_Name: MinkBrandy
   m_EditorClassIdentifier: 
-  lines: []
+  lines:
+  - character: 0
+    line: What do you know about Brandy?
+  - character: 1
+    line: 'She''s sad.. '
+  - character: 1
+    line: Very very sad.
+  - character: 0
+    line: Why is she sad?
+  - character: 1
+    line: She needs to go to trains too!
+  - character: 1
+    line: That w-will cheer anyone up!
   answers: []
   characters: []

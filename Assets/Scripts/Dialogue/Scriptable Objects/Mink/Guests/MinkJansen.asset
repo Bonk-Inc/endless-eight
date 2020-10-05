@@ -12,6 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
   m_Name: MinkJansen
   m_EditorClassIdentifier: 
-  lines: []
-  answers: []
+  lines:
+  - character: 0
+    line: Do you know anything about Jansen?
+  - character: 1
+    line: Jansen is one of my drinking buddies!
+  - character: 1
+    line: I sometimes see him watching other people on phone..
+  - character: 1
+    line: Last month..
+  - character: 1
+    line: 'He watched kid walk around.. '
+  - character: 1
+    line: Around the town, making jokes with other people.
+  - character: 0
+    line: He was spying on children?
+  answers:
+  - answer: 
+    nextTree: {fileID: 11400000, guid: 891ad2cbcaebac94eae8b0e2b5396cb3, type: 2}
   characters: []
