@@ -3632,6 +3632,10 @@ MonoBehaviour:
   possibleTargets:
   - targetHint: {fileID: 11400000, guid: 12278133b04aa7b488f870c890108362, type: 2}
     target: {fileID: 165266553}
+  - targetHint: {fileID: 11400000, guid: b08fdf01079818249b2db896dbe74ed5, type: 2}
+    target: {fileID: 426309992}
+  - targetHint: {fileID: 11400000, guid: c1a9fdf69464d9d4c875c189bef7ed73, type: 2}
+    target: {fileID: 1577478495}
   OnTargetKilled:
     m_PersistentCalls:
       m_Calls:
