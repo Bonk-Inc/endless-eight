@@ -12,4 +12,9 @@ public class SingleTreeDialogueCharacter : DialogueCharacter
         return dialogueTree;
     }
 
+    public void SetDialogue(DialogueTree dialogueTree)
+    {
+        this.dialogueTree = dialogueTree;
+    }
+
 }

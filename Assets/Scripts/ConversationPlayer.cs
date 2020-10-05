@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics.Tracing;
 using UnityEngine;
 using UnityEngine.Events;
+using System;
 
 public class ConversationPlayer : MonoBehaviour
 {
@@ -19,6 +20,8 @@ public class ConversationPlayer : MonoBehaviour
 
     [SerializeField]
     private GameObject eToTalkButton;
+
+    public DialogueTreePlayer Player => player;
 
     void Start()
     {
@@ -45,11 +48,11 @@ public class ConversationPlayer : MonoBehaviour
         StartDialogue(character);
     }
 
-    public void StartDialogue(DialogueCharacter character)
+    public void StartDialogue(DialogueCharacter character, Action OnSpecificDialogueEnded = null)
     {
         DialogueTree tree = character.GetDialogue();
         tree.SetCharacters(new CharacterInfo[] { playerInfo, character.GetCharacter() });
-        player.PlayTree(tree);
+        player.PlayTree(tree, OnSpecificDialogueEnded);
     }
 
     private void OnTriggerEnter(Collider other)

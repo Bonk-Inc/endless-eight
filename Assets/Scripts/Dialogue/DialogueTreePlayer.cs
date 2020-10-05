@@ -21,19 +21,20 @@ public class DialogueTreePlayer : MonoBehaviour
 
     public event Action OnDialogueEnded;
 
-    public void PlayTree(DialogueTree tree)
+
+    public void PlayTree(DialogueTree tree, Action OnSpecificDialogueEnded = null)
     {
         if (isInDialogue)
             return;
 
-        StartCoroutine(PlayDialogueTree(tree));
+        StartCoroutine(PlayDialogueTree(tree, OnSpecificDialogueEnded));
     }
 
-    private IEnumerator PlayDialogueTree(DialogueTree tree, CharacterInfo answeringCharacter = null)
+    private IEnumerator PlayDialogueTree(DialogueTree tree, Action OnSpecificDialogueEnded = null)
     {
         isInDialogue = true;
         canvas.enabled = true;
-        answeringCharacter = tree.Characters[0];
+        CharacterInfo answeringCharacter = tree.Characters[0];
         while (tree != null)
         {
             yield return StartCoroutine(lineVisualizer.PlayDialogueLines(tree.Lines, tree.Characters));
@@ -61,5 +62,6 @@ public class DialogueTreePlayer : MonoBehaviour
         canvas.enabled = false;
         isInDialogue = false;
         OnDialogueEnded?.Invoke();
+        OnSpecificDialogueEnded?.Invoke();
     }
 }

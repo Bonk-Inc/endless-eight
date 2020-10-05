@@ -17,16 +17,23 @@ public class LoopManagement : MonoBehaviour
     private ConversationPlayer playerDialogue;
     [SerializeField]
     private DialogueCharacter startingDiaCharacter;
+    [SerializeField]
+    private SingleTreeDialogueCharacter hintDiaCharacter;
 
     [SerializeField]
     private DistortedDialogueTextDisplay dialogueText;
     [SerializeField]
     private TMPro.TextMeshProUGUI loopUIDisplay;
 
+    private PossibleTarget currentTarget;
+
     public UnityEvent GameOver;
 
     private void Start()
     {
+        currentTarget = TargetManagement.Instance.CurrentTarget;
+        hintDiaCharacter.SetDialogue(currentTarget.TargetHint);
+
         GoToNextLoop();
     }
 
@@ -50,7 +57,11 @@ public class LoopManagement : MonoBehaviour
     private void ChangePositionsPeople()
     {
         player.position = spawnposition.position;
-        playerDialogue.StartDialogue(startingDiaCharacter);
+
+        playerDialogue.StartDialogue(hintDiaCharacter, () =>
+        {
+            playerDialogue.StartDialogue(startingDiaCharacter);
+        }); 
     }
 
 }

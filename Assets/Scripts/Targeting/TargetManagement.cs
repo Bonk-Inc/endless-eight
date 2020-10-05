@@ -8,10 +8,15 @@ public class TargetManagement : MonoBehaviour
     public static TargetManagement Instance { get; private set; }
 
     [SerializeField]
-    private KillablePerson target;
+    private PossibleTarget currentTarget;
+
+    [SerializeField]
+    private PossibleTarget[] possibleTargets;
 
     [SerializeField]
     private UnityEvent OnTargetKilled, OnNonTargetKilled;
+
+    public PossibleTarget CurrentTarget => currentTarget;
 
     private void Awake()
     {
@@ -21,12 +26,19 @@ public class TargetManagement : MonoBehaviour
         }
 
         Instance = this;
-        target.OnKilled += OnTargetKilled.Invoke;
+
+        if(currentTarget.Target == null)
+        {
+            int targetNumber = Random.Range(0, possibleTargets.Length - 1);
+            currentTarget = possibleTargets[targetNumber];
+        }
+
+        currentTarget.Target.OnKilled += OnTargetKilled.Invoke;
     }
 
     public void AddPotentialTarget(KillablePerson potentialTarget)
     {
-        if (target == potentialTarget)
+        if (currentTarget.Target == potentialTarget)
             return;
 
         potentialTarget.OnKilled += OnNonTargetKilled.Invoke;
