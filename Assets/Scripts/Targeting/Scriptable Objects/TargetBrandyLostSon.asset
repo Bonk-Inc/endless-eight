@@ -20,6 +20,8 @@ MonoBehaviour:
   - character: 1
     line: Make sure you find and kill them, good luck!
   - character: 1
+    line: Remember to talk to people to get more information!
+  - character: 1
     line: Hehe, this is a fun one!
   answers: []
   characters:
@@ -27,3 +29,4 @@ MonoBehaviour:
     portrait: {fileID: 21300000, guid: 59b83352393e56047a882504f7030798, type: 3}
   - name: ???
     portrait: {fileID: 21300000, guid: 76657d74206596049b19d3aac53714f5, type: 3}
+  keepDefaultCharacters: 0
