@@ -10,25 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
-  m_Name: JoostDemons2A
+  m_Name: JoostParty
   m_EditorClassIdentifier: 
   lines:
   - character: 1
-    line: "\u266A I'm stuck in a loop! \u266A"
+    line: Joost was asked to come to write a song for the birthday boy.
   - character: 1
-    line: "\u266A I need to know which way to go~ \u266A"
-  - character: 1
-    line: "\u266A I'm stuck in a loop! \u266A"
-  - character: 1
-    line: "\u266A I need to know which way to gooo... \u266A"
-  - character: 1
-    line: So..
-  - character: 1
-    line: What do you think?
+    line: Joost doesn't like him though.
   - character: 0
-    line: That sounds really good!
+    line: Why come then?
   - character: 1
-    line: Thanks Karel!
+    line: The pay is good.
+  - character: 0
+    line: Mind singing what you've come up with so far?
+  - character: 1
+    line: "\u266A Juuustin, Justin, Juuustin \u266A"
+  - character: 0
+    line: I see...
   answers: []
   characters: []
   keepDefaultCharacters: 0

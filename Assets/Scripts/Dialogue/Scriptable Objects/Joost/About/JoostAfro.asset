@@ -10,25 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
-  m_Name: JoostDemons2A
+  m_Name: JoostAfro
   m_EditorClassIdentifier: 
   lines:
   - character: 1
-    line: "\u266A I'm stuck in a loop! \u266A"
-  - character: 1
-    line: "\u266A I need to know which way to go~ \u266A"
-  - character: 1
-    line: "\u266A I'm stuck in a loop! \u266A"
-  - character: 1
-    line: "\u266A I need to know which way to gooo... \u266A"
-  - character: 1
-    line: So..
-  - character: 1
-    line: What do you think?
+    line: Joost is confused. Is there anything wrong with Joost's afro?
   - character: 0
-    line: That sounds really good!
+    line: No, you've got me all wrong. I was just curious why you decided to go for
+      an afro?
   - character: 1
-    line: Thanks Karel!
+    line: Mink told me that afro's are stylish. Joost trusts Mink.
   answers: []
   characters: []
   keepDefaultCharacters: 0
