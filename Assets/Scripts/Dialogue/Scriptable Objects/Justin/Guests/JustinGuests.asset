@@ -17,12 +17,16 @@ MonoBehaviour:
     line: Who do you want to know about?
   answers:
   - answer: Brandy
-    nextTree: {fileID: 0}
+    nextTree: {fileID: 11400000, guid: afcdccbc22876db49878c9407c08549d, type: 2}
   - answer: Joost
-    nextTree: {fileID: 0}
+    nextTree: {fileID: 11400000, guid: d2670081428f58547b3877b27d551740, type: 2}
   - answer: Parents
-    nextTree: {fileID: 0}
+    nextTree: {fileID: 11400000, guid: 1eb81411c9e948b4ea50271f46b17e41, type: 2}
   - answer: Al
-    nextTree: {fileID: 0}
-  characters: []
+    nextTree: {fileID: 11400000, guid: d4a5232d2548b2340aa39e64ea0998ac, type: 2}
+  characters:
+  - name: Karel
+    portrait: {fileID: 21300000, guid: 59b83352393e56047a882504f7030798, type: 3}
+  - name: Justin
+    portrait: {fileID: 21300000, guid: 1b153bef62937b4408d5f742d945859d, type: 3}
   keepDefaultCharacters: 0
