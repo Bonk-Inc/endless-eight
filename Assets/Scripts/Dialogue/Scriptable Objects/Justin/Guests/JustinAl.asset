@@ -20,11 +20,15 @@ MonoBehaviour:
   - character: 1
     line: Whenever I don't like someone, I just send him to them.
   - character: 0
-    line: You end him to do what?
+    line: You send him to do what?
   - character: 1
     line: That's up to him, he seems to enjoy my tasks.
   - character: 0
     line: Interesting..
   answers: []
-  characters: []
+  characters:
+  - name: Karel
+    portrait: {fileID: 21300000, guid: 59b83352393e56047a882504f7030798, type: 3}
+  - name: Justin
+    portrait: {fileID: 21300000, guid: 1b153bef62937b4408d5f742d945859d, type: 3}
   keepDefaultCharacters: 0
