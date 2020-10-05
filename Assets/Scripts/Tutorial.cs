@@ -10,7 +10,6 @@ public class Tutorial : MonoBehaviour
 
     void Start()
     {
-        Debug.Log("k");
         treePlayer.PlayTree(dialogueTree);
     }
 
@@ -19,7 +18,7 @@ public class Tutorial : MonoBehaviour
     {
         if(!treePlayer.IsInDialogue)
         {
-            SceneManager.LoadScene("play");
+            SceneManager.LoadScene("start");
         }
     }
 }
