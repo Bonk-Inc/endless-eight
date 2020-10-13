@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
+  m_Name: AlPast1A
+  m_EditorClassIdentifier: 
+  lines:
+  - character: 1
+    line: Really, this conversation?
+  - character: 1
+    line: Well, fine.. Here we go I guess.
+  - character: 1
+    line: My contract states I have to tell everyone about this when asked about.
+  - character: 1
+    line: Long ago, I was in an ongoing investigation.
+  - character: 0
+    line: What happened in this investigation?
+  - character: 1
+    line: The police thought I was guilty of something.
+  - character: 1
+    line: They could only proof that I used a stolen car.
+  - character: 1
+    line: Which got me a BIG fine!
+  - character: 1
+    line: From there on out they had to stop their investigation
+  - character: 0
+    line: Oh I see, so you just stole a car?
+  - character: 1
+    line: All that was proven is that I used that car.
+  - character: 1
+    line: I am.. Very happy I got to tell you this sir!
+  - character: 0
+    line: I am guessing that's in the contract too?
+  answers:
+  - answer: 
+    nextTree: {fileID: 11400000, guid: 20a0288640263f5408c66bcdb345f4af, type: 2}
+  characters: []
+  keepDefaultCharacters: 0

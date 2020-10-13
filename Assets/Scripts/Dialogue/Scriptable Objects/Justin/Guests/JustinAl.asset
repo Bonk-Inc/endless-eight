@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
+  m_Name: JustinAl
+  m_EditorClassIdentifier: 
+  lines:
+  - character: 0
+    line: I've heard Al takes care of you?
+  - character: 1
+    line: Yeah! Al is one of our servant and works as my bodyguard!
+  - character: 1
+    line: Whenever I don't like someone, I just send him to them.
+  - character: 0
+    line: You send him to do what?
+  - character: 1
+    line: That's up to him, he seems to enjoy my tasks.
+  - character: 0
+    line: Interesting..
+  answers: []
+  characters:
+  - name: Karel
+    portrait: {fileID: 21300000, guid: 59b83352393e56047a882504f7030798, type: 3}
+  - name: Justin
+    portrait: {fileID: 21300000, guid: 1b153bef62937b4408d5f742d945859d, type: 3}
+  keepDefaultCharacters: 0

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
+  m_Name: JansenTom1B
+  m_EditorClassIdentifier: 
+  lines:
+  - character: 0
+    line: Was it difficult to hire Tom as your chef?
+  - character: 1
+    line: Oh it really wasn't!
+  - character: 1
+    line: As soon as I mentioned that justin liked his hotdogs Jas was all in!
+  - character: 0
+    line: Tom just agreed to leaving his hotdog stand?
+  - character: 1
+    line: He told me his stand was almost out of money.
+  - character: 1
+    line: If it wasn't for him getting a job here he would've had to go back home.
+  - character: 1
+    line: He is one of our most important and loyal workers.
+  - character: 1
+    line: What would we do without our dogs?
+  - character: 0
+    line: Thanks for the info!
+  answers: []
+  characters: []
+  keepDefaultCharacters: 0

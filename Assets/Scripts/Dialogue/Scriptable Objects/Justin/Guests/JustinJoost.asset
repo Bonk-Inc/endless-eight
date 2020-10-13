@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
+  m_Name: JustinJoost
+  m_EditorClassIdentifier: 
+  lines:
+  - character: 0
+    line: What do you think of Joost?
+  - character: 1
+    line: Don't trust him!
+  - character: 1
+    line: He seems like the kind of person that could just betray me when needed.
+  - character: 0
+    line: How would he betray me?
+  - character: 1
+    line: By telling others about my secrets!
+  - character: 0
+    line: Ha! What kind of secrets would a kid like you have?
+  - character: 1
+    line: ....
+  - character: 1
+    line: Exactly!
+  answers: []
+  characters: []
+  keepDefaultCharacters: 0

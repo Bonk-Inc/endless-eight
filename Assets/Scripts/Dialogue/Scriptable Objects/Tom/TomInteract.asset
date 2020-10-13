@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
+  m_Name: TomInteract
+  m_EditorClassIdentifier: 
+  lines:
+  - character: 1
+    line: Hey Karel, want a dog?
+  - character: 0
+    line: No, I'm good...
+  - character: 0
+    line: Could I ask you some questions?
+  - character: 1
+    line: Go right ahead my dude!
+  answers:
+  - answer: About chef
+    nextTree: {fileID: 11400000, guid: e1a31d97005e83249b4868ec03e0bb14, type: 2}
+  - answer: About guests
+    nextTree: {fileID: 11400000, guid: e47e674ab5917b34ea89245f5d64fef2, type: 2}
+  characters: []
+  keepDefaultCharacters: 0

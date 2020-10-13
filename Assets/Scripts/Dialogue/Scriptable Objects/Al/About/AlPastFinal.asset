@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
+  m_Name: AlPastFinal
+  m_EditorClassIdentifier: 
+  lines:
+  - character: 1
+    line: Some say, he began to like the art of killing.
+  - character: 1
+    line: He got good at covering up his murders aswell.
+  - character: 1
+    line: Whenever someone would try and find proof about him
+  - character: 1
+    line: They wouldn't find anything..
+  - character: 1
+    line: Or they would just dissapear, some would question if they were ever there.
+  - character: 1
+    line: I am just glad to be where I am now.
+  - character: 0
+    line: That.. That's a lot to take in, thank you for telling me this Al.
+  - character: 1
+    line: My pleasure, I really miss telling my stories.
+  answers:
+  - answer: 
+    nextTree: {fileID: 11400000, guid: 20a0288640263f5408c66bcdb345f4af, type: 2}
+  characters: []
+  keepDefaultCharacters: 0

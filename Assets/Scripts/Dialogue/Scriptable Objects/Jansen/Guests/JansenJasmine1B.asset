@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
+  m_Name: JansenJasmine1B
+  m_EditorClassIdentifier: 
+  lines:
+  - character: 0
+    line: But you look over Justin during pool time, don't you?
+  - character: 1
+    line: Well, yes. I might avoid him whenever possible.
+  - character: 1
+    line: But I don't want the kid to drown.
+  - character: 0
+    line: I see.. do you have time for another question?
+  answers:
+  - answer: 
+    nextTree: {fileID: 11400000, guid: 98f141cfd8c7f94448ef5d5a75708a2b, type: 2}
+  characters: []
+  keepDefaultCharacters: 0

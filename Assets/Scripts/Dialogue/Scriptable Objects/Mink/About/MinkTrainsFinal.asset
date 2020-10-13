@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
+  m_Name: MinkTrainsFinal
+  m_EditorClassIdentifier: 
+  lines:
+  - character: 1
+    line: 'All of those people.. '
+  - character: 1
+    line: They kept mumbling about the train.
+  - character: 1
+    line: But I got it, I was getting drawn in myself too.
+  - character: 1
+    line: I wanted to get on that train.
+  - character: 1
+    line: I- I.. I wasn't myself after that anymore.
+  - character: 0
+    line: 'I am so sorry Mink, that sounds.. '
+  - character: 0
+    line: Horrible
+  - character: 1
+    line: No.. I don't think you understand.
+  - character: 1
+    line: Trains, they give me so much joy when I use them.
+  - character: 1
+    line: They bring joy, they bring so much life.
+  - character: 1
+    line: I'm in so much.. pain when I am not using those trains..
+  - character: 1
+    line: Please, I need to find another station.. It's been too long.
+  - character: 0
+    line: When was the last time you went to a train?
+  - character: 1
+    line: ...
+  - character: 1
+    line: A w-week?
+  answers: []
+  characters: []

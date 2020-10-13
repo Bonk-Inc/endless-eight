@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
+  m_Name: AlPast1B
+  m_EditorClassIdentifier: 
+  lines:
+  - character: 1
+    line: So I had the oppertunity to help with some sort of project.
+  - character: 1
+    line: They placed me in a room with 5 other people for two entire weeks.
+  - character: 1
+    line: After those two weeks.. They let one person out.
+  - character: 1
+    line: They told us, the next person that killed someone would be let go aswell.
+  - character: 1
+    line: I.. saw someone get killed right there and then.
+  - character: 1
+    line: They never did let him out..
+  answers:
+  - answer: That.. sounds horrible
+    nextTree: {fileID: 11400000, guid: 6f49e09c53a21224db617f03aaac8eec, type: 2}
+  - answer: Do you really think I'll believe this?
+    nextTree: {fileID: 11400000, guid: 0e2315bd2aa0fac4f8a47c2bb2374fd3, type: 2}
+  characters: []
+  keepDefaultCharacters: 0

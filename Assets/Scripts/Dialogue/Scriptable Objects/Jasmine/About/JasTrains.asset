@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
+  m_Name: JasTrains
+  m_EditorClassIdentifier: 
+  lines:
+  - character: 0
+    line: Jas, what do you know about these trains?
+  - character: 1
+    line: 'Oh they are amazing arn''t they? '
+  - character: 1
+    line: My son created them!
+  - character: 1
+    line: Apparently they've been popping up all over the country!
+  - character: 0
+    line: Those trains must be something!
+  - character: 1
+    line: They are! One of my old friend can't stop talking about them!
+  - character: 1
+    line: We are thinking of advertising these trains.
+  - character: 1
+    line: 'Oh how amazing it would be to see everyone so.. '
+  - character: 1
+    line: so happy about cars as my dear old friend!
+  answers:
+  - answer: That.. is impressive for an 8 year old!
+    nextTree: {fileID: 11400000, guid: 83c9b217fdef00e41b4628fb885d57d7, type: 2}
+  - answer: How do you mean he created them?
+    nextTree: {fileID: 11400000, guid: a4367e54978351d44b258fc79a981036, type: 2}
+  - answer: How will you advertising these trains?
+    nextTree: {fileID: 11400000, guid: ba4d61cf7ece3364c8b0319cc184ff69, type: 2}
+  - answer: How long has your friend been using trains?
+    nextTree: {fileID: 11400000, guid: 7b4ed08e7a92cf74eab5c52ffdb80542, type: 2}
+  characters: []

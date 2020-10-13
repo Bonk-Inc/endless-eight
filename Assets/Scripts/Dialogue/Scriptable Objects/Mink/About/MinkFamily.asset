@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
+  m_Name: MinkFamily
+  m_EditorClassIdentifier: 
+  lines:
+  - character: 0
+    line: Do you have a family?
+  - character: 1
+    line: Theyyy.. They left m-me after I lost my company.
+  - character: 0
+    line: I'm sorry to hear that..
+  - character: 1
+    line: Is 'right..
+  - character: 1
+    line: I got my trains.
+  answers:
+  - answer: 
+    nextTree: {fileID: 11400000, guid: 20a0288640263f5408c66bcdb345f4af, type: 2}
+  characters: []

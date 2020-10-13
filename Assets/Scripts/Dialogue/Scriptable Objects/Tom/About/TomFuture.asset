@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
+  m_Name: TomFuture
+  m_EditorClassIdentifier: 
+  lines:
+  - character: 0
+    line: What will you do after this job is done?
+  - character: 1
+    line: My friend Honey has gone missing a while ago.
+  - character: 1
+    line: She told me she had problems with money as well.
+  - character: 1
+    line: That's the last time I heard from her.
+  - character: 0
+    line: I'm sorry to hear that.
+  answers:
+  - answer: What is your plan in finding her?
+    nextTree: {fileID: 11400000, guid: 2c9fe566e34764949af1abd3937c47ab, type: 2}
+  - answer: Was she in contact with dangerous people?
+    nextTree: {fileID: 11400000, guid: 8b4fa44c1043e6246b341dfae266466e, type: 2}
+  characters: []
+  keepDefaultCharacters: 0

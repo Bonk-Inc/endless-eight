@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
+  m_Name: JoostDemons2B
+  m_EditorClassIdentifier: 
+  lines:
+  - character: 1
+    line: Karel..
+  - character: 1
+    line: Do you dislike me?
+  - character: 1
+    line: Do you want me DEAD?
+  - character: 1
+    line: Because you are putting me in a really dangerous position!
+  - character: 0
+    line: I.. I'm sorry..
+  - character: 1
+    line: That's right, you should be sorry!
+  - character: 1
+    line: You could have asked me about Justin's real age..
+  - character: 1
+    line: Or.. or about Jansen his secret organization!
+  - character: 1
+    line: But no! Karel wants to know about demons!
+  - character: 1
+    line: Well, are you ready to talk about demons?!?
+  answers:
+  - answer: I'm sorry for asking about demons, I'll stop pushing.
+    nextTree: {fileID: 11400000, guid: f36ebe7ef0122ed40a0e8151c328c9c8, type: 2}
+  - answer: Tell me!
+    nextTree: {fileID: 11400000, guid: 402d35d55318f554d9bbd1f131b14d9c, type: 2}
+  characters: []

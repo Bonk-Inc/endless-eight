@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
+  m_Name: MinkGuests
+  m_EditorClassIdentifier: 
+  lines:
+  - character: 1
+    line: Youuu want to know.. about others?
+  - character: 0
+    line: Yes, please!
+  - character: 1
+    line: ...
+  - character: 1
+    line: Who do you want to talk about???
+  answers:
+  - answer: Jansen
+    nextTree: {fileID: 11400000, guid: ce54a845edf92844aaabdb9ebfc2c18f, type: 2}
+  - answer: Brandy
+    nextTree: {fileID: 11400000, guid: 64df6b7384927554f924648832cccd1f, type: 2}
+  - answer: Jasmine
+    nextTree: {fileID: 11400000, guid: ca99e2952e38da34a9bde7b5dfed564f, type: 2}
+  - answer: Justin
+    nextTree: {fileID: 11400000, guid: 5c5699a732f684e4da9d4c353a2caaf5, type: 2}
+  characters: []
