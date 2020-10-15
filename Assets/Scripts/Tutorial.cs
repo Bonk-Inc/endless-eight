@@ -5,20 +5,28 @@ using UnityEngine.SceneManagement;
 
 public class Tutorial : MonoBehaviour
 {
-    [SerializeField] private DialogueTreePlayer treePlayer;
-    [SerializeField] private DialogueTree dialogueTree;
+    [SerializeField] 
+    private DialogueTreePlayer treePlayer;
+    [SerializeField] 
+    private DialogueTree dialogueTree;
+    [SerializeField]
+    private string nextScene = "start";
 
-    void Start()
+    private void Start()
     {
         treePlayer.PlayTree(dialogueTree);
     }
 
 
-    void Update()
+    private void Update()
     {
+        changeScene();
+    }
+
+    private void changeScene() {
         if(!treePlayer.IsInDialogue)
         {
-            SceneManager.LoadScene("start");
+            SceneManager.LoadScene(nextScene);
         }
     }
 }
