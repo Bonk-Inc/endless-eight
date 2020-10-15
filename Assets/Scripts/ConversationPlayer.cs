@@ -29,18 +29,20 @@ public class ConversationPlayer : MonoBehaviour
 
     void Update()
     {
+        checkInput();
+    }
+
+    private void checkInput(){
         eToTalkButton.SetActive(personToTalkTo.Count > 0);
 
         if ((Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Space)) && personToTalkTo.Count != 0)
         {
-
             findOutWhichPersonToTalkTo();
-        }
+        }   
     }
 
     public void TalkTopeople(GameObject personToInteractWith)
     {
-        Debug.Log("interaction wtih " + personToInteractWith.name);
         // TODO talk to the person to interact with.
         DialogueCharacter character = personToInteractWith.GetComponent<DialogueCharacter>();//TODO choose interaction
         StartDialogue(character);
@@ -57,11 +59,9 @@ public class ConversationPlayer : MonoBehaviour
     {
         if (other.gameObject.tag.Equals("InteractablePerson"))
             personToTalkTo.Add(other.gameObject);
-
     }
     private void OnTriggerExit(Collider other)
     {
-
         if (other.gameObject.tag.Equals("InteractablePerson"))
         {
             personToTalkTo.Remove(other.gameObject);
@@ -70,7 +70,6 @@ public class ConversationPlayer : MonoBehaviour
                 popUpBehaviour.DisablePopUp();
             }
         }
-
     }
 
     private void findOutWhichPersonToTalkTo()
@@ -83,11 +82,5 @@ public class ConversationPlayer : MonoBehaviour
         //TODO UI met plaatjes van alle mensen en vervolgens dan op kunnen laten drukken.
 
         popUpBehaviour.ShowPopUp(killablePpl);
-
-
-        Debug.Log("Test");
     }
-
-
-
 }
