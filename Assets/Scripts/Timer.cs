@@ -24,11 +24,18 @@ public class Timer : MonoBehaviour
 
     private void FixedUpdate()
     {
+        UpdateTimer();
+    }
+
+    private void UpdateTimer(){
         if (pause) return;
         timeRemaining = (maxTime - time);
-        OnTimeChanged?.Invoke(timeRemaining);
+
         pro.SetText(Math.Floor(timeRemaining).ToString());
-        time += Time.deltaTime;
+        time += Time.fixedDeltaTime;
+        
+        OnTimeChanged?.Invoke(timeRemaining);
+        
         if (timeRemaining <= 0)
         {
             time = 0;
