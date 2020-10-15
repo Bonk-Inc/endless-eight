@@ -16,7 +16,6 @@ public class ConversationPlayer : MonoBehaviour
 
     [SerializeField]
     private DialogueTreePlayer player;
-    // Start is called before the first frame update
 
     [SerializeField]
     private GameObject eToTalkButton;
@@ -28,7 +27,6 @@ public class ConversationPlayer : MonoBehaviour
         personToTalkTo = new List<GameObject>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         eToTalkButton.SetActive(personToTalkTo.Count > 0);

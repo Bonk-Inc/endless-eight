@@ -10,25 +10,26 @@ public class Movement : MonoBehaviour
     private bool right;
     private bool up;
     private bool down;
-    // Start is called before the first frame update
-    void Start()
-    {
 
-    }
-
-    // Update is called once per frame
     void Update()
     {
+        CheckInput();
+    }
+
+    private void CheckInput(){
         if (Input.GetKey(KeyCode.W)) up = true;
         else if (Input.GetKey(KeyCode.S)) down = true;
 
         if (Input.GetKey(KeyCode.A)) right = true;
         else if (Input.GetKey(KeyCode.D)) left = true;
-
-
     }
+
     private void FixedUpdate()
     {
+        ManageController();
+    }
+
+    private void ManageController(){
         controller.Move(left, right, up, down);
         up = false;
         down = false;
