@@ -540,7 +540,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1369720451}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &128674555
 AudioSource:
@@ -703,7 +703,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f10e9d5c2151a4a813f28381d4adef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeBlockmanager: {fileID: 1636848712}
+  timeBlockManager: {fileID: 1636848712}
   morningPosition: {fileID: 1037692502}
   afternoonPosition: {fileID: 830813736}
   eveningPosition: {fileID: 382739556}
@@ -1305,7 +1305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f10e9d5c2151a4a813f28381d4adef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeBlockmanager: {fileID: 1636848712}
+  timeBlockManager: {fileID: 1636848712}
   morningPosition: {fileID: 60907667}
   afternoonPosition: {fileID: 1357007154}
   eveningPosition: {fileID: 620268009}
@@ -1449,7 +1449,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f10e9d5c2151a4a813f28381d4adef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeBlockmanager: {fileID: 1636848712}
+  timeBlockManager: {fileID: 1636848712}
   morningPosition: {fileID: 1285246865}
   afternoonPosition: {fileID: 379767980}
   eveningPosition: {fileID: 1235459274}
@@ -1765,7 +1765,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f10e9d5c2151a4a813f28381d4adef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeBlockmanager: {fileID: 1636848712}
+  timeBlockManager: {fileID: 1636848712}
   morningPosition: {fileID: 868776334}
   afternoonPosition: {fileID: 265125774}
   eveningPosition: {fileID: 1468184314}
@@ -2095,11 +2095,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 628599917}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1369720451}
+  m_Father: {fileID: 2061393558}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &628924578
@@ -2188,6 +2188,7 @@ MonoBehaviour:
   speedLeftRight: 100
   walking1: {fileID: 1949672466}
   walking2: {fileID: 628599918}
+  rigidBody: {fileID: 628924582}
   dialogue: {fileID: 444462403}
   timeblockPupup: {fileID: 1278320865}
 --- !u!114 &628924584
@@ -2494,7 +2495,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1369720451}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &744638898
 AudioSource:
@@ -3775,8 +3776,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1949672465}
-  - {fileID: 628599919}
+  - {fileID: 2061393558}
   - {fileID: 128674554}
   - {fileID: 1601279252}
   - {fileID: 2135434443}
@@ -4148,7 +4148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f10e9d5c2151a4a813f28381d4adef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeBlockmanager: {fileID: 1636848712}
+  timeBlockManager: {fileID: 1636848712}
   morningPosition: {fileID: 771675599}
   afternoonPosition: {fileID: 2025530003}
   eveningPosition: {fileID: 1675574595}
@@ -4256,7 +4256,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1369720451}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1601279253
 AudioSource:
@@ -4270,7 +4270,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 28edbfd0876d71547856b22b1385c78d, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4509,7 +4509,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f10e9d5c2151a4a813f28381d4adef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeBlockmanager: {fileID: 1636848712}
+  timeBlockManager: {fileID: 1636848712}
   morningPosition: {fileID: 1942932838}
   afternoonPosition: {fileID: 761548873}
   eveningPosition: {fileID: 1392160309}
@@ -5037,7 +5037,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f10e9d5c2151a4a813f28381d4adef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeBlockmanager: {fileID: 1636848712}
+  timeBlockManager: {fileID: 1636848712}
   morningPosition: {fileID: 2081574160}
   afternoonPosition: {fileID: 1472020580}
   eveningPosition: {fileID: 107921981}
@@ -5712,7 +5712,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1369720451}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1922515356
 AudioSource:
@@ -5864,11 +5864,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1949672464}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1369720451}
+  m_Father: {fileID: 2061393558}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1949672466
@@ -6013,7 +6013,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74899014b775cd142b69cc285177582e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeBlockmanager: {fileID: 1636848712}
+  timeBlockManager: {fileID: 1636848712}
   currentlyPlaying: {fileID: 1922515356}
   morningMusic: {fileID: 8300000, guid: a6b50aba4115d1047b41b5c4bc42a70e, type: 3}
   afternoonMusic: {fileID: 8300000, guid: 46caf2919f3c863438b94369f624fb0b, type: 3}
@@ -6217,6 +6217,38 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ba65f43a3e398674d87f268f5275c912, type: 3}
   m_PrefabInstance: {fileID: 2065086901}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2061393557
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2061393558}
+  m_Layer: 0
+  m_Name: Walking
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2061393558
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2061393557}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1949672465}
+  - {fileID: 628599919}
+  m_Father: {fileID: 1369720451}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2065086901
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6381,7 +6413,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f10e9d5c2151a4a813f28381d4adef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeBlockmanager: {fileID: 1636848712}
+  timeBlockManager: {fileID: 1636848712}
   morningPosition: {fileID: 1349199612}
   afternoonPosition: {fileID: 1890263805}
   eveningPosition: {fileID: 2029293582}
@@ -6489,7 +6521,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1369720451}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &2135434444
 AudioSource:
@@ -6598,6 +6630,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1517182732}
+    - target: {fileID: 2461470179123779868, guid: fcd8d20309c4d22418c216abc9dbd19f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: set_Pause
+      objectReference: {fileID: 0}
+    - target: {fileID: 2461470179123779868, guid: fcd8d20309c4d22418c216abc9dbd19f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2461470179123779868, guid: fcd8d20309c4d22418c216abc9dbd19f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2461470180310560233, guid: fcd8d20309c4d22418c216abc9dbd19f, type: 3}
       propertyPath: m_Name
       value: Timeblock-popup
@@ -6694,6 +6738,10 @@ PrefabInstance:
       propertyPath: timer
       value: 
       objectReference: {fileID: 1517182732}
+    - target: {fileID: 2461470180310560235, guid: fcd8d20309c4d22418c216abc9dbd19f, type: 3}
+      propertyPath: timeBlockManager
+      value: 
+      objectReference: {fileID: 1636848712}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fcd8d20309c4d22418c216abc9dbd19f, type: 3}
 --- !u!1001 &4352572101971789133

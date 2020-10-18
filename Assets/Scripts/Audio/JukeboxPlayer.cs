@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MusicInBar : MonoBehaviour
+public class JukeboxPlayer : MonoBehaviour
 {
     [SerializeField] 
     private AudioSource barMusic;

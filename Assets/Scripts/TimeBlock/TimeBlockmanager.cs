@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TimeBlockmanager : MonoBehaviour
+public class TimeBlockManager : MonoBehaviour
 {
     [SerializeField]
     private Timer timer;
@@ -26,7 +26,7 @@ public class TimeBlockmanager : MonoBehaviour
     private void Awake()
     {
         timer.OnTimeChanged += CheckTimeblock;
-        dialoguePlayer.OnDialogueEnded += timer.UnPause;
+        dialoguePlayer.OnDialogueEnded += ()=> { timer.Pause = false; };
     }
 
     private void CheckTimeblock(float time)
@@ -38,7 +38,7 @@ public class TimeBlockmanager : MonoBehaviour
 
         if (dialoguePlayer.IsInDialogue)
         {
-            timer.Pause();
+            timer.Pause = true;
         }
         else
         {

@@ -75,7 +75,7 @@ public class LoopManagement : MonoBehaviour
         StartCoroutine(FadeToReset(() =>
         {
             timer.ResetTime();
-            timer.Pause();
+            timer.Pause = true;
             ChangePositionsPeople();
             dialogueText.SetDistortionLevel(loopNumber - 1);
 
@@ -93,7 +93,7 @@ public class LoopManagement : MonoBehaviour
 
         playerDialogue.StartDialogue(hintDiaCharacter, () =>
         {
-            timer.Pause();
+            timer.Pause = true;
             playerDialogue.StartDialogue(startingDiaCharacter);
         }); 
     }
