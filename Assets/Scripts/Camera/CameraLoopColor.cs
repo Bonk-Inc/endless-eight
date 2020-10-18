@@ -7,8 +7,6 @@ public class CameraLoopColor : MonoBehaviour
     [SerializeField]
     private Camera cam;
 
-    private int loop;
-
     [SerializeField]
     private Color startColor, targetColor;
 

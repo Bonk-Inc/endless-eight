@@ -11,8 +11,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private Rigidbody rigidBody;
 
-    private bool isGrounded;
-
     [SerializeField]
     private DialogueTreePlayer dialogue;
     [SerializeField]

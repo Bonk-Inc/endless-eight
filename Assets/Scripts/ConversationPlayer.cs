@@ -9,7 +9,7 @@ public class ConversationPlayer : MonoBehaviour
 {
     private List<GameObject> personToTalkTo;
 
-    [SerializeField] PopUpBehaviour popUpBehaviour;
+    [SerializeField] private PopUpBehaviour popUpBehaviour;
 
     [SerializeField]
     private CharacterInfo playerInfo;
