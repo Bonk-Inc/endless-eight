@@ -1,50 +1,39 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class AddMusicToTimeOfDay : TimeblockActionManager
 {
-    [SerializeField] private AudioSource morningMusic;
-    [SerializeField] private AudioSource afternoonMusic;
-    [SerializeField] private AudioSource eveningMusic;
-    public AudioSource currentlyplaying;
-    public bool musicFromRoom = false;
+    [SerializeField]
+    private AudioSource currentlyPlaying;
+    
+    [SerializeField] private AudioClip morningMusic;
+    [SerializeField] private AudioClip afternoonMusic;
+    [SerializeField] private AudioClip eveningMusic;
+
+    public AudioSource CurrentlyPlaying => currentlyPlaying;
+
     protected override void HandleTimeblockChange(TimeBlockType newTimeblock)
     {
         switch (newTimeblock)
         {
             case TimeBlockType.NONE:
-
                 break;
             case TimeBlockType.MORNING:
                 BeginNewSound(morningMusic);
-                currentlyplaying = morningMusic;
                 break;
             case TimeBlockType.AFTERNOON:
                 BeginNewSound(afternoonMusic);
-                currentlyplaying = afternoonMusic;
                 break;
             case TimeBlockType.EVENING:
                 BeginNewSound(eveningMusic);
-                currentlyplaying = eveningMusic;
                 break;
             default:
                 break;
         }
-
-        if (musicFromRoom)
-        {
-            currentlyplaying.volume = 0;
-        }
     }
 
-    
-
-    private void BeginNewSound(AudioSource current)
+    private void BeginNewSound(AudioClip current)
     {
-        morningMusic.Stop();
-        afternoonMusic.Stop();
-        eveningMusic.Stop();
-        current.Play();
+        currentlyPlaying.clip = current;
+        currentlyPlaying.Play();
     }
 }

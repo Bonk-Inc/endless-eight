@@ -1,10 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public abstract class TimeblockActionManager : MonoBehaviour
 {
-
     [SerializeField]
     private TimeBlockmanager timeBlockmanager;
 
@@ -20,5 +17,4 @@ public abstract class TimeblockActionManager : MonoBehaviour
     {
         timeBlockmanager = FindObjectOfType<TimeBlockmanager>();
     }
-
 }

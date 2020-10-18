@@ -12,7 +12,6 @@ public class MusicInBar : MonoBehaviour
     private void Start()
     {
         music = musicBox.GetComponent<AudioSource>();
-
     }
 
 
@@ -21,13 +20,13 @@ public class MusicInBar : MonoBehaviour
     {
         if (currentCorotine != null) StopCoroutine(currentCorotine);
         
-        if (other.gameObject.name.Equals("Player")) stopMusic.musicFromRoom = true;
+        // if (other.gameObject.name.Equals("Player")) stopMusic.musicFromRoom = true;
         currentCorotine = StartCoroutine(FadeIn());
     }
     private void OnTriggerExit(Collider other)
     {
         if (currentCorotine != null) StopCoroutine(currentCorotine);
-        if(other.gameObject.name.Equals("Player")) stopMusic.musicFromRoom = false;
+        // if(other.gameObject.name.Equals("Player")) stopMusic.musicFromRoom = false;
         currentCorotine = StartCoroutine(FadeOut());
 
     }
@@ -37,10 +36,9 @@ public class MusicInBar : MonoBehaviour
         while (true)
         {
             music.volume -= 0.0012f;
-            stopMusic.currentlyplaying.volume += 0.0012f;
-            if (stopMusic.currentlyplaying.volume >= MAX_VOLUME)
+            stopMusic.CurrentlyPlaying.volume += 0.0012f;
+            if (stopMusic.CurrentlyPlaying.volume >= MAX_VOLUME)
             {
-               
                 music.Stop();
                 
                 break;
@@ -57,7 +55,7 @@ public class MusicInBar : MonoBehaviour
         while (true)
         {
             music.volume += 0.0012f;
-            stopMusic.currentlyplaying.volume -= 0.0012f;
+            stopMusic.CurrentlyPlaying.volume -= 0.0012f;
             if (music.volume >= MAX_VOLUME)
             {
                 music.volume = MAX_VOLUME;

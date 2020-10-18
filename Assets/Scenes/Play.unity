@@ -858,11 +858,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBlockmanager: {fileID: 1636848712}
-  morningMusic: {fileID: 1922515356}
-  afternoonMusic: {fileID: 1005542435}
-  eveningMusic: {fileID: 1822571697}
-  currentlyplaying: {fileID: 0}
-  musicFromRoom: 0
+  currentlyPlaying: {fileID: 1922515356}
+  morningMusic: {fileID: 8300000, guid: a6b50aba4115d1047b41b5c4bc42a70e, type: 3}
+  afternoonMusic: {fileID: 8300000, guid: 46caf2919f3c863438b94369f624fb0b, type: 3}
+  eveningMusic: {fileID: 8300000, guid: 08905977e9aee9843836ba7ce79dd1ae, type: 3}
 --- !u!1 &193623639
 GameObject:
   m_ObjectHideFlags: 0
