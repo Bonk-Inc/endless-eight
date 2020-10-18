@@ -4,68 +4,45 @@ using UnityEngine;
 
 public class MusicInBar : MonoBehaviour
 {
-    [SerializeField] GameObject musicBox;
-    private AudioSource music;
-    [SerializeField] private AddMusicToTimeOfDay stopMusic;
+    [SerializeField] 
+    private AudioSource barMusic;
+    [SerializeField] 
+    private MusicTimeblockManager timeblockMusic;
+
     private const float MAX_VOLUME = 0.2f;
-    private Coroutine currentCorotine;
-    private void Start()
-    {
-        music = musicBox.GetComponent<AudioSource>();
-    }
-
-
+    private const float VOLUME_UPDATE = 0.0012f;
+    private Coroutine currentCoroutine;
 
     private void OnTriggerEnter(Collider other)
     {
-        if (currentCorotine != null) StopCoroutine(currentCorotine);
+        if (currentCoroutine != null) StopCoroutine(currentCoroutine);
         
-        // if (other.gameObject.name.Equals("Player")) stopMusic.musicFromRoom = true;
-        currentCorotine = StartCoroutine(FadeIn());
+        currentCoroutine = StartCoroutine(FadeIn());
     }
     private void OnTriggerExit(Collider other)
     {
-        if (currentCorotine != null) StopCoroutine(currentCorotine);
-        // if(other.gameObject.name.Equals("Player")) stopMusic.musicFromRoom = false;
-        currentCorotine = StartCoroutine(FadeOut());
-
+        if (currentCoroutine != null) StopCoroutine(currentCoroutine);
+        currentCoroutine = StartCoroutine(FadeOut());
     }
 
-    IEnumerator FadeOut()
+    private IEnumerator FadeOut()
     {
-        while (true)
+        while (timeblockMusic.CurrentlyPlaying.volume < MAX_VOLUME)
         {
-            music.volume -= 0.0012f;
-            stopMusic.CurrentlyPlaying.volume += 0.0012f;
-            if (stopMusic.CurrentlyPlaying.volume >= MAX_VOLUME)
-            {
-                music.Stop();
-                
-                break;
-            }
+            barMusic.volume -= VOLUME_UPDATE;
+            timeblockMusic.CurrentlyPlaying.volume += VOLUME_UPDATE;
             yield return null;
         }
-
-
     }
 
-    IEnumerator FadeIn()
+    private IEnumerator FadeIn()
     {
-        music.Play();
-        while (true)
+        while (barMusic.volume < MAX_VOLUME)
         {
-            music.volume += 0.0012f;
-            stopMusic.CurrentlyPlaying.volume -= 0.0012f;
-            if (music.volume >= MAX_VOLUME)
-            {
-                music.volume = MAX_VOLUME;
-                break;
-
-            }
+            barMusic.volume += VOLUME_UPDATE;
+            timeblockMusic.CurrentlyPlaying.volume -= VOLUME_UPDATE;
             yield return null;
         }
-
+        barMusic.volume = MAX_VOLUME;
     }
-
-
 }

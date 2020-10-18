@@ -1,13 +1,12 @@
 ﻿using UnityEngine;
 
-public class AddMusicToTimeOfDay : TimeblockActionManager
+public class MusicTimeblockManager : TimeblockActionManager
 {
     [SerializeField]
     private AudioSource currentlyPlaying;
     
-    [SerializeField] private AudioClip morningMusic;
-    [SerializeField] private AudioClip afternoonMusic;
-    [SerializeField] private AudioClip eveningMusic;
+    [SerializeField] 
+    private AudioClip morningMusic, afternoonMusic, eveningMusic;
 
     public AudioSource CurrentlyPlaying => currentlyPlaying;
 
@@ -15,8 +14,6 @@ public class AddMusicToTimeOfDay : TimeblockActionManager
     {
         switch (newTimeblock)
         {
-            case TimeBlockType.NONE:
-                break;
             case TimeBlockType.MORNING:
                 BeginNewSound(morningMusic);
                 break;
