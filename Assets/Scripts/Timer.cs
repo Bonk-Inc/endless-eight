@@ -15,6 +15,11 @@ public class Timer : MonoBehaviour
 
     private bool pause = false;
 
+    public bool Pause{
+        get{ return pause; }
+        set{ pause = value; }
+    }
+
     public float MaxTime => maxTime;
     public float CurrentTime => time;
     public float TimeRemaining => timeRemaining;
@@ -41,16 +46,6 @@ public class Timer : MonoBehaviour
             time = 0;
             outOfTime?.Invoke();
         }
-    }
-
-    public void Pause()
-    {
-        pause = true;
-    }
-
-    public void UnPause()
-    {
-        pause = false;
     }
 
     public void ResetTime()

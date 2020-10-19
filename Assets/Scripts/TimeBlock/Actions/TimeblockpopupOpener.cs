@@ -22,12 +22,12 @@ public class TimeblockpopupOpener : TimeblockActionManager
         if (newTimeblock == TimeBlockType.AFTERNOON)
         {
             popup.OpenPopup(afternoonText, afternoonSprite);
-            timer.Pause();
+            timer.Pause = true;
         }
         else if (newTimeblock == TimeBlockType.EVENING)
         {
             popup.OpenPopup(eveningText, eveningsprite);
-            timer.Pause();
+            timer.Pause = true;
         }
 
 

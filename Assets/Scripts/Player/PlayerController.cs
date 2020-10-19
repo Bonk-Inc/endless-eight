@@ -5,10 +5,11 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField] [Range(0, 500)] private float speedUpDown;
     [SerializeField] [Range(0, 500)] private float speedLeftRight;
-    [SerializeField] private AudioSource walking1;
-    [SerializeField] private AudioSource walking2;
+    [SerializeField] 
+    private AudioSource walking1, walking2;
 
-    private bool isGrounded;
+    [SerializeField]
+    private Rigidbody rigidBody;
 
     [SerializeField]
     private DialogueTreePlayer dialogue;
@@ -58,15 +59,13 @@ public class PlayerController : MonoBehaviour
         if (up) velocity += new Vector3(0, 0, speedUpDown);
         if (down) velocity += new Vector3(0, 0, -speedUpDown);
 
-        Rigidbody rb = gameObject.GetComponent<Rigidbody>();
-        rb.velocity = velocity;
+        rigidBody = gameObject.GetComponent<Rigidbody>();
+        rigidBody.velocity = velocity;
 
-        if (rb.velocity != Vector3.zero)
+        if (rigidBody.velocity != Vector3.zero)
         {
-            Vector3 angle = Vector3.up * Vector3.SignedAngle(Vector3.back, rb.velocity, Vector3.up);
+            Vector3 angle = Vector3.up * Vector3.SignedAngle(Vector3.back, rigidBody.velocity, Vector3.up);
             transform.rotation = Quaternion.Euler(angle);
         }
-        
-
     }
 }

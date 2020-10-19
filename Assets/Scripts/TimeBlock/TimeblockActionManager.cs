@@ -1,24 +1,20 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public abstract class TimeblockActionManager : MonoBehaviour
 {
-
     [SerializeField]
-    private TimeBlockmanager timeBlockmanager;
+    private TimeBlockManager timeBlockManager;
 
     private void Start()
     {
-        timeBlockmanager.OnTimeblockChange += (sender, args) => HandleTimeblockChange(args.timeBlock);
-        HandleTimeblockChange(timeBlockmanager.CurrentTimeblock);
+        timeBlockManager.OnTimeblockChange += (sender, args) => HandleTimeblockChange(args.timeBlock);
+        HandleTimeblockChange(timeBlockManager.CurrentTimeblock);
     }
 
     protected abstract void HandleTimeblockChange(TimeBlockType newTimeblock);
 
     private void Reset()
     {
-        timeBlockmanager = FindObjectOfType<TimeBlockmanager>();
+        timeBlockManager = FindObjectOfType<TimeBlockManager>();
     }
-
 }
