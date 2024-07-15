@@ -18,7 +18,7 @@ MonoBehaviour:
   - character: 1
     line: He liked my dogs!
   - character: 0
-    line: Fair enough, Tom, fair enough.
+    line: Fair enough, man, fair enough.
   answers: []
   characters: []
   keepDefaultCharacters: 0

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - character: 1
-    line: This is my house, ofcourse I will be here!
+    line: This is my house, of course I will be here!
   - character: 1
     line: But I will not be attending this dumb party.
   - character: 0
@@ -28,7 +28,7 @@ MonoBehaviour:
     nextTree: {fileID: 11400000, guid: 1f897c83d04db594f9ad183964b20fef, type: 2}
   - answer: What is Justin to you?
     nextTree: {fileID: 11400000, guid: 32e6c038666010a4bb2fa940d0ec09f4, type: 2}
-  - answer: What will you be doing today if not attending the party?
+  - answer: What will you be doing today since you are not attending the party?
     nextTree: {fileID: 11400000, guid: b7d0c442213c1594380323dcb75fe1a7, type: 2}
   - answer: Jasmine can say whatever she wants?
     nextTree: {fileID: 11400000, guid: 0445dc2108df9574a8281e84a3aacb2a, type: 2}

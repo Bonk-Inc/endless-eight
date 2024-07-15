@@ -23,7 +23,9 @@ MonoBehaviour:
   - answer: Is he at the party?
     nextTree: {fileID: 11400000, guid: 88f4b3203a976ec46ae22670158ef196, type: 2}
   - answer: I see.
-    nextTree: {fileID: 0}
+    nextTree: {fileID: 11400000, guid: 1840858583e10394b88fc0b8a9bacfc9, type: 2}
+  - answer: What is his name?
+    nextTree: {fileID: 11400000, guid: 6a8038a508066914aa6397ec32e4abef, type: 2}
   characters:
   - name: Karel
     portrait: {fileID: 21300000, guid: 59b83352393e56047a882504f7030798, type: 3}

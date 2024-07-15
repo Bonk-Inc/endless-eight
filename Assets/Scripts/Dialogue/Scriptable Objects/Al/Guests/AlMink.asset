@@ -18,7 +18,7 @@ MonoBehaviour:
   - character: 1
     line: You wanna hear about Mink?
   - character: 1
-    line: That guy is so funny! Just look at the drunk his hair!
+    line: That guy is so funny! Just look at the drunk's hair!
   - character: 1
     line: If there's one person that could make me smile it's him.
   - character: 0
@@ -31,3 +31,4 @@ MonoBehaviour:
     line: Alright, I think I have heard enough.
   answers: []
   characters: []
+  keepDefaultCharacters: 0

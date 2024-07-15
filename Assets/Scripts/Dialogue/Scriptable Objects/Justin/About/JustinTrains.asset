@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - character: 1
-    line: I did! Do you want to play with it?
+    line: I did! Do you want to play with them?
   - character: 0
     line: No.. I'm fine.
   - character: 1
-    line: Would you like to smell it?
+    line: Would you like to smell one..?
   - character: 0
     line: No, I'm not smelling a toy train.
   - character: 1

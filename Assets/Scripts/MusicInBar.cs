@@ -4,18 +4,17 @@ using UnityEngine;
 
 public class MusicInBar : MonoBehaviour
 {
-    [SerializeField] GameObject musicBox;
-    private AudioSource music;
-    [SerializeField] private AddMusicToTimeOfDay stopMusic;
+    [SerializeField] 
+    private AudioSource musicBox;
+    
+    [SerializeField] 
+    private AddMusicToTimeOfDay stopMusic;
+
+    [SerializeField]
+    private float updateMusic = 0.0012f;
+
     private const float MAX_VOLUME = 0.2f;
     private Coroutine currentCorotine;
-    private void Start()
-    {
-        music = musicBox.GetComponent<AudioSource>();
-
-    }
-
-
 
     private void OnTriggerEnter(Collider other)
     {
@@ -36,13 +35,15 @@ public class MusicInBar : MonoBehaviour
     {
         while (true)
         {
-            music.volume -= 0.0012f;
-            stopMusic.currentlyplaying.volume += 0.0012f;
+            musicBox.volume -= updateMusic;
+            stopMusic.currentlyplaying.volume += updateMusic;
             if (stopMusic.currentlyplaying.volume >= MAX_VOLUME)
             {
-               
-                music.Stop();
-                
+                musicBox.volume = 0f;
+                //musicBox.Stop();
+                stopMusic.currentlyplaying.volume = MAX_VOLUME;
+
+
                 break;
             }
             yield return null;
@@ -53,14 +54,15 @@ public class MusicInBar : MonoBehaviour
 
     IEnumerator FadeIn()
     {
-        music.Play();
+        //musicBox.Play();
         while (true)
         {
-            music.volume += 0.0012f;
-            stopMusic.currentlyplaying.volume -= 0.0012f;
-            if (music.volume >= MAX_VOLUME)
+            musicBox.volume += updateMusic;
+            stopMusic.currentlyplaying.volume -= updateMusic;
+            if (musicBox.volume >= MAX_VOLUME)
             {
-                music.volume = MAX_VOLUME;
+                stopMusic.currentlyplaying.volume = 0;
+                musicBox.volume = MAX_VOLUME;
                 break;
 
             }

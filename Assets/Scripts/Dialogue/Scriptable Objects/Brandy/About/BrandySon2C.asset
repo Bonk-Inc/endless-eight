@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
+  m_Name: BrandySon2C
+  m_EditorClassIdentifier: 
+  lines:
+  - character: 1
+    line: His name is Tobias.
+  - character: 1
+    line: Why do you want to know his name?
+  - character: 1
+    line: Have you heard something about him?
+  answers:
+  - answer: Just curious.
+    nextTree: {fileID: 11400000, guid: 1840858583e10394b88fc0b8a9bacfc9, type: 2}
+  characters: []
+  keepDefaultCharacters: 0

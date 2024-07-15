@@ -16,7 +16,7 @@ MonoBehaviour:
   - character: 1
     line: 'Karel, your hint today will be:'
   - character: 1
-    line: They are lying about their child!
+    line: They are missing their child.
   - character: 1
     line: Make sure you find and kill them, good luck!
   - character: 1

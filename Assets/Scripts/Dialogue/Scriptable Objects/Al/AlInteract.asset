@@ -18,7 +18,7 @@ MonoBehaviour:
   - character: 1
     line: '*sigh* That is my job, sir :)'
   - character: 0
-    line: R-Right..
+    line: Right!
   - character: 1
     line: So, what do you want?
   answers:

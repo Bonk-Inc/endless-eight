@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - character: 1
-    line: What a shame, I am afraid I dont want to tell you, sir.
+    line: What a shame, I am afraid I don't want to tell you, sir.
   - character: 0
     line: I see..?
   answers: []

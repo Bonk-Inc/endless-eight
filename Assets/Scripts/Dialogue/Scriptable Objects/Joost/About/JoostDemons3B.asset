@@ -20,7 +20,7 @@ MonoBehaviour:
   - character: 1
     line: ...
   - character: 1
-    line: I was devistated..
+    line: I was devastated..
   - character: 1
     line: I looked into ways to..
   - character: 1
@@ -38,10 +38,11 @@ MonoBehaviour:
   - character: 0
     line: Those are some handy glasses..
   - character: 1
-    line: They are.. And now you know, about my deal with a demon..
+    line: They are.. And now you know, about my deal with the demon named Zael..
   - character: 1
-    line: I do hope, you won't remember me talking about this..
+    line: I do hope that you won't remember me talking about this..
   - character: 1
     line: But.. I know you will.
   answers: []
   characters: []
+  keepDefaultCharacters: 0

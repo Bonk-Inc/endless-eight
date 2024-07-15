@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - character: 1
-    line: This is my son his birthday, ofcourse I will be attending!
+    line: This is my son his birthday, I am hosting his party...!
   - character: 1
     line: 'Everyone here is celebrating his existence! '
   - character: 0
     line: Right.. forget I asked
   answers: []
   characters: []
+  keepDefaultCharacters: 0

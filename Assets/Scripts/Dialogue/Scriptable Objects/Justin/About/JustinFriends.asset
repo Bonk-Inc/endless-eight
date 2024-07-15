@@ -20,11 +20,13 @@ MonoBehaviour:
   - character: 1
     line: ......
   - character: 1
-    line: 'Oh! '
+    line: My age? I don't think I know anyone that is my age...
+  - character: 1
+    line: Oh right, fellow kids!
   - character: 1
     line: I was friends with Tobias at one point, but he seemed to have gone missing..
   - character: 1
-    line: His mother, Brandy, has been making a funny face because of that!
+    line: His mother has been making a funny face because of that!
   answers: []
   characters: []
   keepDefaultCharacters: 0

@@ -22,15 +22,15 @@ MonoBehaviour:
   answers:
   - answer: Why are you crying?
     nextTree: {fileID: 11400000, guid: 1f707311db1d06a45aea559e5a790f9b, type: 2}
-  - answer: What about your son?
+  - answer: Do you have a son?
     nextTree: {fileID: 11400000, guid: 85e0e455be1aa194d916c176ca897912, type: 2}
   - answer: Why are you wearing a suit to a kid's birthday party?
     nextTree: {fileID: 11400000, guid: 97d58ccb7a4576342838d8e72a81dd97, type: 2}
-  - answer: Why aren't you going in the library?
+  - answer: Why aren't you going to the library?
     nextTree: {fileID: 11400000, guid: 7aec606d9a6b761439fda93b0c0c147b, type: 2}
   characters:
   - name: Karel
     portrait: {fileID: 21300000, guid: 59b83352393e56047a882504f7030798, type: 3}
-  - name: Bardy
+  - name: Brandy
     portrait: {fileID: 21300000, guid: 21c506d64aac2214589974be31666b11, type: 3}
   keepDefaultCharacters: 0

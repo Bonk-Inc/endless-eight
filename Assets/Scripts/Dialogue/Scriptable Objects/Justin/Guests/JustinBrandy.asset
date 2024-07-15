@@ -22,7 +22,7 @@ MonoBehaviour:
   - character: 0
     line: I see.. So she has a son?
   - character: 1
-    line: Yeah his name is Tobias, but he hasn't been around for a long time.
+    line: Yeah, but he hasn't been around for a long time.
   - character: 0
     line: That's a shame..
   answers: []

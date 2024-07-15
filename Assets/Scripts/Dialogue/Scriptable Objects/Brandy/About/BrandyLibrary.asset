@@ -17,6 +17,8 @@ MonoBehaviour:
     line: Joost is in there.
   - character: 1
     line: I try to stay away from him.
-  answers: []
+  answers:
+  - answer: 
+    nextTree: {fileID: 11400000, guid: 1840858583e10394b88fc0b8a9bacfc9, type: 2}
   characters: []
   keepDefaultCharacters: 0

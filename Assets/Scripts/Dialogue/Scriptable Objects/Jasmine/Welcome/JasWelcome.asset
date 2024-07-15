@@ -28,8 +28,11 @@ MonoBehaviour:
     nextTree: {fileID: 11400000, guid: 2ffaec70478cc164aa41a9aaf5ead203, type: 2}
   - answer: I think that might be someone else.
     nextTree: {fileID: 11400000, guid: 9f2b1378ff78ceb458ab4c558cbf54a2, type: 2}
+  - answer: Do NOT talk to me.
+    nextTree: {fileID: 11400000, guid: 45f730f0bea2caa478c2723cba447530, type: 2}
   characters:
   - name: Karel
     portrait: {fileID: 21300000, guid: 59b83352393e56047a882504f7030798, type: 3}
   - name: Jasmine
     portrait: {fileID: 21300000, guid: 11c763a4f6d104a4bbb4f54a23ae9ffa, type: 3}
+  keepDefaultCharacters: 0

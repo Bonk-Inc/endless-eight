@@ -23,7 +23,6 @@ MonoBehaviour:
     line: That helps a lot, thank you Al!
   - character: 1
     line: Ofcourse, I always do my best to help in any way I can.
-  - character: 0
-    line: Yeah..
   answers: []
   characters: []
+  keepDefaultCharacters: 0

@@ -15,6 +15,8 @@ MonoBehaviour:
   lines:
   - character: 1
     line: Yeah... Something like that..
-  answers: []
+  answers:
+  - answer: 
+    nextTree: {fileID: 11400000, guid: 1840858583e10394b88fc0b8a9bacfc9, type: 2}
   characters: []
   keepDefaultCharacters: 0

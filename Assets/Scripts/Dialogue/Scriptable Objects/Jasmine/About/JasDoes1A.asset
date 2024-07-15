@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - character: 0
-    line: So where is your old bussines partner?
+    line: So where is your old business partner?
   - character: 0
     line: Are they here today?
   - character: 1
@@ -33,3 +33,4 @@ MonoBehaviour:
     portrait: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   - name: Bert
     portrait: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  keepDefaultCharacters: 0

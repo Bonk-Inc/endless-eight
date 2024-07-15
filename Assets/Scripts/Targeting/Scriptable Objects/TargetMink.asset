@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d72b2b5f9af50be4799ccad32a5e5ff9, type: 3}
+  m_Name: TargetMink
+  m_EditorClassIdentifier: 
+  lines:
+  - character: 1
+    line: 'We have the name of your next target:'
+  - character: 1
+    line: Your target today is Mink.
+  - character: 1
+    line: Take note; Some people will not give you their name.
+  - character: 1
+    line: This guy is my fav heheheee!
+  answers: []
+  characters: []
+  keepDefaultCharacters: 0

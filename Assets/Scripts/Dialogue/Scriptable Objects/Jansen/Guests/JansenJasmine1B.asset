@@ -16,9 +16,9 @@ MonoBehaviour:
   - character: 0
     line: But you look over Justin during pool time, don't you?
   - character: 1
-    line: Well, yes. I might avoid him whenever possible.
+    line: Well, yes. I might avoid him whenever possible...
   - character: 1
-    line: But I don't want the kid to drown.
+    line: But I don't want the guy to drown.
   - character: 0
     line: I see.. do you have time for another question?
   answers:

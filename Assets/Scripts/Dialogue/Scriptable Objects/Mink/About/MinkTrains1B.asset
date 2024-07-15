@@ -31,6 +31,7 @@ MonoBehaviour:
   - character: 1
     line: ........
   - character: 1
-    line: God.. I want to smell a train..
+    line: God.. I want to smell a train again..
   answers: []
   characters: []
+  keepDefaultCharacters: 0

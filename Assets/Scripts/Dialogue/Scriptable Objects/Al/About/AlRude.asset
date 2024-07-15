@@ -16,7 +16,7 @@ MonoBehaviour:
   - character: 0
     line: Why are you so rude to me?
   - character: 1
-    line: I am so sorry sir, I did not intend to be rude to someone like you?
+    line: I am so sorry sir, I did not intend to be rude to someone like you.
   - character: 0
     line: Someone like me?
   - character: 1

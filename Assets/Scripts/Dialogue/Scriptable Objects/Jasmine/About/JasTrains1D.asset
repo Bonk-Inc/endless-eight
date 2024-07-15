@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - character: 0
-    line: So how long has your friend been using these trains?
+    line: So, how long has your friend been using these trains?
   - character: 1
     line: For two entire weeks now
   - character: 1
@@ -24,4 +24,9 @@ MonoBehaviour:
   answers:
   - answer: I will have to talk to him later!
     nextTree: {fileID: 11400000, guid: 75fa57b8de2019846a5d00a4238008bf, type: 2}
-  characters: []
+  characters:
+  - name: Karel
+    portrait: {fileID: 21300000, guid: 59b83352393e56047a882504f7030798, type: 3}
+  - name: Jasmine
+    portrait: {fileID: 21300000, guid: 11c763a4f6d104a4bbb4f54a23ae9ffa, type: 3}
+  keepDefaultCharacters: 0

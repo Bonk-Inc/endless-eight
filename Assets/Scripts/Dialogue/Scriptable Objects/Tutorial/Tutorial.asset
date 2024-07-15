@@ -15,39 +15,14 @@ MonoBehaviour:
   lines:
   - character: 0
     line: Karel, we have tasked you with a very important job.
-  - character: 1
-    line: What is it?
-  - character: 0
-    line: You have to kill a person.
-  - character: 0
-    line: ' There''s just one small problem...'
-  - character: 0
-    line: We don't know who it is that you have to kill.
-  - character: 1
-    line: What?
-  - character: 0
-    line: We have managed to scrap together small bits of information about the person.
-      It is your job to find them.
-  - character: 0
-    line: You'll have to infiltrate a kid's birthday party. We know for certain that
-      they are at that party.
-  - character: 0
-    line: People move around though. So take note of where people are at certain
-      times of day.
-  - character: 0
-    line: We have given you a device with which you can relive the same day, at the
-      same party. But you can only use it 8 times.
-  - character: 0
-    line: We can't have you going around killing random people though. So we WILL
-      penalize you for killing the wrong person. We will shorten the amount of times
-      you can relive the same day when you kill the wrong person.
-  - character: 1
-    line: What happens when I run out of loops?
-  - character: 0
-    line: Let's not find out.
-  answers: []
+  answers:
+  - answer: What is it?
+    nextTree: {fileID: 11400000, guid: 46db659cf2186d645aa550f4813b41c5, type: 2}
+  - answer: Don't tell me, I got it.
+    nextTree: {fileID: 0}
   characters:
   - name: ???
     portrait: {fileID: 21300000, guid: 76657d74206596049b19d3aac53714f5, type: 3}
   - name: Karel
     portrait: {fileID: 21300000, guid: dcac14f7d0dc7194fa3c0d4149d05faa, type: 3}
+  keepDefaultCharacters: 0

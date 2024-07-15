@@ -26,8 +26,6 @@ MonoBehaviour:
   - character: 1
     line: If you signed up, you would get paid a certain amount to go on them.
   - character: 1
-    line: If you signed up, you would get paid a certain amount to go on them.
-  - character: 1
     line: Since I had a solid job, I didn't really pay much attention too it..
   - character: 1
     line: After a month or so my company decided it was time to stop.
@@ -37,3 +35,4 @@ MonoBehaviour:
   - answer: I kinda want to talk to someone else..
     nextTree: {fileID: 11400000, guid: f078cd323b432b547a8bef6207e59280, type: 2}
   characters: []
+  keepDefaultCharacters: 0
